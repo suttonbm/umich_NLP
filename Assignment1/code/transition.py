@@ -9,6 +9,10 @@ class Transition(object):
     SHIFT = 'SHIFT'
     REDUCE = 'REDUCE'
 
+    ARC_PARENT = 0
+    ARC_REL = 1
+    ARC_CHILD = 2
+
     def __init__(self):
         raise ValueError('Do not construct this object!')
 
@@ -18,8 +22,22 @@ class Transition(object):
             :param configuration: is the current configuration
             :return : A new configuration or -1 if the pre-condition is not satisfied
         """
-        if not conf.buffer or not conf.stack:
+        #######################
+        # Precondition checks #
+        #######################
+
+        # Cannot proceed if buffer is empty.
+        if not conf.buffer:
             return -1
+        # Not a valid transition if the top item in the stack is the
+        # root node 0
+        if conf.stack[-1] == 0:
+            return -1
+        # Not a valid transition if the top item in the stack already has
+        # a head (i.e. an ARC has this element as its CHILD)
+        for arc in conf.arcs:
+            if conf.stack[-1] == arc[Transition.ARC_CHILD]:
+                return -1
         # END if
 
         # Get the next node of buffer
@@ -28,7 +46,7 @@ class Transition(object):
         s = conf.stack.pop(-1)
         # Add the arc (b, L, s)
         conf.arcs.append((b, relation, s))
-#        print "{0} <- {1}".format(b, s)
+        print "{0} <- {1}".format(b, s)
 
     @staticmethod
     def right_arc(conf, relation):
@@ -46,7 +64,7 @@ class Transition(object):
 
         conf.stack.append(idx_wj)
         conf.arcs.append((idx_wi, relation, idx_wj))
-#        print "{0} -> {1}".format(idx_wi, idx_wj)
+        print "{0} -> {1}".format(idx_wi, idx_wj)
 
     @staticmethod
     def reduce(conf):
@@ -54,15 +72,24 @@ class Transition(object):
             :param configuration: is the current configuration
             :return : A new configuration or -1 if the pre-condition is not satisfied
         """
+        #######################
+        # Precondition checks #
+        #######################
+
+        # Transition not valid if the stack is empty.
         if not conf.stack:
             return -1
-        # END if
-
-        # Pop the stack
-        conf.stack.pop(-1)
-#        print "pop {0}".format(s)
-#        print "Stack Length: {0}".format(len(conf.stack))
-
+        # Transition not valid if the top item in the stack does not already
+        # have a HEAD (i.e. no arc contains this element as a CHILD)
+        for arc in conf.arcs:
+            if conf.stack[-1] == arc[Transition.ARC_CHILD]:
+                s = conf.stack.pop(-1)
+                print "pop {0}".format(s)
+                print "Stack Length: {0}".format(len(conf.stack))
+                return
+            # END if
+        # END for
+        return -1
 
     @staticmethod
     def shift(conf):
@@ -78,5 +105,5 @@ class Transition(object):
         b = conf.buffer.pop(0)
         # Push onto stack
         conf.stack.append(b)
-#        print "shift {0}".format(b)
-#        print "Buffer Length: {0}".format(len(conf.buffer))
+        print "shift {0}".format(b)
+        print "Buffer Length: {0}".format(len(conf.buffer))

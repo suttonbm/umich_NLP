@@ -202,34 +202,34 @@ class TransitionParser(object):
         :type depgraphs : DependencyGraph
         """
 
-        try:
-            input_file = tempfile.NamedTemporaryFile(
-                prefix='transition_parse.train',
-                dir=tempfile.gettempdir(),
-                delete=False)
+#        try:
+        input_file = tempfile.NamedTemporaryFile(
+            prefix='transition_parse.train',
+            dir=tempfile.gettempdir(),
+            delete=False)
 
-            self._create_training_examples_arc_eager(depgraphs, input_file)
+        self._create_training_examples_arc_eager(depgraphs, input_file)
 
-            input_file.close()
-            # Using the temporary file to train the libsvm classifier
-            x_train, y_train = load_svmlight_file(input_file.name)
-            # The parameter is set according to the paper:
-            # Algorithms for Deterministic Incremental Dependency Parsing by Joakim Nivre
-            # this is very slow.
-            self._model = svm.SVC(
-                kernel='poly',
-                degree=2,
-                coef0=0,
-                gamma=0.2,
-                C=0.5,
-                verbose=False,
-                probability=True)
+        input_file.close()
+        # Using the temporary file to train the libsvm classifier
+        x_train, y_train = load_svmlight_file(input_file.name)
+        # The parameter is set according to the paper:
+        # Algorithms for Deterministic Incremental Dependency Parsing by Joakim Nivre
+        # this is very slow.
+        self._model = svm.SVC(
+            kernel='poly',
+            degree=2,
+            coef0=0,
+            gamma=0.2,
+            C=0.5,
+            verbose=False,
+            probability=True)
 
-            print('Training support vector machine...')
-            self._model.fit(x_train, y_train)
-            print('done!')
-        finally:
-            os.remove(input_file.name)
+        print('Training support vector machine...')
+        self._model.fit(x_train, y_train)
+        print('done!')
+#        finally:
+#            os.remove(input_file.name)
 
     def parse(self, depgraphs):
         """
@@ -241,9 +241,9 @@ class TransitionParser(object):
         if not self._model:
             raise ValueError('No model trained!')
 
-#        k = 1
+        k = 1
         for depgraph in depgraphs:
-#            print "Loading configuration {0}".format(k)
+            print "Loading configuration {0}".format(k)
             conf = Configuration(depgraph, self._user_feature_extractor.extract_features)
             while conf.buffer:
                 features = conf.extract_features()
@@ -276,7 +276,7 @@ class TransitionParser(object):
                         except ValueError:
                             baseTransition = strTransition
 
-#                        print "Transition: {0}".format(baseTransition)
+                        print "Transition: {0}".format(baseTransition)
 
                         if baseTransition == self.transitions.LEFT_ARC:
                             if self.transitions.left_arc(conf, relation) != -1:
@@ -295,8 +295,8 @@ class TransitionParser(object):
 
             # Finish with operations build the dependency graph from Conf.arcs
 
-#            print "Creating Dependency Graph {0}".format(k)
-#            k += 1
+            print "Creating Dependency Graph {0}".format(k)
+            k += 1
             new_depgraph = copy.deepcopy(depgraph)
             for key in new_depgraph.nodes:
                 node = new_depgraph.nodes[key]
