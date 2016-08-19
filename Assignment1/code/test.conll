@@ -1,0 +1,3425 @@
+1	Men	_	++	++	_	3	++	_	_
+2	hurudana	_	PO	PO	_	3	SS	_	_
+3	är	_	AV	AV	_	0	ROOT	_	_
+4	då	_	AB	AB	_	3	MA	_	_
+5	villkoren	_	NN	NN	_	3	SP	_	_
+6	för	_	PR	PR	_	5	ET	_	_
+7	denna	_	PO	PO	_	8	DT	_	_
+8	samhällsinsats	_	NN	NN	_	6	PA	_	_
+9	och	_	++	++	_	11	++	_	_
+10	detta	_	PO	PO	_	11	DT	_	_
+11	heltidsjobb	_	NN	NN	_	8	CC	_	_
+12	?	_	I?	I?	_	0		_	_
+
+1	Dra	_	VV	VV	_	0	ROOT	_	_
+2	färre	_	PO	PO	_	3	DT	_	_
+3	halsbloss	_	NN	NN	_	1	OO	_	_
+4	på	_	PR	PR	_	3	ET	_	_
+5	varje	_	PO	PO	_	6	DT	_	_
+6	cigarrett	_	NN	NN	_	4	PA	_	_
+7	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Ibland	_	AB	AB	_	0		_	_
+2	räcker	_	VV	VV	_	0	ROOT	_	_
+3	det	_	PO	PO	_	2	OO	_	_
+4	inte	_	AB	AB	_	0		_	_
+5	med	_	PR	PR	_	2	OA	_	_
+6	kunskap	_	NN	NN	_	5	PA	_	_
+7	om	_	PR	PR	_	6	ET	_	_
+8	en	_	EN	EN	_	9	DT	_	_
+9	mängd	_	NN	NN	_	7	PA	_	_
+10	lediga	_	AJ	AJ	_	11	AT	_	_
+11	platser	_	NN	NN	_	9	CC	_	_
+12	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Mitt	_	PO	PO	_	2	DT	_	_
+2	jobb	_	NN	NN	_	0		_	_
+3	blir	_	BV	BV	_	0	ROOT	_	_
+4	givetvis	_	AB	AB	_	0		_	_
+5	inte	_	AB	AB	_	0		_	_
+6	mindre	_	AB	AB	_	0		_	_
+7	viktigt	_	AJ	AJ	_	0		_	_
+8	för	_	PR	PR	_	0		_	_
+9	mig	_	PO	PO	_	13	SS	_	_
+10	om	_	UK	UK	_	13	UK	_	_
+11	min	_	PO	PO	_	12	DT	_	_
+12	fru	_	NN	NN	_	0		_	_
+13	råkar	_	VV	VV	_	0	ROOT	_	_
+14	få	_	FV	FV	_	13	OO	_	_
+15	ett	_	EN	EN	_	0		_	_
+16	bätlre	_	AB	AB	_	0		_	_
+17	avlönat	_	TP	TP	_	0		_	_
+18	och	_	++	++	_	20	++	_	_
+19	hon	_	PO	PO	_	20	SS	_	_
+20	lär	_	VV	VV	_	14	VG	_	_
+21	ju	_	AB	AB	_	20	PL	_	_
+22	inte	_	AB	AB	_	20	PL	_	_
+23	bli	_	BV	BV	_	0	ROOT	_	_
+24	mindre	_	AB	AB	_	0		_	_
+25	intresserad	_	AJ	AJ	_	0		_	_
+26	av	_	PR	PR	_	0		_	_
+27	våra	_	PO	PO	_	28	DT	_	_
+28	barn	_	NN	NN	_	26	PA	_	_
+29	om	_	UK	UK	_	31	UK	_	_
+30	hon	_	PO	PO	_	0		_	_
+31	har	_	HV	HV	_	0	ROOT	_	_
+32	högre	_	AJ	AJ	_	33	AT	_	_
+33	lön	_	NN	NN	_	31	OO	_	_
+34	.	_	IP	IP	_	0	ROOT	_	_
+
+1	En	_	EN	EN	_	2	DT	_	_
+2	skrift	_	NN	NN	_	0		_	_
+3	som	_	PO	PO	_	4	SS	_	_
+4	manade	_	VV	VV	_	0	ROOT	_	_
+5	till	_	PR	PR	_	4	OA	_	_
+6	eftertanke	_	NN	NN	_	5	PA	_	_
+7	och	_	++	++	_	8	++	_	_
+8	direkta	_	AJ	AJ	_	9	AT	_	_
+9	åtgärder	_	NN	NN	_	6	CC	_	_
+10	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Familjefaderns	_	NN	NN	_	0		_	_
+2	namn	_	NN	NN	_	1	CC	_	_
+3	är	_	AV	AV	_	0	ROOT	_	_
+4	det	_	PO	PO	_	6	SS	_	_
+5	som	_	PO	PO	_	6	SS	_	_
+6	fortlever	_	VV	VV	_	3	MS	_	_
+7	.	_	IP	IP	_	3	IP	_	_
+
+1	Som	_	UK	UK	_	3	UK	_	_
+2	vi	_	PO	PO	_	3	SS	_	_
+3	kan	_	QV	QV	_	0	ROOT	_	_
+4	se	_	VV	VV	_	3	VG	_	_
+5	av	_	PR	PR	_	4	OA	_	_
+6	nedanstående	_	SP	SP	_	4	OO	_	_
+7	diagram	_	NN	NN	_	0		_	_
+8	,	_	IK	IK	_	4	IK	_	_
+9	finns	_	VV	VV	_	3	VG	_	_
+10	det	_	PO	PO	_	13	DT	_	_
+11	ett	_	EN	EN	_	13	DT	_	_
+12	direkt	_	AJ	AJ	_	13	AT	_	_
+13	samband	_	NN	NN	_	9	OO	_	_
+14	mellan	_	PR	PR	_	13	ET	_	_
+15	ett	_	EN	EN	_	16	DT	_	_
+16	lands	_	NN	NN	_	20	DT	_	_
+17	nationalinkomst	_	NN	NN	_	20	DT	_	_
+18	och	_	++	++	_	20	++	_	_
+19	dess	_	PO	PO	_	20	DT	_	_
+20	energikonsumtion	_	VN	VN	_	14	PA	_	_
+21	.	_	IP	IP	_	3	IP	_	_
+
+1	Av	_	PR	PR	_	0		_	_
+2	de	_	PO	PO	_	3	DT	_	_
+3	barn	_	NN	NN	_	1	PA	_	_
+4	som	_	PO	PO	_	5	SS	_	_
+5	går	_	VV	VV	_	0	ROOT	_	_
+6	ut	_	AB	AB	_	5	PL	_	_
+7	grundskolan	_	NN	NN	_	5	OO	_	_
+8	i	_	PR	PR	_	7	ET	_	_
+9	arabvärlden	_	NN	NN	_	8	PA	_	_
+10	är	_	AV	AV	_	0	ROOT	_	_
+11	det	_	PO	PO	_	15	DT	_	_
+12	bara	_	AB	AB	_	0		_	_
+13	vart	_	PO	PO	_	15	DT	_	_
+14	fjärde	_	RO	RO	_	15	DT	_	_
+15	barn	_	NN	NN	_	10	SP	_	_
+16	som	_	PO	PO	_	18	SS	_	_
+17	inte	_	AB	AB	_	0		_	_
+18	suttit	_	VV	VV	_	10	MS	_	_
+19	kvar	_	AB	AB	_	18	PL	_	_
+20	ett	_	EN	EN	_	23	DT	_	_
+21	eller	_	++	++	_	23	++	_	_
+22	flera	_	PO	PO	_	23	DT	_	_
+23	år	_	NN	NN	_	18	OO	_	_
+24	.	_	IP	IP	_	10	IP	_	_
+
+1	Ett	_	EN	EN	_	2	DT	_	_
+2	slags	_	NN	NN	_	3	DT	_	_
+3	lösning	_	VN	VN	_	0		_	_
+4	är	_	AV	AV	_	0	ROOT	_	_
+5	faktiskt	_	AJ	AJ	_	4	SP	_	_
+6	att	_	IM	IM	_	7	IM	_	_
+7	rätta	_	VV	VV	_	4	MS	_	_
+8	mun	_	NN	NN	_	7	OO	_	_
+9	efter	_	PR	PR	_	8	ET	_	_
+10	matsäcken	_	NN	NN	_	9	PA	_	_
+11	.	_	IP	IP	_	4	IP	_	_
+
+1	Och	_	++	++	_	3	++	_	_
+2	det	_	PO	PO	_	3	SS	_	_
+3	finns	_	VV	VV	_	0	ROOT	_	_
+4	flera	_	PO	PO	_	5	DT	_	_
+5	städer	_	NN	NN	_	3	OO	_	_
+6	i	_	PR	PR	_	5	ET	_	_
+7	landsorten	_	NN	NN	_	6	PA	_	_
+8	som	_	PO	PO	_	9	SS	_	_
+9	väntar	_	VV	VV	_	0	ROOT	_	_
+10	lika	_	AB	AB	_	9	PL	_	_
+11	spänt	_	AJ	AJ	_	9	OO	_	_
+12	på	_	PR	PR	_	9	OA	_	_
+13	slutresultatet	_	NN	NN	_	12	PA	_	_
+14	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Utan	_	PR	PR	_	0		_	_
+2	borrning	_	VN	VN	_	1	PA	_	_
+3	kan	_	QV	QV	_	0	ROOT	_	_
+4	man	_	PO	PO	_	3	SS	_	_
+5	aldrig	_	AB	AB	_	0		_	_
+6	få	_	FV	FV	_	3	VG	_	_
+7	besked	_	NN	NN	_	0		_	_
+8	.	_	IP	IP	_	3	IP	_	_
+
+1	Medeltidens	_	NN	NN	_	0		_	_
+2	trånga	_	AJ	AJ	_	3	AT	_	_
+3	städer	_	NN	NN	_	1	CC	_	_
+4	hade	_	HV	HV	_	0	ROOT	_	_
+5	emellertid	_	AB	AB	_	0		_	_
+6	inget	_	PO	PO	_	7	DT	_	_
+7	rum	_	NN	NN	_	4	OO	_	_
+8	för	_	PR	PR	_	7	ET	_	_
+9	parker	_	NN	NN	_	8	PA	_	_
+10	innanför	_	PR	PR	_	9	ET	_	_
+11	försvarsmurarna	_	NN	NN	_	10	PA	_	_
+12	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Skilsmässa	_	NN	NN	_	0		_	_
+2	eller	_	++	++	_	4	++	_	_
+3	inte	_	AB	AB	_	0		_	_
+4	?	_	I?	I?	_	0		_	_
+
+1	Som	_	UK	UK	_	2	UK	_	_
+2	redan	_	AB	AB	_	0		_	_
+3	nämnts	_	VV	VV	_	0	ROOT	_	_
+4	är	_	AV	AV	_	0	ROOT	_	_
+5	bristen	_	NN	NN	_	4	SP	_	_
+6	på	_	PR	PR	_	5	ET	_	_
+7	vatten	_	NN	NN	_	6	PA	_	_
+8	en	_	EN	EN	_	0		_	_
+9	begränsande	_	SP	SP	_	0		_	_
+10	faktor	_	NN	NN	_	0		_	_
+11	för	_	PR	PR	_	10	ET	_	_
+12	växtodling	_	VN	VN	_	11	PA	_	_
+13	inom	_	PR	PR	_	12	ET	_	_
+14	stora	_	AJ	AJ	_	15	AT	_	_
+15	delar	_	NN	NN	_	13	PA	_	_
+16	av	_	PR	PR	_	15	ET	_	_
+17	världen	_	NN	NN	_	16	PA	_	_
+18	.	_	IP	IP	_	4	IP	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	det	_	PO	PO	_	4	DT	_	_
+3	andra	_	PO	PO	_	4	DT	_	_
+4	fallet	_	NN	NN	_	1	PA	_	_
+5	kan	_	QV	QV	_	0	ROOT	_	_
+6	man	_	PO	PO	_	7	SS	_	_
+7	fråga	_	VV	VV	_	5	VG	_	_
+8	sig	_	PO	PO	_	13	DT	_	_
+9	om	_	UK	UK	_	10	UK	_	_
+10	inte	_	AB	AB	_	0		_	_
+11	den	_	PO	PO	_	13	DT	_	_
+12	terapeutiska	_	AJ	AJ	_	13	AT	_	_
+13	synen	_	NN	NN	_	7	OO	_	_
+14	på	_	PR	PR	_	13	ET	_	_
+15	familjen	_	NN	NN	_	14	PA	_	_
+16	har	_	HV	HV	_	7	OO	_	_
+17	sin	_	PO	PO	_	18	DT	_	_
+18	grund	_	NN	NN	_	16	OO	_	_
+19	i	_	PR	PR	_	18	ET	_	_
+20	en	_	EN	EN	_	23	DT	_	_
+21	underförstådd	_	TP	TP	_	0		_	_
+22	negativ	_	AJ	AJ	_	23	AT	_	_
+23	uppfattning	_	VN	VN	_	19	PA	_	_
+24	av	_	PR	PR	_	23	ET	_	_
+25	samhället	_	NN	NN	_	24	PA	_	_
+26	utanför	_	PR	PR	_	25	ET	_	_
+27	den	_	PO	PO	_	30	DT	_	_
+28	egna	_	PO	PO	_	30	DT	_	_
+29	privata	_	AJ	AJ	_	30	AT	_	_
+30	kretsen	_	NN	NN	_	26	PA	_	_
+31	.	_	IP	IP	_	5	IP	_	_
+
+1	Turkiet	_	PN	PN	_	0		_	_
+2	har	_	HV	HV	_	0	ROOT	_	_
+3	f	_	AB	AB	_	0		_	_
+4	n	_	ID	ID	_	3	HD	_	_
+5	en	_	EN	EN	_	6	DT	_	_
+6	lantbefolkning	_	VN	VN	_	0		_	_
+7	på	_	PR	PR	_	6	ET	_	_
+8	27	_	RO	RO	_	9	DT	_	_
+9	miljoner	_	NN	NN	_	12	DT	_	_
+10	och	_	++	++	_	12	++	_	_
+11	en	_	EN	EN	_	12	DT	_	_
+12	stadsbefolkning	_	VN	VN	_	7	PA	_	_
+13	på	_	PR	PR	_	12	ET	_	_
+14	7	_	RO	RO	_	15	DT	_	_
+15	miljoner	_	NN	NN	_	13	PA	_	_
+16	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Om	_	UK	UK	_	3	UK	_	_
+2	modern	_	NN	NN	_	0		_	_
+3	är	_	AV	AV	_	0	ROOT	_	_
+4	trött	_	AJ	AJ	_	8	AT	_	_
+5	och	_	++	++	_	6	++	_	_
+6	klen	_	AJ	AJ	_	8	AT	_	_
+7	en	_	EN	EN	_	8	DT	_	_
+8	tid	_	NN	NN	_	3	SP	_	_
+9	efter	_	PR	PR	_	8	ET	_	_
+10	förlossningen	_	VN	VN	_	9	PA	_	_
+11	,	_	IK	IK	_	3	IK	_	_
+12	betyder	_	VV	VV	_	3	MS	_	_
+13	ett	_	EN	EN	_	15	DT	_	_
+14	yttre	_	AJ	AJ	_	15	AT	_	_
+15	stöd	_	NN	NN	_	12	OO	_	_
+16	mycket	_	PO	PO	_	0		_	_
+17	för	_	PR	PR	_	15	ET	_	_
+18	henne	_	PO	PO	_	0		_	_
+19	.	_	IP	IP	_	3	IP	_	_
+
+1	Se	_	VV	VV	_	0	ROOT	_	_
+2	också	_	AB	AB	_	1	PL	_	_
+3	Studier	_	MN	MN	_	1	OO	_	_
+4	sida	_	NN	NN	_	1	OO	_	_
+5	22	_	RO	RO	_	8	DT	_	_
+6	och	_	++	++	_	8	++	_	_
+7	Moderskap	_	MN	MN	_	0		_	_
+8	sida	_	NN	NN	_	1	OO	_	_
+9	15	_	RO	RO	_	1	OO	_	_
+10	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Många	_	PO	PO	_	2	DT	_	_
+2	kommuner	_	NN	NN	_	0		_	_
+3	ordnar	_	VV	VV	_	0	ROOT	_	_
+4	olika	_	AJ	AJ	_	5	AT	_	_
+5	former	_	NN	NN	_	3	OO	_	_
+6	av	_	PR	PR	_	5	ET	_	_
+7	barntillsyn	_	NN	NN	_	6	PA	_	_
+8	.	_	IP	IP	_	0	ROOT	_	_
+
+1	(	_	IR	IR	_	0		_	_
+2	Skillnaden	_	NN	NN	_	0		_	_
+3	är	_	AV	AV	_	0	ROOT	_	_
+4	givetvis	_	AB	AB	_	3	MA	_	_
+5	inte	_	AB	AB	_	3	MA	_	_
+6	signifikant	_	AJ	AJ	_	3	SP	_	_
+7	.	_	IP	IP	_	3	IP	_	_
+8	)	_	IR	IR	_	0		_	_
+
+1	Detta	_	PO	PO	_	2	SS	_	_
+2	underlättas	_	VV	VV	_	0	ROOT	_	_
+3	givetvis	_	AB	AB	_	2	PL	_	_
+4	genom	_	PR	PR	_	2	OA	_	_
+5	att	_	UK	UK	_	7	UK	_	_
+6	samhället	_	NN	NN	_	0		_	_
+7	tar	_	VV	VV	_	0	ROOT	_	_
+8	över	_	PR	PR	_	7	OA	_	_
+9	en	_	EN	EN	_	12	DT	_	_
+10	allt	_	AB	AB	_	0		_	_
+11	större	_	AJ	AJ	_	12	AT	_	_
+12	del	_	NN	NN	_	8	PA	_	_
+13	av	_	PR	PR	_	12	ET	_	_
+14	ansvaret	_	NN	NN	_	13	PA	_	_
+15	för	_	PR	PR	_	14	ET	_	_
+16	barnens	_	NN	NN	_	15	PA	_	_
+17	vård	_	NN	NN	_	16	CC	_	_
+18	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Elektronugn	_	NN	NN	_	0		_	_
+2	och	_	++	++	_	3	++	_	_
+3	diskmaskin	_	NN	NN	_	1	CC	_	_
+4	?	_	I?	I?	_	0		_	_
+
+1	Det	_	PO	PO	_	2	SS	_	_
+2	var	_	AV	AV	_	0	ROOT	_	_
+3	den	_	PO	PO	_	5	DT	_	_
+4	verksamma	_	AJ	AJ	_	5	AT	_	_
+5	substansen	_	NN	NN	_	2	SP	_	_
+6	i	_	PR	PR	_	5	ET	_	_
+7	de	_	PO	PO	_	0		_	_
+8	mycket	_	AB	AB	_	0		_	_
+9	omtalade	_	TP	TP	_	0		_	_
+10	'	_	IC	IC	_	2	JC	_	_
+11	lyckopillerna	_	NN	NN	_	0		_	_
+12	'	_	IC	IC	_	2	JC	_	_
+13	,	_	IK	IK	_	2	IK	_	_
+14	som	_	PO	PO	_	0		_	_
+15	för	_	PR	PR	_	2	OA	_	_
+16	en	_	EN	EN	_	17	DT	_	_
+17	del	_	NN	NN	_	15	PA	_	_
+18	år	_	NN	NN	_	17	CC	_	_
+19	sedan	_	ID	ID	_	18	HD	_	_
+20	var	_	AV	AV	_	2	MS	_	_
+21	de	_	PO	PO	_	25	DT	_	_
+22	mest	_	AB	AB	_	0		_	_
+23	använda	_	TP	TP	_	25	AT	_	_
+24	lugnande	_	AJ	AJ	_	25	AT	_	_
+25	medlen	_	NN	NN	_	20	SP	_	_
+26	.	_	IP	IP	_	20	IP	_	_
+
+1	Den	_	PO	PO	_	3	DT	_	_
+2	svenska	_	AJ	AJ	_	3	AT	_	_
+3	industrin	_	NN	NN	_	0		_	_
+4	vill	_	WV	WV	_	0		_	_
+5	komma	_	VV	VV	_	4	VG	_	_
+6	under	_	PR	PR	_	5	OA	_	_
+7	EEC:s	_	PN	PN	_	0		_	_
+8	tullmur	_	NN	NN	_	6	PA	_	_
+9	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Ett	_	EN	EN	_	0		_	_
+2	annat	_	PO	PO	_	3	SS	_	_
+3	är	_	AV	AV	_	0	ROOT	_	_
+4	Lergigan	_	PN	PN	_	0		_	_
+5	,	_	IK	IK	_	3	IK	_	_
+6	som	_	PO	PO	_	7	SS	_	_
+7	användes	_	VV	VV	_	3	MS	_	_
+8	mot	_	PR	PR	_	7	OA	_	_
+9	sjösjuka	_	NN	NN	_	8	PA	_	_
+10	och	_	++	++	_	11	++	_	_
+11	allergier	_	NN	NN	_	9	CC	_	_
+12	men	_	++	++	_	15	++	_	_
+13	också	_	AB	AB	_	0		_	_
+14	som	_	UK	UK	_	15	UK	_	_
+15	lugnande	_	AJ	AJ	_	16	AT	_	_
+16	medel	_	NN	NN	_	11	CC	_	_
+17	och	_	++	++	_	18	++	_	_
+18	sömnmedel	_	NN	NN	_	16	CC	_	_
+19	.	_	IP	IP	_	3	IP	_	_
+
+1	Kvoten	_	NN	NN	_	0		_	_
+2	1,05	_	RO	RO	_	0		_	_
+3	innebär	_	VV	VV	_	0	ROOT	_	_
+4	att	_	UK	UK	_	12	UK	_	_
+5	köpkraften	_	NN	NN	_	0		_	_
+6	hos	_	PR	PR	_	5	ET	_	_
+7	en	_	EN	EN	_	8	DT	_	_
+8	krona	_	NN	NN	_	6	PA	_	_
+9	i	_	PR	PR	_	8	ET	_	_
+10	januari	_	NN	NN	_	9	PA	_	_
+11	1969	_	RO	RO	_	0		_	_
+12	motsvaras	_	VV	VV	_	0	ROOT	_	_
+13	av	_	PR	PR	_	12	OA	_	_
+14	köpkraften	_	NN	NN	_	13	PA	_	_
+15	hos	_	PR	PR	_	14	ET	_	_
+16	en	_	EN	EN	_	17	DT	_	_
+17	krona	_	NN	NN	_	15	PA	_	_
+18	och	_	++	++	_	20	++	_	_
+19	fem	_	RO	RO	_	20	DT	_	_
+20	öre	_	NN	NN	_	17	CC	_	_
+21	ett	_	EN	EN	_	22	DT	_	_
+22	år	_	NN	NN	_	20	CC	_	_
+23	senare	_	AJ	AJ	_	0		_	_
+24	.	_	IP	IP	_	0	ROOT	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	stadsmiljön	_	NN	NN	_	1	PA	_	_
+3	utgör	_	VV	VV	_	0	ROOT	_	_
+4	parker	_	NN	NN	_	3	OO	_	_
+5	och	_	++	++	_	6	++	_	_
+6	grönområden	_	NN	NN	_	4	CC	_	_
+7	en	_	EN	EN	_	9	DT	_	_
+8	viktig	_	AJ	AJ	_	9	AT	_	_
+9	del	_	NN	NN	_	6	CC	_	_
+10	i	_	PR	PR	_	9	ET	_	_
+11	våra	_	PO	PO	_	12	DT	_	_
+12	dagar	_	NN	NN	_	10	PA	_	_
+13	.	_	IP	IP	_	0	ROOT	_	_
+
+1	För	_	PR	PR	_	0		_	_
+2	säkerhets	_	AN	AN	_	0		_	_
+3	skull	_	ID	ID	_	2	HD	_	_
+4	ger	_	VV	VV	_	0	ROOT	_	_
+5	SvD	_	PN	PN	_	4	OO	_	_
+6	här	_	AB	AB	_	0		_	_
+7	en	_	EN	EN	_	8	DT	_	_
+8	tolk	_	NN	NN	_	4	OO	_	_
+9	till	_	PR	PR	_	8	ET	_	_
+10	bildtolken	_	NN	NN	_	9	PA	_	_
+11	.	_	IP	IP	_	0	ROOT	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	denna	_	PO	PO	_	0		_	_
+3	,	_	IK	IK	_	0		_	_
+4	säger	_	VV	VV	_	0	ROOT	_	_
+5	han	_	PO	PO	_	4	OO	_	_
+6	,	_	IK	IK	_	4	IK	_	_
+7	fördelas	_	VV	VV	_	0	ROOT	_	_
+8	rollerna	_	NN	NN	_	7	OO	_	_
+9	ganska	_	AB	AB	_	0		_	_
+10	fritt	_	AB	AB	_	0		_	_
+11	och	_	++	++	_	12	++	_	_
+12	efter	_	PR	PR	_	8	ET	_	_
+13	vad	_	PO	PO	_	15	SS	_	_
+14	som	_	PO	PO	_	15	SS	_	_
+15	passar	_	VV	VV	_	0	ROOT	_	_
+16	båda	_	PO	PO	_	17	DT	_	_
+17	parterna	_	NN	NN	_	15	OO	_	_
+18	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Ännu	_	AB	AB	_	0		_	_
+2	har	_	HV	HV	_	0	ROOT	_	_
+3	vi	_	PO	PO	_	4	DT	_	_
+4	tid	_	NN	NN	_	2	OO	_	_
+5	att	_	IM	IM	_	6	IM	_	_
+6	ändra	_	VV	VV	_	2	VG	_	_
+7	den	_	PO	PO	_	8	DT	_	_
+8	väg	_	NN	NN	_	6	OO	_	_
+9	vi	_	PO	PO	_	10	SS	_	_
+10	är	_	AV	AV	_	0	ROOT	_	_
+11	inne	_	AB	AB	_	10	MA	_	_
+12	på	_	PR	PR	_	10	OA	_	_
+13	.	_	IP	IP	_	10	IP	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	USA	_	PN	PN	_	0		_	_
+3	var	_	AV	AV	_	0	ROOT	_	_
+4	den	_	PO	PO	_	6	DT	_	_
+5	samma	_	PO	PO	_	6	DT	_	_
+6	tid	_	NN	NN	_	3	SP	_	_
+7	78	_	RO	RO	_	8	DT	_	_
+8	proc	_	NN	NN	_	3	SP	_	_
+9	.	_	IP	IP	_	3	IP	_	_
+
+1	Olika	_	AJ	AJ	_	2	AT	_	_
+2	människor	_	NN	NN	_	0		_	_
+3	har	_	HV	HV	_	0	ROOT	_	_
+4	olika	_	AJ	AJ	_	0		_	_
+5	lätt	_	AJ	AJ	_	0		_	_
+6	att	_	IM	IM	_	7	IM	_	_
+7	utstå	_	VV	VV	_	3	VG	_	_
+8	sådana	_	PO	PO	_	7	OO	_	_
+9	.	_	IP	IP	_	0	ROOT	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	princip	_	NN	NN	_	1	PA	_	_
+3	ska	_	SV	SV	_	0	ROOT	_	_
+4	de	_	PO	PO	_	6	DT	_	_
+5	reella	_	AJ	AJ	_	6	AT	_	_
+6	kostnaderna	_	NN	NN	_	3	SS	_	_
+7	för	_	PR	PR	_	6	ET	_	_
+8	en	_	EN	EN	_	9	DT	_	_
+9	fastighet	_	NN	NN	_	7	PA	_	_
+10	belasta	_	VV	VV	_	3	VG	_	_
+11	densamma	_	PO	PO	_	10	OO	_	_
+12	.	_	IP	IP	_	0	ROOT	_	_
+
+1	En	_	EN	EN	_	3	DT	_	_
+2	kristen	_	AJ	AJ	_	3	AT	_	_
+3	idealmoral	_	NN	NN	_	0		_	_
+4	med	_	PR	PR	_	3	ET	_	_
+5	detta	_	PO	PO	_	6	DT	_	_
+6	innehåll	_	NN	NN	_	4	PA	_	_
+7	som	_	PO	PO	_	8	SS	_	_
+8	framförs	_	VV	VV	_	0	ROOT	_	_
+9	med	_	PR	PR	_	8	OA	_	_
+10	full	_	AJ	AJ	_	11	AT	_	_
+11	insikt	_	NN	NN	_	9	PA	_	_
+12	om	_	PR	PR	_	11	ET	_	_
+13	relativiteten	_	AN	AN	_	8	OO	_	_
+14	och	_	++	++	_	18	++	_	_
+15	de	_	PO	PO	_	18	DT	_	_
+16	skiftande	_	AJ	AJ	_	18	AT	_	_
+17	individuella	_	AJ	AJ	_	18	AT	_	_
+18	betingelserna	_	VN	VN	_	8	OO	_	_
+19	på	_	PR	PR	_	18	ET	_	_
+20	detta	_	PO	PO	_	21	DT	_	_
+21	område	_	NN	NN	_	19	PA	_	_
+22	,	_	IK	IK	_	8	IK	_	_
+23	kommer	_	KV	KV	_	8	OO	_	_
+24	inte	_	AB	AB	_	0		_	_
+25	att	_	IM	IM	_	26	IM	_	_
+26	verka	_	VV	VV	_	0	ROOT	_	_
+27	upplösande	_	AJ	AJ	_	26	OO	_	_
+28	på	_	PR	PR	_	26	OA	_	_
+29	sexualmoralen	_	NN	NN	_	28	PA	_	_
+30	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Av	_	PR	PR	_	0		_	_
+2	de	_	PO	PO	_	5	SS	_	_
+3	två	_	RO	RO	_	0		_	_
+4	första	_	PO	PO	_	5	SS	_	_
+5	är	_	AV	AV	_	0	ROOT	_	_
+6	givetvis	_	AB	AB	_	5	MA	_	_
+7	den	_	PO	PO	_	0		_	_
+8	förebyggande	_	AJ	AJ	_	0		_	_
+9	den	_	PO	PO	_	0		_	_
+10	avgjort	_	AB	AB	_	0		_	_
+11	betydelsefullaste	_	AJ	AJ	_	0		_	_
+12	.	_	IP	IP	_	5	IP	_	_
+
+1	Undervisningsbudgeten	_	NN	NN	_	0		_	_
+2	måste	_	MV	MV	_	0		_	_
+3	ständigt	_	AB	AB	_	0		_	_
+4	och	_	++	++	_	5	++	_	_
+5	kraftigt	_	AJ	AJ	_	0		_	_
+6	utvidgas	_	VV	VV	_	2	VG	_	_
+7	i	_	PR	PR	_	6	OA	_	_
+8	takt	_	ID	ID	_	7	HD	_	_
+9	med	_	ID	ID	_	7	HD	_	_
+10	folkökningen	_	VN	VN	_	7	PA	_	_
+11	.	_	IP	IP	_	0	ROOT	_	_
+
+1	De	_	PO	PO	_	2	SS	_	_
+2	besvaras	_	VV	VV	_	0	ROOT	_	_
+3	ibland	_	AB	AB	_	2	PL	_	_
+4	med	_	PR	PR	_	2	OA	_	_
+5	påståendet	_	VN	VN	_	4	PA	_	_
+6	,	_	IK	IK	_	2	IK	_	_
+7	att	_	UK	UK	_	9	UK	_	_
+8	äktenskapet	_	NN	NN	_	0		_	_
+9	är	_	AV	AV	_	0	ROOT	_	_
+10	en	_	EN	EN	_	12	DT	_	_
+11	ren	_	PO	PO	_	12	DT	_	_
+12	privatsak	_	NN	NN	_	9	SP	_	_
+13	,	_	IK	IK	_	9	IK	_	_
+14	som	_	PO	PO	_	16	SS	_	_
+15	inte	_	AB	AB	_	0		_	_
+16	angår	_	VV	VV	_	9	MS	_	_
+17	samhället	_	NN	NN	_	16	OO	_	_
+18	.	_	IP	IP	_	9	IP	_	_
+
+1	Speciella	_	AJ	AJ	_	2	AT	_	_
+2	tjänstebostäder	_	NN	NN	_	0		_	_
+3	för	_	PR	PR	_	2	ET	_	_
+4	driftpersonalen	_	NN	NN	_	3	PA	_	_
+5	kommer	_	KV	KV	_	0		_	_
+6	icke	_	AB	AB	_	0		_	_
+7	att	_	IM	IM	_	8	IM	_	_
+8	uppföras	_	VV	VV	_	0	ROOT	_	_
+9	.	_	IP	IP	_	0	ROOT	_	_
+
+1	-	_	IT	IT	_	0		_	_
+2	De	_	PO	PO	_	5	SS	_	_
+3	som	_	PO	PO	_	5	SS	_	_
+4	inte	_	AB	AB	_	0		_	_
+5	tycker	_	VV	VV	_	0	ROOT	_	_
+6	om	_	PR	PR	_	5	OA	_	_
+7	hundar	_	NN	NN	_	6	PA	_	_
+8	skall	_	SV	SV	_	0	ROOT	_	_
+9	naturligtvis	_	AB	AB	_	8	MA	_	_
+10	inte	_	AB	AB	_	8	MA	_	_
+11	skaffa	_	VV	VV	_	8	VG	_	_
+12	någon	_	PO	PO	_	13	DT	_	_
+13	hund	_	NN	NN	_	11	OO	_	_
+14	.	_	IP	IP	_	0	ROOT	_	_
+
+1	De	_	PO	PO	_	2	SS	_	_
+2	fungerar	_	VV	VV	_	0	ROOT	_	_
+3	som	_	UK	UK	_	8	UK	_	_
+4	en	_	EN	EN	_	6	DT	_	_
+5	rörlig	_	AJ	AJ	_	6	AT	_	_
+6	arbetskraftsreserv	_	NN	NN	_	0		_	_
+7	som	_	PO	PO	_	8	SS	_	_
+8	kan	_	QV	QV	_	0	ROOT	_	_
+9	sättas	_	VV	VV	_	8	VG	_	_
+10	in	_	AB	AB	_	9	PL	_	_
+11	i	_	PR	PR	_	9	OA	_	_
+12	och	_	++	++	_	13	++	_	_
+13	tas	_	VV	VV	_	8	VG	_	_
+14	ur	_	AB	AB	_	13	PL	_	_
+15	arbetsmarknaden	_	NN	NN	_	13	OO	_	_
+16	där	_	AB	AB	_	0		_	_
+17	det	_	PO	PO	_	19	SS	_	_
+18	bäst	_	AB	AB	_	0		_	_
+19	passar	_	VV	VV	_	8	VG	_	_
+20	kapitalisterna	_	NN	NN	_	19	OO	_	_
+21	och	_	++	++	_	23	++	_	_
+22	som	_	PO	PO	_	23	SS	_	_
+23	kan	_	QV	QV	_	0	ROOT	_	_
+24	exploateras	_	VV	VV	_	23	VG	_	_
+25	i	_	PR	PR	_	24	OA	_	_
+26	låglöneyrken	_	NN	NN	_	25	PA	_	_
+27	.	_	IP	IP	_	23	IP	_	_
+
+1	Dåligt	_	AJ	AJ	_	2	AA	_	_
+2	avlönade	_	TP	TP	_	4	AT	_	_
+3	okvalificerade	_	AJ	AJ	_	4	AT	_	_
+4	jobb	_	NN	NN	_	0		_	_
+5	är	_	AV	AV	_	0	ROOT	_	_
+6	oftast	_	AB	AB	_	5	MA	_	_
+7	det	_	PO	PO	_	10	SS	_	_
+8	enda	_	PO	PO	_	10	SS	_	_
+9	som	_	PO	PO	_	10	SS	_	_
+10	står	_	VV	VV	_	5	MS	_	_
+11	de	_	PO	PO	_	14	DT	_	_
+12	frånskilda	_	TP	TP	_	14	AT	_	_
+13	och	_	++	++	_	14	++	_	_
+14	änkorna	_	NN	NN	_	10	OO	_	_
+15	till	_	AB	AB	_	0		_	_
+16	buds	_	ID	ID	_	15	HD	_	_
+17	.	_	IP	IP	_	5	IP	_	_
+
+1	Men	_	++	++	_	2	++	_	_
+2	,	_	IK	IK	_	0		_	_
+3	även	_	UK	UK	_	7	UK	_	_
+4	om	_	ID	ID	_	3	HD	_	_
+5	tiden	_	NN	NN	_	0		_	_
+6	man	_	PO	PO	_	7	SS	_	_
+7	kan	_	QV	QV	_	0	ROOT	_	_
+8	vara	_	AV	AV	_	7	VG	_	_
+9	tillsammans	_	AB	AB	_	8	MA	_	_
+10	med	_	PR	PR	_	8	OA	_	_
+11	barnet	_	NN	NN	_	10	PA	_	_
+12	är	_	AV	AV	_	8	MS	_	_
+13	kort	_	AJ	AJ	_	12	SP	_	_
+14	,	_	IK	IK	_	12	IK	_	_
+15	kan	_	QV	QV	_	0		_	_
+16	man	_	PO	PO	_	17	SS	_	_
+17	ge	_	VV	VV	_	15	VG	_	_
+18	det	_	PO	PO	_	21	SS	_	_
+19	vad	_	PO	PO	_	21	SS	_	_
+20	det	_	PO	PO	_	21	SS	_	_
+21	behöver	_	VV	VV	_	15	VG	_	_
+22	av	_	PR	PR	_	21	OA	_	_
+23	trygg	_	AJ	AJ	_	26	AT	_	_
+24	och	_	++	++	_	25	++	_	_
+25	varm	_	AJ	AJ	_	26	AT	_	_
+26	moderskontakt	_	NN	NN	_	22	PA	_	_
+27	.	_	IP	IP	_	15	IP	_	_
+
+1	Det	_	PO	PO	_	2	SS	_	_
+2	finns	_	VV	VV	_	0	ROOT	_	_
+3	vidare	_	AB	AB	_	2	PL	_	_
+4	enföräldersfamiljer	_	NN	NN	_	2	OO	_	_
+5	,	_	IK	IK	_	2	IK	_	_
+6	en	_	EN	EN	_	7	DT	_	_
+7	pappa	_	NN	NN	_	0		_	_
+8	eller	_	++	++	_	18	++	_	_
+9	(	_	IR	IR	_	0		_	_
+10	vanligare	_	AJ	AJ	_	0		_	_
+11	)	_	IR	IR	_	0		_	_
+12	mamma	_	NN	NN	_	0		_	_
+13	med	_	PR	PR	_	12	ET	_	_
+14	ett	_	EN	EN	_	17	DT	_	_
+15	eller	_	++	++	_	17	++	_	_
+16	flera	_	PO	PO	_	17	DT	_	_
+17	barn	_	NN	NN	_	13	PA	_	_
+18	.	_	IP	IP	_	0	ROOT	_	_
+
+1	På	_	PR	PR	_	0		_	_
+2	vilka	_	PO	PO	_	4	DT	_	_
+3	olika	_	AJ	AJ	_	4	AT	_	_
+4	sätt	_	NN	NN	_	1	PA	_	_
+5	kan	_	QV	QV	_	0	ROOT	_	_
+6	oljan	_	NN	NN	_	0		_	_
+7	transporteras	_	VV	VV	_	5	VG	_	_
+8	?	_	I?	I?	_	0		_	_
+
+1	Ju	_	AB	AB	_	0		_	_
+2	rörligare	_	AJ	AJ	_	3	AT	_	_
+3	barnen	_	NN	NN	_	0		_	_
+4	blir	_	BV	BV	_	0	ROOT	_	_
+5	desto	_	AB	AB	_	0		_	_
+6	mer	_	AB	AB	_	0		_	_
+7	måste	_	MV	MV	_	0		_	_
+8	man	_	PO	PO	_	9	SS	_	_
+9	tänka	_	VV	VV	_	7	VG	_	_
+10	på	_	PR	PR	_	9	OA	_	_
+11	att	_	IM	IM	_	15	IM	_	_
+12	inte	_	AB	AB	_	0		_	_
+13	i	_	AB	AB	_	0		_	_
+14	onödan	_	ID	ID	_	13	HD	_	_
+15	hindra	_	VV	VV	_	7	VG	_	_
+16	dem	_	PO	PO	_	15	OO	_	_
+17	i	_	PR	PR	_	15	OA	_	_
+18	deras	_	PO	PO	_	0		_	_
+19	rörelsefrihet	_	AN	AN	_	15	OO	_	_
+20	och	_	++	++	_	21	++	_	_
+21	upptäckariver	_	NN	NN	_	0		_	_
+22	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Ja	_	YY	YY	_	0		_	_
+2	,	_	IK	IK	_	0		_	_
+3	men	_	++	++	_	6	++	_	_
+4	en	_	EN	EN	_	6	DT	_	_
+5	värdefull	_	AJ	AJ	_	6	AT	_	_
+6	rätt	_	NN	NN	_	0		_	_
+7	ger	_	VV	VV	_	0	ROOT	_	_
+8	oss	_	PO	PO	_	13	DT	_	_
+9	väl	_	AB	AB	_	0		_	_
+10	i	_	AB	AB	_	0		_	_
+11	alla	_	ID	ID	_	10	HD	_	_
+12	fall	_	ID	ID	_	10	HD	_	_
+13	äktenskapet	_	NN	NN	_	7	OO	_	_
+14	-	_	IT	IT	_	7	OO	_	_
+15	giftorätten	_	NN	NN	_	7	OO	_	_
+16	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Inte	_	AB	AB	_	0		_	_
+2	sprayflaska	_	NN	NN	_	0		_	_
+3	-	_	IT	IT	_	0		_	_
+4	ta	_	VV	VV	_	0	ROOT	_	_
+5	pensel	_	NN	NN	_	4	OO	_	_
+6	och	_	++	++	_	7	++	_	_
+7	rostskydd	_	NN	NN	_	5	CC	_	_
+8	på	_	PR	PR	_	7	ET	_	_
+9	burk	_	NN	NN	_	8	PA	_	_
+10	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Koncession	_	NN	NN	_	0		_	_
+2	enligt	_	PR	PR	_	1	ET	_	_
+3	atomenergilagen	_	NN	NN	_	2	PA	_	_
+4	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Med	_	PR	PR	_	0		_	_
+2	moderna	_	AJ	AJ	_	3	AT	_	_
+3	metoder	_	NN	NN	_	1	PA	_	_
+4	kan	_	QV	QV	_	0	ROOT	_	_
+5	man	_	PO	PO	_	6	SS	_	_
+6	mildra	_	VV	VV	_	4	VG	_	_
+7	symptomen	_	NN	NN	_	6	OO	_	_
+8	avsevärt	_	AJ	AJ	_	0		_	_
+9	,	_	IK	IK	_	6	IK	_	_
+10	men	_	++	++	_	12	++	_	_
+11	man	_	PO	PO	_	12	SS	_	_
+12	kan	_	QV	QV	_	0	ROOT	_	_
+13	inte	_	AB	AB	_	12	MA	_	_
+14	förebygga	_	VV	VV	_	12	VG	_	_
+15	nya	_	AJ	AJ	_	16	AT	_	_
+16	attacker	_	NN	NN	_	14	OO	_	_
+17	av	_	PR	PR	_	16	ET	_	_
+18	sjukdomen	_	NN	NN	_	17	PA	_	_
+19	.	_	IP	IP	_	12	IP	_	_
+
+1	Man	_	PO	PO	_	2	SS	_	_
+2	kallar	_	VV	VV	_	0	ROOT	_	_
+3	dem	_	PO	PO	_	2	OO	_	_
+4	endogena	_	AJ	AJ	_	0		_	_
+5	(	_	IR	IR	_	2	OO	_	_
+6	=	_	IG	IG	_	2	OO	_	_
+7	av	_	MN	MN	_	2	OO	_	_
+8	inre	_	ID	ID	_	7	HD	_	_
+9	ursprung	_	ID	ID	_	7	HD	_	_
+10	)	_	IR	IR	_	2	OO	_	_
+11	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Att	_	UK	UK	_	8	UK	_	_
+2	en	_	EN	EN	_	3	DT	_	_
+3	man	_	NN	NN	_	0		_	_
+4	och	_	++	++	_	6	++	_	_
+5	en	_	EN	EN	_	6	DT	_	_
+6	kvinna	_	NN	NN	_	3	CC	_	_
+7	tillsammans	_	AB	AB	_	0		_	_
+8	skall	_	SV	SV	_	0	ROOT	_	_
+9	bli	_	BV	BV	_	8	VG	_	_
+10	'	_	IC	IC	_	0		_	_
+11	ett	_	EN	EN	_	12	DT	_	_
+12	kött	_	NN	NN	_	0		_	_
+13	'	_	IC	IC	_	0		_	_
+14	och	_	++	++	_	18	++	_	_
+15	att	_	UK	UK	_	18	UK	_	_
+16	denna	_	PO	PO	_	17	DT	_	_
+17	gemenskap	_	NN	NN	_	0		_	_
+18	utesluter	_	VV	VV	_	0	ROOT	_	_
+19	samtidiga	_	AJ	AJ	_	20	AT	_	_
+20	band	_	NN	NN	_	18	OO	_	_
+21	med	_	PR	PR	_	20	ET	_	_
+22	andra	_	PO	PO	_	0		_	_
+23	har	_	HV	HV	_	18	OO	_	_
+24	varit	_	AV	AV	_	0	ROOT	_	_
+25	den	_	PO	PO	_	27	DT	_	_
+26	kristna	_	AJ	AJ	_	27	AT	_	_
+27	kyrkans	_	NN	NN	_	24	SP	_	_
+28	syn	_	NN	NN	_	27	CC	_	_
+29	på	_	PR	PR	_	28	ET	_	_
+30	äktenskap	_	NN	NN	_	29	PA	_	_
+31	och	_	++	++	_	32	++	_	_
+32	familj	_	NN	NN	_	30	CC	_	_
+33	genom	_	PR	PR	_	32	ET	_	_
+34	tiderna	_	NN	NN	_	33	PA	_	_
+35	.	_	IP	IP	_	24	IP	_	_
+
+1	Här	_	AB	AB	_	0		_	_
+2	står	_	VV	VV	_	0	ROOT	_	_
+3	olika	_	AJ	AJ	_	4	AT	_	_
+4	människouppfattningar	_	VN	VN	_	2	OO	_	_
+5	och	_	++	++	_	6	++	_	_
+6	livsideal	_	NN	NN	_	2	OO	_	_
+7	mot	_	PR	PR	_	6	ET	_	_
+8	varann	_	PO	PO	_	0		_	_
+9	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Under	_	PR	PR	_	0		_	_
+2	veckan	_	NN	NN	_	1	PA	_	_
+3	uppmärksammas	_	VV	VV	_	0	ROOT	_	_
+4	detta	_	PO	PO	_	3	OO	_	_
+5	i	_	PR	PR	_	3	OA	_	_
+6	Sveriges	_	PN	PN	_	0		_	_
+7	skolor	_	NN	NN	_	5	PA	_	_
+8	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Rollfördelningen	_	VN	VN	_	0		_	_
+
+1	Även	_	UK	UK	_	4	UK	_	_
+2	om	_	UK	UK	_	4	UK	_	_
+3	jordens	_	NN	NN	_	4	DT	_	_
+4	livsmedelsproduktion	_	VN	VN	_	0		_	_
+5	skulle	_	SV	SV	_	0	ROOT	_	_
+6	kunna	_	QV	QV	_	0	ROOT	_	_
+7	ökas	_	VV	VV	_	6	VG	_	_
+8	i	_	PR	PR	_	7	OA	_	_
+9	avsevärd	_	AJ	AJ	_	10	AT	_	_
+10	utsträckning	_	VN	VN	_	8	PA	_	_
+11	,	_	IK	IK	_	7	IK	_	_
+12	kommer	_	KV	KV	_	7	OO	_	_
+13	under	_	AB	AB	_	0		_	_
+14	alla	_	ID	ID	_	13	HD	_	_
+15	förhållanden	_	ID	ID	_	13	HD	_	_
+16	en	_	EN	EN	_	19	DT	_	_
+17	rationellt	_	AJ	AJ	_	18	AA	_	_
+18	genomförd	_	TP	TP	_	19	AT	_	_
+19	födelsekontroll	_	NN	NN	_	0		_	_
+20	att	_	IM	IM	_	0		_	_
+21	bli	_	BV	BV	_	0	ROOT	_	_
+22	nödvändig	_	AJ	AJ	_	0		_	_
+23	i	_	PR	PR	_	0		_	_
+24	hela	_	PO	PO	_	25	DT	_	_
+25	världen	_	NN	NN	_	23	PA	_	_
+26	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Polygyni	_	NN	NN	_	0		_	_
+2	förekommer	_	VV	VV	_	0	ROOT	_	_
+3	eller	_	++	++	_	5	++	_	_
+4	någon	_	PO	PO	_	5	DT	_	_
+5	form	_	NN	NN	_	2	OO	_	_
+6	av	_	PR	PR	_	5	ET	_	_
+7	älskarinnesystem	_	NN	NN	_	6	PA	_	_
+8	tillåts	_	VV	VV	_	0	ROOT	_	_
+9	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Ett	_	EN	EN	_	3	DT	_	_
+2	värdefullt	_	AJ	AJ	_	3	AT	_	_
+3	krafttillskott	_	NN	NN	_	0		_	_
+4	fick	_	FV	FV	_	0		_	_
+5	människan	_	NN	NN	_	0		_	_
+6	,	_	IK	IK	_	0		_	_
+7	då	_	AB	AB	_	0		_	_
+8	hon	_	PO	PO	_	9	SS	_	_
+9	lärt	_	VV	VV	_	0	ROOT	_	_
+10	sig	_	PO	PO	_	12	SS	_	_
+11	att	_	IM	IM	_	12	IM	_	_
+12	tämja	_	VV	VV	_	0	ROOT	_	_
+13	och	_	++	++	_	14	++	_	_
+14	utnyttja	_	VV	VV	_	0	ROOT	_	_
+15	vattenkraften	_	NN	NN	_	14	OO	_	_
+16	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Dubbarna	_	NN	NN	_	0		_	_
+2	tränger	_	VV	VV	_	0	ROOT	_	_
+3	därigenom	_	AB	AB	_	2	PL	_	_
+4	ned	_	AB	AB	_	2	PL	_	_
+5	i	_	PR	PR	_	2	OA	_	_
+6	is	_	NN	NN	_	5	PA	_	_
+7	och	_	++	++	_	8	++	_	_
+8	hård	_	AJ	AJ	_	9	AT	_	_
+9	snö	_	NN	NN	_	6	CC	_	_
+10	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Frånvaron	_	NN	NN	_	0		_	_
+2	vid	_	PR	PR	_	1	ET	_	_
+3	varven	_	NN	NN	_	2	PA	_	_
+4	låg	_	VV	VV	_	0	ROOT	_	_
+5	tidigare	_	AJ	AJ	_	4	OO	_	_
+6	vid	_	PR	PR	_	4	OA	_	_
+7	6	_	RO	RO	_	0		_	_
+8	-	_	PR	PR	_	4	OA	_	_
+9	8	_	RO	RO	_	10	DT	_	_
+10	procent	_	NN	NN	_	8	PA	_	_
+11	men	_	++	++	_	12	++	_	_
+12	har	_	HV	HV	_	4	OO	_	_
+13	nu	_	AB	AB	_	0		_	_
+14	stigit	_	VV	VV	_	12	VG	_	_
+15	till	_	PR	PR	_	14	OA	_	_
+16	15	_	RO	RO	_	0		_	_
+17	-	_	PR	PR	_	14	OA	_	_
+18	30	_	RO	RO	_	19	DT	_	_
+19	procent	_	NN	NN	_	17	PA	_	_
+20	och	_	++	++	_	21	++	_	_
+21	för	_	PR	PR	_	19	ET	_	_
+22	vissa	_	PO	PO	_	23	DT	_	_
+23	grupper	_	NN	NN	_	21	PA	_	_
+24	av	_	PR	PR	_	23	ET	_	_
+25	anställda	_	TP	TP	_	0		_	_
+26	tidvis	_	AB	AB	_	0		_	_
+27	ännu	_	AB	AB	_	0		_	_
+28	högre	_	AJ	AJ	_	0		_	_
+29	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Ty	_	++	++	_	4	++	_	_
+2	vilken	_	PO	PO	_	4	DT	_	_
+3	annan	_	PO	PO	_	4	DT	_	_
+4	institution	_	VN	VN	_	0		_	_
+5	i	_	PR	PR	_	4	ET	_	_
+6	världen	_	NN	NN	_	5	PA	_	_
+7	kan	_	QV	QV	_	0	ROOT	_	_
+8	bättre	_	AB	AB	_	7	MA	_	_
+9	lära	_	VV	VV	_	7	VG	_	_
+10	barnen	_	NN	NN	_	9	OO	_	_
+11	medmänsklighet	_	AN	AN	_	9	OO	_	_
+12	än	_	UK	UK	_	19	UK	_	_
+13	en	_	EN	EN	_	18	DT	_	_
+14	kärleksfull	_	AJ	AJ	_	18	AT	_	_
+15	och	_	++	++	_	16	++	_	_
+16	glatt	_	AJ	AJ	_	18	AT	_	_
+17	uppoffrande	_	AJ	AJ	_	18	AT	_	_
+18	Mamma	_	NN	NN	_	0		_	_
+19	?	_	I?	I?	_	0		_	_
+
+1	Hur	_	AB	AB	_	0		_	_
+2	skulle	_	SV	SV	_	0	ROOT	_	_
+3	du	_	PO	PO	_	2	SS	_	_
+4	själv	_	PO	PO	_	0		_	_
+5	vilja	_	WV	WV	_	0		_	_
+6	se	_	VV	VV	_	5	VG	_	_
+7	dem	_	PO	PO	_	6	OO	_	_
+8	utformade	_	TP	TP	_	0		_	_
+9	?	_	I?	I?	_	0		_	_
+
+1	Socialvården	_	NN	NN	_	0		_	_
+2	tar	_	VV	VV	_	0	ROOT	_	_
+3	en	_	EN	EN	_	4	DT	_	_
+4	procent	_	NN	NN	_	2	OO	_	_
+5	därav	_	AB	AB	_	0		_	_
+6	.	_	IP	IP	_	0	ROOT	_	_
+
+1	För	_	PR	PR	_	0		_	_
+2	dem	_	PO	PO	_	3	SS	_	_
+3	tycks	_	VV	VV	_	0	ROOT	_	_
+4	inte	_	AB	AB	_	3	PL	_	_
+5	heller	_	AB	AB	_	3	PL	_	_
+6	de	_	PO	PO	_	10	DT	_	_
+7	s.	_	PO	PO	_	10	DT	_	_
+8	k.	_	ID	ID	_	7	HD	_	_
+9	typiska	_	AJ	AJ	_	10	AT	_	_
+10	kvinnoyrkena	_	NN	NN	_	3	OO	_	_
+11	vara	_	AV	AV	_	0	ROOT	_	_
+12	ett	_	EN	EN	_	15	DT	_	_
+13	alltför	_	AB	AB	_	0		_	_
+14	svårt	_	AJ	AJ	_	15	AT	_	_
+15	hinder	_	NN	NN	_	11	SP	_	_
+16	.	_	IP	IP	_	11	IP	_	_
+
+1	Omvandlingstal	_	NN	NN	_	0		_	_
+2	till	_	PR	PR	_	1	ET	_	_
+3	stenkolsenheter	_	AN	AN	_	0		_	_
+4	är	_	AV	AV	_	0	ROOT	_	_
+5	t	_	AB	AB	_	4	MA	_	_
+6	ex	_	ID	ID	_	5	HD	_	_
+7	för	_	PR	PR	_	4	OA	_	_
+8	koks	_	NN	NN	_	7	PA	_	_
+9	1,05	_	RO	RO	_	0		_	_
+10	,	_	IK	IK	_	4	IK	_	_
+11	för	_	PR	PR	_	4	OA	_	_
+12	ved	_	NN	NN	_	11	PA	_	_
+13	0,17	_	RO	RO	_	0		_	_
+14	,	_	IK	IK	_	4	IK	_	_
+15	för	_	PR	PR	_	4	OA	_	_
+16	bensin	_	NN	NN	_	15	PA	_	_
+17	1,60	_	RO	RO	_	0		_	_
+18	,	_	IK	IK	_	4	IK	_	_
+19	och	_	++	++	_	20	++	_	_
+20	för	_	PR	PR	_	4	OA	_	_
+21	brännolja	_	NN	NN	_	20	PA	_	_
+22	1,50	_	RO	RO	_	0		_	_
+23	.	_	IP	IP	_	4	IP	_	_
+
+1	Ett-	_	NN	NN	_	0		_	_
+2	och	_	++	++	_	3	++	_	_
+3	tvåöringen	_	NN	NN	_	1	CC	_	_
+4	och	_	++	++	_	5	++	_	_
+5	gamla	_	AJ	AJ	_	6	AT	_	_
+6	femöringen	_	NN	NN	_	3	CC	_	_
+7	blir	_	BV	BV	_	0	ROOT	_	_
+8	då	_	AB	AB	_	0		_	_
+9	ogiltiga	_	AJ	AJ	_	0		_	_
+10	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Rösträtten	_	NN	NN	_	0		_	_
+2	till	_	PR	PR	_	1	ET	_	_
+3	kyrkovalet	_	NN	NN	_	2	PA	_	_
+4	försvinner	_	VV	VV	_	0	ROOT	_	_
+5	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Detta	_	PO	PO	_	0		_	_
+2	har	_	HV	HV	_	0	ROOT	_	_
+3	alltid	_	AB	AB	_	0		_	_
+4	av	_	PR	PR	_	0		_	_
+5	den	_	PO	PO	_	7	DT	_	_
+6	kristna	_	AJ	AJ	_	7	AT	_	_
+7	kyrkan	_	NN	NN	_	4	PA	_	_
+8	uppfattas	_	VV	VV	_	0	ROOT	_	_
+9	som	_	UK	UK	_	14	UK	_	_
+10	ett	_	EN	EN	_	13	DT	_	_
+11	mycket	_	AB	AB	_	0		_	_
+12	svårt	_	AJ	AJ	_	13	AT	_	_
+13	problem	_	NN	NN	_	0		_	_
+14	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Dagens	_	NN	NN	_	0		_	_
+2	bilbestånd	_	NN	NN	_	1	CC	_	_
+3	-	_	IT	IT	_	0		_	_
+4	2	_	RO	RO	_	5	DT	_	_
+5	miljoner	_	NN	NN	_	0		_	_
+6	-	_	IT	IT	_	0		_	_
+7	kommer	_	KV	KV	_	0		_	_
+8	att	_	IM	IM	_	9	IM	_	_
+9	fördubblas	_	VV	VV	_	0	ROOT	_	_
+10	under	_	PR	PR	_	9	OA	_	_
+11	de	_	PO	PO	_	14	DT	_	_
+12	kommande	_	PO	PO	_	14	DT	_	_
+13	tio	_	RO	RO	_	14	DT	_	_
+14	åren	_	NN	NN	_	10	PA	_	_
+15	,	_	IK	IK	_	18	IK	_	_
+16	och	_	++	++	_	18	++	_	_
+17	det	_	PO	PO	_	0		_	_
+18	blir	_	BV	BV	_	0	ROOT	_	_
+19	vanligare	_	AJ	AJ	_	0		_	_
+20	med	_	PR	PR	_	0		_	_
+21	elektronik	_	NN	NN	_	20	PA	_	_
+22	i	_	PR	PR	_	21	ET	_	_
+23	hushållsarbetet	_	NN	NN	_	22	PA	_	_
+24	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Hemmafruarna	_	NN	NN	_	0		_	_
+2	kommer	_	KV	KV	_	0		_	_
+3	att	_	IM	IM	_	4	IM	_	_
+4	finnas	_	VV	VV	_	0	ROOT	_	_
+5	kvar	_	AB	AB	_	4	PL	_	_
+6	-	_	IT	IT	_	4	OO	_	_
+7	och	_	++	++	_	8	++	_	_
+8	försvaras	_	VV	VV	_	0	ROOT	_	_
+9	av	_	PR	PR	_	8	OA	_	_
+10	de	_	PO	PO	_	12	DT	_	_
+11	privilegierade	_	TP	TP	_	12	AT	_	_
+12	hemmafruarna	_	NN	NN	_	9	PA	_	_
+13	-	_	IT	IT	_	8	OO	_	_
+14	så	_	UK	UK	_	17	UK	_	_
+15	länge	_	ID	ID	_	14	HD	_	_
+16	kapitalismen	_	NN	NN	_	0		_	_
+17	består	_	VV	VV	_	0	ROOT	_	_
+18	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Denna	_	PO	PO	_	2	DT	_	_
+2	integration	_	VN	VN	_	0		_	_
+3	måste	_	MV	MV	_	0		_	_
+4	dessutom	_	AB	AB	_	0		_	_
+5	kompletteras	_	VV	VV	_	3	VG	_	_
+6	med	_	PR	PR	_	5	OA	_	_
+7	speciella	_	AJ	AJ	_	8	AT	_	_
+8	åtgärder	_	NN	NN	_	6	PA	_	_
+9	för	_	UK	UK	_	16	UK	_	_
+10	att	_	ID	ID	_	9	HD	_	_
+11	de	_	PO	PO	_	13	DT	_	_
+12	svagare	_	AJ	AJ	_	13	AT	_	_
+13	grupperna	_	NN	NN	_	0		_	_
+14	i	_	PR	PR	_	13	ET	_	_
+15	samhället	_	NN	NN	_	14	PA	_	_
+16	skall	_	SV	SV	_	0	ROOT	_	_
+17	kunna	_	QV	QV	_	0	ROOT	_	_
+18	uppnå	_	VV	VV	_	17	VG	_	_
+19	ungefär	_	AB	AB	_	18	PL	_	_
+20	samma	_	PO	PO	_	0		_	_
+21	valfrihet	_	AN	AN	_	18	OO	_	_
+22	som	_	UK	UK	_	25	UK	_	_
+23	andra	_	PO	PO	_	24	DT	_	_
+24	samhällsgrupper	_	NN	NN	_	0		_	_
+25	.	_	IP	IP	_	17	IP	_	_
+
+1	Mellan	_	PR	PR	_	0		_	_
+2	21	_	RO	RO	_	5	DT	_	_
+3	och	_	++	++	_	5	++	_	_
+4	26	_	RO	RO	_	5	DT	_	_
+5	procent	_	NN	NN	_	1	PA	_	_
+6	av	_	PR	PR	_	5	ET	_	_
+7	arbetarna	_	NN	NN	_	6	PA	_	_
+8	brukar	_	VV	VV	_	0	ROOT	_	_
+9	kvalificera	_	VV	VV	_	0	ROOT	_	_
+10	sig	_	PO	PO	_	9	OO	_	_
+11	för	_	PR	PR	_	9	OA	_	_
+12	närvaropremien	_	NN	NN	_	11	PA	_	_
+13	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Men	_	++	++	_	3	++	_	_
+2	den	_	PO	PO	_	0		_	_
+3	blir	_	BV	BV	_	0	ROOT	_	_
+4	det	_	PO	PO	_	0		_	_
+5	genom	_	PR	PR	_	0		_	_
+6	sin	_	PO	PO	_	0		_	_
+7	erfarenhet	_	AN	AN	_	0		_	_
+8	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Där	_	AB	AB	_	2	AA	_	_
+2	kan	_	QV	QV	_	0	ROOT	_	_
+3	hyrorna	_	NN	NN	_	0		_	_
+4	i	_	AB	AB	_	0		_	_
+5	stort	_	ID	ID	_	4	HD	_	_
+6	sett	_	ID	ID	_	4	HD	_	_
+7	inte	_	AB	AB	_	0		_	_
+8	ändras	_	VV	VV	_	2	VG	_	_
+9	såvida	_	UK	UK	_	10	UK	_	_
+10	inte	_	AB	AB	_	8	PL	_	_
+11	kostnaderna	_	NN	NN	_	8	OO	_	_
+12	ökar	_	VV	VV	_	2	VG	_	_
+13	för	_	PR	PR	_	12	OA	_	_
+14	fastighetsförvaltning	_	VN	VN	_	13	PA	_	_
+15	,	_	IK	IK	_	12	IK	_	_
+16	genom	_	PR	PR	_	12	OA	_	_
+17	ombyggnad	_	NN	NN	_	19	DT	_	_
+18	eller	_	++	++	_	19	++	_	_
+19	förbättring	_	VN	VN	_	16	PA	_	_
+20	.	_	IP	IP	_	2	IP	_	_
+
+1	Utvecklingen	_	VN	VN	_	0		_	_
+2	har	_	HV	HV	_	0	ROOT	_	_
+3	gått	_	VV	VV	_	2	VG	_	_
+4	mot	_	PR	PR	_	3	OA	_	_
+5	allt	_	AB	AB	_	0		_	_
+6	bredare	_	AJ	AJ	_	7	AT	_	_
+7	däck	_	NN	NN	_	4	PA	_	_
+8	på	_	PR	PR	_	7	ET	_	_
+9	bilarna	_	NN	NN	_	8	PA	_	_
+10	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Detta	_	PO	PO	_	2	SS	_	_
+2	börjar	_	VV	VV	_	0	ROOT	_	_
+3	gå	_	VV	VV	_	0	ROOT	_	_
+4	in	_	AB	AB	_	3	PL	_	_
+5	i	_	PR	PR	_	3	OA	_	_
+6	medvetandet	_	VN	VN	_	5	PA	_	_
+7	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Huvudpunkterna	_	NN	NN	_	0		_	_
+2	i	_	PR	PR	_	1	ET	_	_
+3	den	_	PO	PO	_	4	DT	_	_
+4	kampanjen	_	NN	NN	_	2	PA	_	_
+5	är	_	AV	AV	_	0	ROOT	_	_
+6	enligt	_	PR	PR	_	5	OA	_	_
+7	dr	_	NN	NN	_	6	PA	_	_
+8	Horn	_	PN	PN	_	0		_	_
+9	:	_	IQ	IQ	_	0	ROOT	_	_
+
+1	'	_	IC	IC	_	0		_	_
+2	Jag	_	PO	PO	_	0		_	_
+3	har	_	HV	HV	_	0	ROOT	_	_
+4	inte	_	AB	AB	_	0		_	_
+5	rätt	_	NN	NN	_	3	OO	_	_
+6	att	_	IM	IM	_	7	IM	_	_
+7	säga	_	VV	VV	_	3	VG	_	_
+8	något	_	PO	PO	_	7	OO	_	_
+9	då	_	UK	UK	_	11	UK	_	_
+10	han	_	PO	PO	_	0		_	_
+11	försörjer	_	FV	FV	_	7	OO	_	_
+12	mig	_	PO	PO	_	0		_	_
+13	'	_	IC	IC	_	7	JC	_	_
+14	,	_	IK	IK	_	7	IK	_	_
+15	tänker	_	VV	VV	_	3	VG	_	_
+16	dom	_	PO	PO	_	15	OO	_	_
+17	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Amningen	_	VN	VN	_	0		_	_
+2	ger	_	VV	VV	_	0	ROOT	_	_
+3	också	_	AB	AB	_	2	PL	_	_
+4	mor	_	NN	NN	_	2	OO	_	_
+5	och	_	++	++	_	6	++	_	_
+6	barn	_	NN	NN	_	4	CC	_	_
+7	en	_	EN	EN	_	10	DT	_	_
+8	alldeles	_	AB	AB	_	0		_	_
+9	särskild	_	AJ	AJ	_	10	AT	_	_
+10	känsla	_	NN	NN	_	6	CC	_	_
+11	av	_	PR	PR	_	10	ET	_	_
+12	närhet	_	AN	AN	_	2	OO	_	_
+13	och	_	++	++	_	15	++	_	_
+14	samhörighet	_	AN	AN	_	0		_	_
+15	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Många	_	PO	PO	_	2	SS	_	_
+2	befinner	_	VV	VV	_	0	ROOT	_	_
+3	sig	_	PO	PO	_	7	DT	_	_
+4	strax	_	AB	AB	_	0		_	_
+5	ovanför	_	AB	AB	_	0		_	_
+6	den	_	PO	PO	_	7	DT	_	_
+7	gruppen	_	NN	NN	_	2	OO	_	_
+8	och	_	++	++	_	9	++	_	_
+9	riskerar	_	VV	VV	_	0	ROOT	_	_
+10	ständigt	_	AB	AB	_	9	PL	_	_
+11	vid	_	PR	PR	_	9	OA	_	_
+12	en	_	PO	PO	_	15	DT	_	_
+13	eller	_	ID	ID	_	12	HD	_	_
+14	annan	_	ID	ID	_	12	HD	_	_
+15	påfrestning	_	VN	VN	_	11	PA	_	_
+16	att	_	IM	IM	_	17	IM	_	_
+17	ramla	_	VV	VV	_	0	ROOT	_	_
+18	ner	_	AB	AB	_	17	PL	_	_
+19	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Kooperativa	_	AJ	AJ	_	2	AT	_	_
+2	bostadsföretag	_	NN	NN	_	0		_	_
+3	och	_	++	++	_	4	++	_	_
+4	enskilda	_	AJ	AJ	_	5	AT	_	_
+5	byggmästare	_	NN	NN	_	2	CC	_	_
+6	har	_	HV	HV	_	0	ROOT	_	_
+7	dock	_	AB	AB	_	0		_	_
+8	också	_	AB	AB	_	0		_	_
+9	möjlighet	_	AN	AN	_	0		_	_
+10	att	_	IM	IM	_	11	IM	_	_
+11	köpa	_	VV	VV	_	0	ROOT	_	_
+12	mark	_	NN	NN	_	11	OO	_	_
+13	för	_	PR	PR	_	12	ET	_	_
+14	att	_	IM	IM	_	15	IM	_	_
+15	bygga	_	VV	VV	_	0	ROOT	_	_
+16	bostäder	_	NN	NN	_	15	OO	_	_
+17	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Den	_	PO	PO	_	3	DT	_	_
+2	andra	_	PO	PO	_	3	DT	_	_
+3	dimensionen	_	NN	NN	_	0		_	_
+4	rör	_	VV	VV	_	0	ROOT	_	_
+5	funktioner	_	VN	VN	_	4	OO	_	_
+6	som	_	PO	PO	_	7	DT	_	_
+7	familjens	_	NN	NN	_	4	OO	_	_
+8	medlemmar	_	NN	NN	_	7	CC	_	_
+9	fyller	_	VV	VV	_	0	ROOT	_	_
+10	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Se	_	VV	VV	_	0	ROOT	_	_
+2	Sverige	_	PN	PN	_	1	OO	_	_
+3	m.	_	AB	AB	_	0		_	_
+4	fl.	_	ID	ID	_	3	HD	_	_
+5	,	_	IK	IK	_	1	IK	_	_
+6	kap.	_	NN	NN	_	0		_	_
+7	Kriminalpolitiska	_	MN	MN	_	1	OO	_	_
+8	åtgärder	_	ID	ID	_	7	HD	_	_
+9	;	_	IS	IS	_	1	OO	_	_
+10	Strahl	_	PN	PN	_	0		_	_
+11	,	_	IK	IK	_	1	IK	_	_
+12	kap.	_	NN	NN	_	0		_	_
+13	1	_	EN	EN	_	0		_	_
+14	;	_	IS	IS	_	0		_	_
+15	Åkerman	_	PN	PN	_	0		_	_
+16	,	_	IK	IK	_	1	IK	_	_
+17	uppsatser	_	NN	NN	_	0		_	_
+18	av	_	PR	PR	_	17	ET	_	_
+19	Börjeson	_	PN	PN	_	0		_	_
+20	och	_	++	++	_	24	++	_	_
+21	Gustafsson	_	PN	PN	_	0		_	_
+22	;	_	IS	IS	_	0		_	_
+23	Blomberg	_	PN	PN	_	0		_	_
+24	,	_	IK	IK	_	1	IK	_	_
+25	kap.	_	NN	NN	_	0		_	_
+26	3	_	RO	RO	_	1	OO	_	_
+27	.	_	IP	IP	_	0	ROOT	_	_
+
+1	'	_	IC	IC	_	0		_	_
+2	Grunden	_	NN	NN	_	0		_	_
+3	för	_	PR	PR	_	2	ET	_	_
+4	vårt	_	PO	PO	_	5	DT	_	_
+5	system	_	NN	NN	_	3	PA	_	_
+6	är	_	AV	AV	_	0	ROOT	_	_
+7	mycket	_	AB	AB	_	6	MA	_	_
+8	enkel	_	AJ	AJ	_	6	SP	_	_
+9	:	_	IQ	IQ	_	0	ROOT	_	_
+10	att	_	IM	IM	_	11	IM	_	_
+11	göra	_	GV	GV	_	0		_	_
+12	motsatsen	_	NN	NN	_	0		_	_
+13	mot	_	PR	PR	_	12	ET	_	_
+14	vad	_	PO	PO	_	17	SS	_	_
+15	vi	_	PO	PO	_	17	SS	_	_
+16	själva	_	PO	PO	_	17	SS	_	_
+17	erfor	_	VV	VV	_	0	ROOT	_	_
+18	eller	_	++	++	_	19	++	_	_
+19	lärde	_	VV	VV	_	0	ROOT	_	_
+20	oss	_	PO	PO	_	19	OO	_	_
+21	som	_	UK	UK	_	23	UK	_	_
+22	barn	_	NN	NN	_	0		_	_
+23	.	_	IP	IP	_	0	ROOT	_	_
+24	'	_	IC	IC	_	0		_	_
+
+1	Öqvist	_	PN	PN	_	0		_	_
+2	har	_	HV	HV	_	0	ROOT	_	_
+3	först	_	AB	AB	_	0		_	_
+4	genom	_	PR	PR	_	0		_	_
+5	ett	_	EN	EN	_	6	DT	_	_
+6	frågeformulär	_	NN	NN	_	4	PA	_	_
+7	fått	_	FV	FV	_	0		_	_
+8	fram	_	AB	AB	_	7	MA	_	_
+9	data	_	NN	NN	_	0		_	_
+10	av	_	PR	PR	_	9	ET	_	_
+11	sen	_	AJ	AJ	_	14	AT	_	_
+12	och	_	++	++	_	13	++	_	_
+13	tidig	_	AJ	AJ	_	14	AT	_	_
+14	dygnsrytm	_	NN	NN	_	10	PA	_	_
+15	,	_	IK	IK	_	0		_	_
+16	därefter	_	AB	AB	_	0		_	_
+17	har	_	HV	HV	_	0	ROOT	_	_
+18	grupperna	_	NN	NN	_	17	OO	_	_
+19	intervjuats	_	VV	VV	_	17	VG	_	_
+20	och	_	++	++	_	22	++	_	_
+21	slutligen	_	AB	AB	_	0		_	_
+22	har	_	HV	HV	_	19	OO	_	_
+23	de	_	PO	PO	_	0		_	_
+24	under	_	PR	PR	_	19	OA	_	_
+25	en	_	EN	EN	_	26	DT	_	_
+26	månads	_	NN	NN	_	24	PA	_	_
+27	tid	_	NN	NN	_	26	CC	_	_
+28	fått	_	FV	FV	_	19	OO	_	_
+29	föra	_	VV	VV	_	28	VG	_	_
+30	dagbok	_	NN	NN	_	29	OO	_	_
+31	avsedd	_	TP	TP	_	29	OO	_	_
+32	att	_	IM	IM	_	33	IM	_	_
+33	ge	_	VV	VV	_	28	VG	_	_
+34	en	_	EN	EN	_	35	DT	_	_
+35	bild	_	NN	NN	_	33	OO	_	_
+36	av	_	PR	PR	_	35	ET	_	_
+37	deras	_	PO	PO	_	38	DT	_	_
+38	livsrutiner	_	NN	NN	_	36	PA	_	_
+39	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Varvsindustriföreningen	_	VN	VN	_	0		_	_
+2	vittnar	_	VV	VV	_	0	ROOT	_	_
+3	om	_	PR	PR	_	2	OA	_	_
+4	en	_	EN	EN	_	6	DT	_	_
+5	katastrofal	_	AJ	AJ	_	6	AT	_	_
+6	stegring	_	VN	VN	_	3	PA	_	_
+7	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Utbildningsbidrag	_	NN	NN	_	0		_	_
+2	får	_	FV	FV	_	0		_	_
+3	den	_	PO	PO	_	5	SS	_	_
+4	som	_	PO	PO	_	5	SS	_	_
+5	deltar	_	VV	VV	_	2	VG	_	_
+6	i	_	PR	PR	_	5	OA	_	_
+7	arbetsmarknadsutbildning	_	VN	VN	_	6	PA	_	_
+8	.	_	IP	IP	_	0	ROOT	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	många	_	PO	PO	_	4	DT	_	_
+3	olika	_	AJ	AJ	_	4	AT	_	_
+4	sammanhang	_	NN	NN	_	1	PA	_	_
+5	är	_	AV	AV	_	0	ROOT	_	_
+6	vi	_	PO	PO	_	0		_	_
+7	utsatta	_	TP	TP	_	0		_	_
+8	för	_	PR	PR	_	5	OA	_	_
+9	denna	_	PO	PO	_	10	DT	_	_
+10	konformitetstendens	_	NN	NN	_	8	PA	_	_
+11	.	_	IP	IP	_	5	IP	_	_
+
+1	Totalt	_	AB	AB	_	0		_	_
+2	gör	_	GV	GV	_	0		_	_
+3	detta	_	PO	PO	_	5	DT	_	_
+4	61	_	RO	RO	_	5	DT	_	_
+5	röster	_	NN	NN	_	0		_	_
+6	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Kunskaper	_	NN	NN	_	0		_	_
+2	om	_	PR	PR	_	1	ET	_	_
+3	arbete	_	NN	NN	_	5	DT	_	_
+4	och	_	++	++	_	5	++	_	_
+5	utbildning	_	VN	VN	_	2	PA	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	många	_	PO	PO	_	3	DT	_	_
+3	fall	_	NN	NN	_	1	PA	_	_
+4	utlöste	_	VV	VV	_	0	ROOT	_	_
+5	det	_	PO	PO	_	7	DT	_	_
+6	ett	_	EN	EN	_	7	DT	_	_
+7	skratt	_	NN	NN	_	4	OO	_	_
+8	,	_	IK	IK	_	4	IK	_	_
+9	godmodigt	_	AJ	AJ	_	0		_	_
+10	eller	_	++	++	_	11	++	_	_
+11	harmset	_	AJ	AJ	_	0		_	_
+12	:	_	IQ	IQ	_	4	OO	_	_
+
+1	Vilket	_	PO	PO	_	0		_	_
+2	av	_	PR	PR	_	0		_	_
+3	de	_	PO	PO	_	5	DT	_	_
+4	tre	_	RO	RO	_	5	DT	_	_
+5	länderna	_	NN	NN	_	2	PA	_	_
+6	Västtyskland	_	PN	PN	_	0		_	_
+7	,	_	IK	IK	_	0		_	_
+8	Canada	_	PN	PN	_	0		_	_
+9	och	_	++	++	_	11	++	_	_
+10	Frankrike	_	PN	PN	_	0		_	_
+11	baserar	_	VV	VV	_	0	ROOT	_	_
+12	sin	_	PO	PO	_	13	DT	_	_
+13	elkraftproduktion	_	VN	VN	_	11	OO	_	_
+14	på	_	PR	PR	_	13	ET	_	_
+15	a)	_	AB	AB	_	0		_	_
+16	huvudsakligen	_	AB	AB	_	0		_	_
+17	vattenkraft	_	NN	NN	_	14	PA	_	_
+18	b)	_	AB	AB	_	0		_	_
+19	huvudsakligen	_	AB	AB	_	0		_	_
+20	värmekraft	_	NN	NN	_	17	CC	_	_
+21	c)	_	AB	AB	_	0		_	_
+22	ungefär	_	AB	AB	_	0		_	_
+23	lika	_	PO	PO	_	24	DT	_	_
+24	delar	_	NN	NN	_	20	CC	_	_
+25	vatten-	_	NN	NN	_	24	CC	_	_
+26	och	_	++	++	_	27	++	_	_
+27	värmekraft	_	NN	NN	_	25	CC	_	_
+28	?	_	I?	I?	_	0		_	_
+
+1	Den	_	PO	PO	_	3	DT	_	_
+2	strikta	_	AJ	AJ	_	3	AT	_	_
+3	arbetsfördelningen	_	VN	VN	_	0		_	_
+4	eller	_	++	++	_	5	++	_	_
+5	hierarkin	_	NN	NN	_	0		_	_
+6	mellan	_	PR	PR	_	5	ET	_	_
+7	samhällsmedlemmarna	_	NN	NN	_	6	PA	_	_
+8	baseras	_	VV	VV	_	0	ROOT	_	_
+9	på	_	PR	PR	_	8	OA	_	_
+10	ett	_	EN	EN	_	12	DT	_	_
+11	rikt	_	AJ	AJ	_	12	AT	_	_
+12	system	_	NN	NN	_	9	PA	_	_
+13	av	_	PR	PR	_	12	ET	_	_
+14	signaler	_	NN	NN	_	13	PA	_	_
+15	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Om	_	UK	UK	_	4	UK	_	_
+2	en	_	EN	EN	_	4	DT	_	_
+3	sådan	_	PO	PO	_	4	DT	_	_
+4	påfrestning	_	VN	VN	_	0		_	_
+5	blir	_	BV	BV	_	0	ROOT	_	_
+6	långvarig	_	AJ	AJ	_	0		_	_
+7	,	_	IK	IK	_	0		_	_
+8	kan	_	QV	QV	_	0	ROOT	_	_
+9	resultatet	_	NN	NN	_	0		_	_
+10	bli	_	BV	BV	_	0	ROOT	_	_
+11	ett	_	EN	EN	_	12	DT	_	_
+12	tillstånd	_	NN	NN	_	0		_	_
+13	av	_	PR	PR	_	12	ET	_	_
+14	s	_	PO	PO	_	16	DT	_	_
+15	k	_	ID	ID	_	14	HD	_	_
+16	stress	_	NN	NN	_	13	PA	_	_
+17	,	_	IK	IK	_	0		_	_
+18	ett	_	EN	EN	_	19	DT	_	_
+19	slags	_	NN	NN	_	0		_	_
+20	spänningstillstånd	_	NN	NN	_	19	CC	_	_
+21	,	_	IK	IK	_	0		_	_
+22	som	_	PO	PO	_	23	SS	_	_
+23	beror	_	VV	VV	_	0	ROOT	_	_
+24	på	_	PR	PR	_	23	OA	_	_
+25	att	_	UK	UK	_	30	UK	_	_
+26	vissa	_	PO	PO	_	27	DT	_	_
+27	försvarsmekanismer	_	NN	NN	_	0		_	_
+28	i	_	PR	PR	_	27	ET	_	_
+29	kroppen	_	NN	NN	_	28	PA	_	_
+30	trätt	_	VV	VV	_	0	ROOT	_	_
+31	i	_	PR	PR	_	30	OA	_	_
+32	funktion	_	VN	VN	_	31	PA	_	_
+33	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Man	_	PO	PO	_	2	SS	_	_
+2	bör	_	VV	VV	_	0	ROOT	_	_
+3	akta	_	VV	VV	_	0	ROOT	_	_
+4	sig	_	PO	PO	_	3	OO	_	_
+5	för	_	PR	PR	_	3	OA	_	_
+6	att	_	IM	IM	_	7	IM	_	_
+7	dra	_	VV	VV	_	0	ROOT	_	_
+8	långtgående	_	SP	SP	_	7	OO	_	_
+9	slutsatser	_	NN	NN	_	0		_	_
+10	av	_	PR	PR	_	9	ET	_	_
+11	förändringar	_	VN	VN	_	10	PA	_	_
+12	under	_	PR	PR	_	11	ET	_	_
+13	en	_	EN	EN	_	15	DT	_	_
+14	kort	_	AJ	AJ	_	15	AT	_	_
+15	period	_	NN	NN	_	12	PA	_	_
+16	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Jag	_	PO	PO	_	2	SS	_	_
+2	låg	_	VV	VV	_	0	ROOT	_	_
+3	länge	_	AB	AB	_	2	PL	_	_
+4	vaken	_	AJ	AJ	_	2	OO	_	_
+5	i	_	AB	AB	_	0		_	_
+6	natt	_	ID	ID	_	5	HD	_	_
+7	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Flerfamiljshusens	_	NN	NN	_	2	DT	_	_
+2	fördelning	_	VN	VN	_	0		_	_
+3	på	_	PR	PR	_	2	ET	_	_
+4	olika	_	AJ	AJ	_	5	AT	_	_
+5	ägandekategorier	_	NN	NN	_	3	PA	_	_
+
+1	För	_	PR	PR	_	0		_	_
+2	enskilda	_	AJ	AJ	_	3	AT	_	_
+3	egnahemsbyggare	_	NN	NN	_	1	PA	_	_
+4	är	_	AV	AV	_	0	ROOT	_	_
+5	det	_	PO	PO	_	9	DT	_	_
+6	i	_	AB	AB	_	0		_	_
+7	regel	_	ID	ID	_	6	HD	_	_
+8	20	_	RO	RO	_	9	DT	_	_
+9	procent	_	NN	NN	_	4	SP	_	_
+10	.	_	IP	IP	_	4	IP	_	_
+
+1	Det	_	PO	PO	_	2	SS	_	_
+2	är	_	AV	AV	_	0	ROOT	_	_
+3	mannen	_	NN	NN	_	2	SP	_	_
+4	och	_	++	++	_	5	++	_	_
+5	barnen	_	NN	NN	_	3	CC	_	_
+6	,	_	IK	IK	_	2	IK	_	_
+7	framför	_	AB	AB	_	0		_	_
+8	allt	_	ID	ID	_	7	HD	_	_
+9	barnen	_	NN	NN	_	0		_	_
+10	,	_	IK	IK	_	2	IK	_	_
+11	som	_	PO	PO	_	12	SS	_	_
+12	behöver	_	VV	VV	_	2	MS	_	_
+13	kvinnan	_	NN	NN	_	12	OO	_	_
+14	hemma	_	AB	AB	_	0		_	_
+15	,	_	IK	IK	_	12	IK	_	_
+16	sägs	_	VV	VV	_	2	MS	_	_
+17	det	_	PO	PO	_	16	OO	_	_
+18	.	_	IP	IP	_	2	IP	_	_
+
+1	Piaget	_	PN	PN	_	0		_	_
+2	är	_	AV	AV	_	0	ROOT	_	_
+3	också	_	AB	AB	_	2	MA	_	_
+4	där	_	AB	AB	_	2	MA	_	_
+5	ett	_	EN	EN	_	8	DT	_	_
+6	mycket	_	AB	AB	_	0		_	_
+7	stort	_	AJ	AJ	_	8	AT	_	_
+8	namn	_	NN	NN	_	2	SP	_	_
+9	.	_	IP	IP	_	2	IP	_	_
+
+1	Ett	_	EN	EN	_	4	DT	_	_
+2	allt	_	AB	AB	_	0		_	_
+3	vanligare	_	AJ	AJ	_	4	AT	_	_
+4	sätt	_	NN	NN	_	0		_	_
+5	att	_	IM	IM	_	6	IM	_	_
+6	fördela	_	VV	VV	_	0	ROOT	_	_
+7	rollerna	_	NN	NN	_	6	OO	_	_
+8	i	_	PR	PR	_	7	ET	_	_
+9	familjen	_	NN	NN	_	8	PA	_	_
+10	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Vid	_	PR	PR	_	0		_	_
+2	SAF-dagen	_	NN	NN	_	1	PA	_	_
+3	i	_	PR	PR	_	2	ET	_	_
+4	Linköping	_	PN	PN	_	0		_	_
+5	20	_	RO	RO	_	6	DT	_	_
+6	okt	_	NN	NN	_	3	PA	_	_
+7	uppgav	_	VV	VV	_	0	ROOT	_	_
+8	chefen	_	NN	NN	_	7	OO	_	_
+9	för	_	PR	PR	_	8	ET	_	_
+10	GunneboBruk	_	PN	PN	_	0		_	_
+11	Sten	_	PN	PN	_	0		_	_
+12	Sjöholm	_	ID	ID	_	11	HD	_	_
+13	att	_	UK	UK	_	17	UK	_	_
+14	frånvaron	_	NN	NN	_	0		_	_
+15	vid	_	PR	PR	_	14	ET	_	_
+16	järnbruket	_	NN	NN	_	15	PA	_	_
+17	fördubblats	_	VV	VV	_	0	ROOT	_	_
+18	på	_	PR	PR	_	17	OA	_	_
+19	några	_	PO	PO	_	20	DT	_	_
+20	år	_	NN	NN	_	18	PA	_	_
+21	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Hälften	_	NN	NN	_	0		_	_
+2	av	_	PR	PR	_	1	ET	_	_
+3	hyreshöjningen	_	VN	VN	_	2	PA	_	_
+4	skulle	_	SV	SV	_	0	ROOT	_	_
+5	lånas	_	VV	VV	_	4	VG	_	_
+6	ut	_	AB	AB	_	5	PL	_	_
+7	på	_	PR	PR	_	5	OA	_	_
+8	15	_	RO	RO	_	9	DT	_	_
+9	år	_	NN	NN	_	7	PA	_	_
+10	till	_	PR	PR	_	9	ET	_	_
+11	en	_	EN	EN	_	12	DT	_	_
+12	bostadsbyggnadsfond	_	NN	NN	_	10	PA	_	_
+13	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Fastän	_	UK	UK	_	5	UK	_	_
+2	äktenskap	_	NN	NN	_	0		_	_
+3	av	_	PR	PR	_	2	ET	_	_
+4	samhället	_	NN	NN	_	3	PA	_	_
+5	bekräftas	_	VV	VV	_	0	ROOT	_	_
+6	först	_	AB	AB	_	5	PL	_	_
+7	med	_	PR	PR	_	5	OA	_	_
+8	vigseln	_	NN	NN	_	7	PA	_	_
+9	,	_	IK	IK	_	5	IK	_	_
+10	räknar	_	VV	VV	_	0	ROOT	_	_
+11	svensk	_	AJ	AJ	_	12	AT	_	_
+12	lag	_	NN	NN	_	10	OO	_	_
+13	alltjämt	_	AB	AB	_	0		_	_
+14	trolovningsbarn	_	NN	NN	_	12	CC	_	_
+15	som	_	UK	UK	_	16	UK	_	_
+16	rätta	_	AJ	AJ	_	17	AT	_	_
+17	arvingar	_	NN	NN	_	14	CC	_	_
+18	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Efter	_	PR	PR	_	0		_	_
+2	100	_	RO	RO	_	3	DT	_	_
+3	timmar	_	NN	NN	_	1	PA	_	_
+4	har	_	HV	HV	_	0	ROOT	_	_
+5	glödlamporna	_	NN	NN	_	4	OO	_	_
+6	tappat	_	VV	VV	_	4	VG	_	_
+7	halva	_	PO	PO	_	8	DT	_	_
+8	effekten	_	NN	NN	_	6	OO	_	_
+9	!	_	IU	IU	_	6	OO	_	_
+
+1	Ett	_	EN	EN	_	0		_	_
+2	snabbt	_	AJ	AJ	_	0		_	_
+3	växande	_	SP	SP	_	0		_	_
+4	antal	_	NN	NN	_	0		_	_
+5	människor	_	NN	NN	_	4	CC	_	_
+6	i	_	PR	PR	_	5	ET	_	_
+7	vuxen	_	AJ	AJ	_	8	AT	_	_
+8	ålder	_	NN	NN	_	6	PA	_	_
+9	kräver	_	VV	VV	_	0	ROOT	_	_
+10	arbete	_	NN	NN	_	9	OO	_	_
+11	och	_	++	++	_	12	++	_	_
+12	lön	_	NN	NN	_	10	CC	_	_
+13	i	_	PR	PR	_	12	ET	_	_
+14	en	_	EN	EN	_	15	DT	_	_
+15	situation	_	NN	NN	_	13	PA	_	_
+16	,	_	IK	IK	_	9	IK	_	_
+17	där	_	AB	AB	_	0		_	_
+18	det	_	PO	PO	_	20	SS	_	_
+19	redan	_	AB	AB	_	0		_	_
+20	råder	_	VV	VV	_	0	ROOT	_	_
+21	arbetslöshet	_	AN	AN	_	20	OO	_	_
+22	och	_	++	++	_	23	++	_	_
+23	undersysselsättning	_	VN	VN	_	20	OO	_	_
+24	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Där	_	AB	AB	_	0		_	_
+2	sorteras	_	VV	VV	_	0	ROOT	_	_
+3	hålkorten	_	NN	NN	_	2	OO	_	_
+4	-	_	ID	ID	_	3	HD	_	_
+5	valsedlarna	_	ID	ID	_	3	HD	_	_
+6	efter	_	PR	PR	_	3	ET	_	_
+7	valkrets	_	NN	NN	_	6	PA	_	_
+8	,	_	IK	IK	_	2	IK	_	_
+9	parti	_	NN	NN	_	0		_	_
+10	och	_	++	++	_	11	++	_	_
+11	partifraktion	_	NN	NN	_	9	CC	_	_
+12	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Vi	_	PO	PO	_	2	SS	_	_
+2	upplever	_	VV	VV	_	0	ROOT	_	_
+3	i	_	AB	AB	_	2	PL	_	_
+4	dag	_	ID	ID	_	3	HD	_	_
+5	en	_	EN	EN	_	0		_	_
+6	rotlöshet	_	AN	AN	_	0		_	_
+7	och	_	++	++	_	9	++	_	_
+8	rådvillhet	_	AN	AN	_	0		_	_
+9	hos	_	PR	PR	_	2	OA	_	_
+10	många	_	PO	PO	_	0		_	_
+11	unga	_	AJ	AJ	_	0		_	_
+12	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Lägg	_	VV	VV	_	0	ROOT	_	_
+2	en	_	EN	EN	_	4	DT	_	_
+3	ovikt	_	TP	TP	_	4	AT	_	_
+4	valsedel	_	NN	NN	_	1	OO	_	_
+5	i	_	PR	PR	_	4	ET	_	_
+6	varje	_	PO	PO	_	7	DT	_	_
+7	kuvert	_	NN	NN	_	5	PA	_	_
+8	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Men	_	++	++	_	5	++	_	_
+2	sin	_	PO	PO	_	5	DT	_	_
+3	verkligt	_	AJ	AJ	_	5	AT	_	_
+4	stora	_	AJ	AJ	_	5	AT	_	_
+5	betydelse	_	VN	VN	_	0		_	_
+6	fick	_	FV	FV	_	0		_	_
+7	kolet	_	NN	NN	_	0		_	_
+8	först	_	AB	AB	_	0		_	_
+9	genom	_	PR	PR	_	7	ET	_	_
+10	uppfinningen	_	VN	VN	_	9	PA	_	_
+11	av	_	PR	PR	_	10	ET	_	_
+12	ångmaskinen	_	NN	NN	_	11	PA	_	_
+13	.	_	IP	IP	_	0	ROOT	_	_
+
+1	'	_	IC	IC	_	0		_	_
+
+1	Ett	_	EN	EN	_	3	DT	_	_
+2	sådant	_	PO	PO	_	3	DT	_	_
+3	äktenskap	_	NN	NN	_	0		_	_
+4	har	_	HV	HV	_	0	ROOT	_	_
+5	så	_	AB	AB	_	0		_	_
+6	att	_	ID	ID	_	5	HD	_	_
+7	säga	_	ID	ID	_	5	HD	_	_
+8	ogiltigförklarat	_	VV	VV	_	4	VG	_	_
+9	sig	_	PO	PO	_	8	OO	_	_
+10	självt	_	PO	PO	_	0		_	_
+11	genom	_	PR	PR	_	8	OA	_	_
+12	att	_	IM	IM	_	13	IM	_	_
+13	sakna	_	VV	VV	_	4	VG	_	_
+14	det	_	PO	PO	_	17	SS	_	_
+15	som	_	PO	PO	_	17	SS	_	_
+16	vi	_	PO	PO	_	17	SS	_	_
+17	väntar	_	VV	VV	_	4	VG	_	_
+18	av	_	PR	PR	_	17	OA	_	_
+19	ett	_	EN	EN	_	21	DT	_	_
+20	verkligt	_	AJ	AJ	_	21	AT	_	_
+21	äktenskap	_	NN	NN	_	18	PA	_	_
+22	:	_	IQ	IQ	_	17	OO	_	_
+23	gemenskap	_	NN	NN	_	17	OO	_	_
+24	på	_	PR	PR	_	23	ET	_	_
+25	olika	_	AJ	AJ	_	26	AT	_	_
+26	plan	_	NN	NN	_	24	PA	_	_
+27	.	_	IP	IP	_	0	ROOT	_	_
+
+1	De	_	PO	PO	_	0		_	_
+2	fick	_	FV	FV	_	0		_	_
+3	fylla	_	VV	VV	_	2	VG	_	_
+4	i	_	PR	PR	_	3	OA	_	_
+5	en	_	EN	EN	_	6	DT	_	_
+6	sats	_	NN	NN	_	4	PA	_	_
+7	som	_	PO	PO	_	8	SS	_	_
+8	började	_	VV	VV	_	2	VG	_	_
+9	'	_	IC	IC	_	10	IC	_	_
+10	Den	_	MN	MN	_	8	OO	_	_
+11	som	_	ID	ID	_	10	HD	_	_
+12	bestämmer	_	ID	ID	_	10	HD	_	_
+13	mest	_	ID	ID	_	10	HD	_	_
+14	hemma	_	ID	ID	_	10	HD	_	_
+15	hos	_	ID	ID	_	10	HD	_	_
+16	oss	_	ID	ID	_	10	HD	_	_
+17	...	_	IG	IG	_	8	OO	_	_
+18	'	_	IC	IC	_	8	JC	_	_
+
+1	Betyder	_	VV	VV	_	0	ROOT	_	_
+2	det	_	PO	PO	_	4	DT	_	_
+3	större	_	AJ	AJ	_	4	AT	_	_
+4	förtroende	_	VN	VN	_	1	OO	_	_
+5	för	_	PR	PR	_	4	ET	_	_
+6	de	_	PO	PO	_	8	DT	_	_
+7	lokala	_	AJ	AJ	_	8	AT	_	_
+8	politikerna	_	NN	NN	_	5	PA	_	_
+9	och	_	++	++	_	11	++	_	_
+10	deras	_	PO	PO	_	11	DT	_	_
+11	program	_	NN	NN	_	8	CC	_	_
+12	än	_	UK	UK	_	13	UK	_	_
+13	för	_	PR	PR	_	11	ET	_	_
+14	Holmmberg	_	PN	PN	_	0		_	_
+15	-	_	++	++	_	17	++	_	_
+16	Bohman	_	PN	PN	_	0		_	_
+17	?	_	I?	I?	_	0		_	_
+
+1	-	_	IT	IT	_	0		_	_
+2	Vi	_	PO	PO	_	3	SS	_	_
+3	är	_	AV	AV	_	0	ROOT	_	_
+4	naturligtvis	_	AB	AB	_	3	MA	_	_
+5	medvetna	_	AJ	AJ	_	3	SP	_	_
+6	om	_	PR	PR	_	3	OA	_	_
+7	att	_	UK	UK	_	8	UK	_	_
+8	Östersjön	_	PN	PN	_	0		_	_
+9	innehåller	_	VV	VV	_	3	MS	_	_
+10	olika	_	AJ	AJ	_	11	AT	_	_
+11	sorters	_	NN	NN	_	9	OO	_	_
+12	miljögifter	_	NN	NN	_	11	CC	_	_
+13	.	_	IP	IP	_	3	IP	_	_
+
+1	Fast	_	++	++	_	4	++	_	_
+2	mycket	_	PO	PO	_	4	SS	_	_
+3	kanske	_	AB	AB	_	0		_	_
+4	beror	_	VV	VV	_	0	ROOT	_	_
+5	på	_	PR	PR	_	4	OA	_	_
+6	en	_	PO	PO	_	0		_	_
+7	själv	_	PO	PO	_	0		_	_
+8	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Så	_	AB	AB	_	0		_	_
+2	anpassas	_	VV	VV	_	0	ROOT	_	_
+3	antalet	_	NN	NN	_	2	OO	_	_
+4	fångade	_	TP	TP	_	5	AT	_	_
+5	näringslarver	_	NN	NN	_	2	OO	_	_
+6	efter	_	PR	PR	_	5	ET	_	_
+7	den	_	PO	PO	_	9	DT	_	_
+8	egna	_	PO	PO	_	9	DT	_	_
+9	larvens	_	NN	NN	_	10	DT	_	_
+10	utveckling	_	VN	VN	_	6	PA	_	_
+11	i	_	PR	PR	_	10	ET	_	_
+12	boet	_	NN	NN	_	11	PA	_	_
+13	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Samhället	_	NN	NN	_	0		_	_
+2	var	_	AV	AV	_	0	ROOT	_	_
+3	ointresserat	_	AJ	AJ	_	2	SP	_	_
+4	av	_	PR	PR	_	2	OA	_	_
+5	att	_	IM	IM	_	6	IM	_	_
+6	ingripa	_	VV	VV	_	2	MS	_	_
+7	för	_	PR	PR	_	6	OA	_	_
+8	att	_	IM	IM	_	0		_	_
+9	få	_	FV	FV	_	6	OO	_	_
+10	en	_	EN	EN	_	11	DT	_	_
+11	ändring	_	VN	VN	_	6	OO	_	_
+12	till	_	AB	AB	_	0		_	_
+13	stånd	_	ID	ID	_	12	HD	_	_
+14	.	_	IP	IP	_	2	IP	_	_
+
+1	Kostnaderna	_	NN	NN	_	0		_	_
+2	för	_	PR	PR	_	1	ET	_	_
+3	exempelvis	_	AB	AB	_	0		_	_
+4	en	_	EN	EN	_	5	DT	_	_
+5	båtklubb	_	NN	NN	_	2	PA	_	_
+6	är	_	AV	AV	_	0	ROOT	_	_
+7	ju	_	AB	AB	_	6	MA	_	_
+8	till	_	PR	PR	_	6	OA	_	_
+9	stor	_	AJ	AJ	_	10	AT	_	_
+10	del	_	NN	NN	_	8	PA	_	_
+11	beroende	_	SP	SP	_	0		_	_
+12	på	_	PR	PR	_	6	OA	_	_
+13	händigheten	_	AN	AN	_	0		_	_
+14	hos	_	PR	PR	_	6	OA	_	_
+15	medlemmarna	_	NN	NN	_	14	PA	_	_
+16	.	_	IP	IP	_	6	IP	_	_
+
+1	Något	_	PO	PO	_	3	DT	_	_
+2	kort	_	AJ	AJ	_	3	AT	_	_
+3	ögonblick	_	NN	NN	_	0		_	_
+4	tyckte	_	VV	VV	_	0	ROOT	_	_
+5	jag	_	PO	PO	_	8	SS	_	_
+6	att	_	UK	UK	_	8	UK	_	_
+7	jag	_	PO	PO	_	8	SS	_	_
+8	såg	_	VV	VV	_	0	ROOT	_	_
+9	sakerna	_	NN	NN	_	8	OO	_	_
+10	i	_	PR	PR	_	9	ET	_	_
+11	deras	_	PO	PO	_	13	DT	_	_
+12	rätta	_	PO	PO	_	13	DT	_	_
+13	sammanhang	_	NN	NN	_	10	PA	_	_
+14	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Rabin	_	PN	PN	_	0		_	_
+2	,	_	IK	IK	_	0		_	_
+3	och	_	++	++	_	5	++	_	_
+4	många	_	PO	PO	_	5	DT	_	_
+5	forskare	_	NN	NN	_	0		_	_
+6	med	_	PR	PR	_	5	ET	_	_
+7	honom	_	PO	PO	_	0		_	_
+8	,	_	IK	IK	_	0		_	_
+9	anser	_	VV	VV	_	0	ROOT	_	_
+10	att	_	UK	UK	_	12	UK	_	_
+11	resultaten	_	NN	NN	_	0		_	_
+12	ger	_	VV	VV	_	0	ROOT	_	_
+13	belägg	_	NN	NN	_	12	OO	_	_
+14	för	_	PR	PR	_	13	ET	_	_
+15	att	_	UK	UK	_	18	UK	_	_
+16	kibbutzbarn	_	NN	NN	_	0		_	_
+17	inte	_	AB	AB	_	0		_	_
+18	tar	_	VV	VV	_	0	ROOT	_	_
+19	skada	_	NN	NN	_	18	OO	_	_
+20	av	_	PR	PR	_	19	ET	_	_
+21	den	_	PO	PO	_	23	DT	_	_
+22	kollektiva	_	AJ	AJ	_	23	AT	_	_
+23	uppfostran	_	VN	VN	_	20	PA	_	_
+24	,	_	IK	IK	_	18	IK	_	_
+25	att	_	UK	UK	_	28	UK	_	_
+26	de	_	PO	PO	_	28	SS	_	_
+27	tvärtom	_	AB	AB	_	0		_	_
+28	verkar	_	VV	VV	_	0	ROOT	_	_
+29	välanpassade	_	TP	TP	_	28	OO	_	_
+30	,	_	IK	IK	_	28	IK	_	_
+31	självständiga	_	AJ	AJ	_	35	AA	_	_
+32	och	_	++	++	_	34	++	_	_
+33	jämförelsevis	_	AB	AB	_	0		_	_
+34	tidigt	_	AJ	AJ	_	35	AA	_	_
+35	utvecklade	_	TP	TP	_	0		_	_
+36	med	_	PR	PR	_	28	OA	_	_
+37	undantag	_	ID	ID	_	36	HD	_	_
+38	för	_	ID	ID	_	36	HD	_	_
+39	de	_	PO	PO	_	41	DT	_	_
+40	yngsta	_	AJ	AJ	_	41	AT	_	_
+41	barnen	_	NN	NN	_	36	PA	_	_
+42	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Det	_	PO	PO	_	0		_	_
+2	blir	_	BV	BV	_	0	ROOT	_	_
+3	allt	_	AB	AB	_	0		_	_
+4	vanligare	_	AJ	AJ	_	0		_	_
+5	att	_	UK	UK	_	7	UK	_	_
+6	man	_	PO	PO	_	0		_	_
+7	i	_	PR	PR	_	0		_	_
+8	födelseannonser	_	NN	NN	_	7	PA	_	_
+9	ser	_	VV	VV	_	0	ROOT	_	_
+10	att	_	UK	UK	_	12	UK	_	_
+11	föräldrarna	_	NN	NN	_	0		_	_
+12	har	_	HV	HV	_	9	OO	_	_
+13	olika	_	AJ	AJ	_	14	AT	_	_
+14	efternamn	_	NN	NN	_	12	OO	_	_
+15	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Detta	_	PO	PO	_	2	SS	_	_
+2	motsvarar	_	VV	VV	_	0	ROOT	_	_
+3	en	_	EN	EN	_	4	DT	_	_
+4	ökning	_	VN	VN	_	2	OO	_	_
+5	av	_	PR	PR	_	4	ET	_	_
+6	folkmängden	_	NN	NN	_	5	PA	_	_
+7	med	_	PR	PR	_	6	ET	_	_
+8	65	_	RO	RO	_	9	DT	_	_
+9	miljoner	_	NN	NN	_	7	PA	_	_
+10	varje	_	PO	PO	_	11	DT	_	_
+11	år	_	NN	NN	_	9	CC	_	_
+12	eller	_	++	++	_	15	++	_	_
+13	180000	_	RO	RO	_	15	DT	_	_
+14	varje	_	PO	PO	_	15	DT	_	_
+15	dygn	_	NN	NN	_	11	CC	_	_
+16	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Det	_	PO	PO	_	2	SS	_	_
+2	är	_	AV	AV	_	0	ROOT	_	_
+3	alltså	_	AB	AB	_	2	MA	_	_
+4	en	_	EN	EN	_	6	DT	_	_
+5	snabb	_	AJ	AJ	_	6	AT	_	_
+6	undersökning	_	VN	VN	_	2	SP	_	_
+7	och	_	++	++	_	9	++	_	_
+8	dessutom	_	AB	AB	_	0		_	_
+9	försiggår	_	VV	VV	_	2	MS	_	_
+10	hela	_	PO	PO	_	11	DT	_	_
+11	proceduren	_	NN	NN	_	9	OO	_	_
+12	utan	_	PR	PR	_	11	ET	_	_
+13	minsta	_	PO	PO	_	14	DT	_	_
+14	besvär	_	NN	NN	_	12	PA	_	_
+15	för	_	PR	PR	_	14	ET	_	_
+16	patienten	_	NN	NN	_	15	PA	_	_
+17	frånsett	_	PR	PR	_	16	ET	_	_
+18	ett	_	EN	EN	_	19	DT	_	_
+19	stick	_	NN	NN	_	17	PA	_	_
+20	i	_	PR	PR	_	19	ET	_	_
+21	armen	_	NN	NN	_	20	PA	_	_
+22	,	_	IK	IK	_	9	IK	_	_
+23	på	_	PR	PR	_	9	OA	_	_
+24	samma	_	PO	PO	_	25	DT	_	_
+25	sätt	_	NN	NN	_	23	PA	_	_
+26	som	_	UK	UK	_	27	UK	_	_
+27	när	_	AB	AB	_	0		_	_
+28	sänka	_	NN	NN	_	25	CC	_	_
+29	tages	_	VV	VV	_	2	MS	_	_
+30	.	_	IP	IP	_	2	IP	_	_
+
+1	Krav	_	NN	NN	_	0		_	_
+2	på	_	PR	PR	_	1	ET	_	_
+3	utbildning	_	VN	VN	_	2	PA	_	_
+
+1	Det	_	PO	PO	_	2	SS	_	_
+2	är	_	AV	AV	_	0	ROOT	_	_
+3	en	_	EN	EN	_	5	DT	_	_
+4	tung	_	AJ	AJ	_	5	AT	_	_
+5	post	_	NN	NN	_	2	SP	_	_
+6	i	_	PR	PR	_	5	ET	_	_
+7	utrikeshandeln	_	NN	NN	_	11	DT	_	_
+8	som	_	PO	PO	_	11	DT	_	_
+9	en	_	EN	EN	_	11	DT	_	_
+10	egen	_	PO	PO	_	11	DT	_	_
+11	produktion	_	VN	VN	_	6	PA	_	_
+12	skulle	_	SV	SV	_	2	MS	_	_
+13	kunna	_	QV	QV	_	0		_	_
+14	göra	_	GV	GV	_	0		_	_
+15	lättare	_	AJ	AJ	_	0		_	_
+16	-	_	IT	IT	_	0		_	_
+17	i	_	PR	PR	_	2	OA	_	_
+18	bästa	_	AJ	AJ	_	19	AT	_	_
+19	fall	_	NN	NN	_	17	PA	_	_
+20	t	_	AB	AB	_	0		_	_
+21	o	_	ID	ID	_	20	HD	_	_
+22	m	_	ID	ID	_	20	HD	_	_
+23	eliminera	_	VV	VV	_	2	MS	_	_
+24	.	_	IP	IP	_	2	IP	_	_
+
+1	'	_	IC	IC	_	0		_	_
+2	Vi	_	PO	PO	_	0		_	_
+3	har	_	HV	HV	_	0	ROOT	_	_
+4	givit	_	VV	VV	_	3	VG	_	_
+5	henne	_	PO	PO	_	4	OO	_	_
+6	lika	_	PO	PO	_	0		_	_
+7	rättigheter	_	AN	AN	_	4	OO	_	_
+8	,	_	IK	IK	_	4	IK	_	_
+9	vi	_	PO	PO	_	0		_	_
+10	har	_	HV	HV	_	4	OO	_	_
+11	emanciperat	_	VV	VV	_	10	VG	_	_
+12	henne	_	PO	PO	_	11	OO	_	_
+13	från	_	PR	PR	_	11	OA	_	_
+14	det	_	PO	PO	_	16	DT	_	_
+15	ekonomiska	_	AJ	AJ	_	16	AT	_	_
+16	oket	_	NN	NN	_	13	PA	_	_
+17	och	_	++	++	_	18	++	_	_
+18	från	_	PR	PR	_	16	ET	_	_
+19	bördan	_	NN	NN	_	18	PA	_	_
+20	att	_	IM	IM	_	21	IM	_	_
+21	fostra	_	VV	VV	_	10	VG	_	_
+22	barn	_	NN	NN	_	21	OO	_	_
+23	,	_	IK	IK	_	21	IK	_	_
+24	vi	_	PO	PO	_	0		_	_
+25	har	_	HV	HV	_	21	OO	_	_
+26	emanciperat	_	VV	VV	_	25	VG	_	_
+27	henne	_	PO	PO	_	26	OO	_	_
+28	från	_	PR	PR	_	26	OA	_	_
+29	känslan	_	NN	NN	_	28	PA	_	_
+30	att	_	IM	IM	_	32	IM	_	_
+31	'	_	IC	IC	_	0		_	_
+32	tillhöra	_	VV	VV	_	25	VG	_	_
+33	'	_	IC	IC	_	32	JC	_	_
+34	sin	_	PO	PO	_	35	DT	_	_
+35	make	_	NN	NN	_	0		_	_
+36	,	_	++	++	_	38	++	_	_
+37	att	_	IM	IM	_	38	IM	_	_
+38	känna	_	VV	VV	_	25	VG	_	_
+39	honom	_	PO	PO	_	46	SS	_	_
+40	som	_	UK	UK	_	46	UK	_	_
+41	sin	_	PO	PO	_	42	DT	_	_
+42	försörjare	_	NN	NN	_	0		_	_
+43	och	_	++	++	_	46	++	_	_
+44	den	_	PO	PO	_	46	SS	_	_
+45	som	_	PO	PO	_	46	SS	_	_
+46	bestämmer	_	VV	VV	_	25	VG	_	_
+47	;	_	IS	IS	_	46	OO	_	_
+48	vi	_	PO	PO	_	0		_	_
+49	har	_	HV	HV	_	46	OO	_	_
+50	givit	_	VV	VV	_	49	VG	_	_
+51	henne	_	PO	PO	_	54	DT	_	_
+52	ett	_	EN	EN	_	54	DT	_	_
+53	nytt	_	AJ	AJ	_	54	AT	_	_
+54	samhälle	_	NN	NN	_	50	OO	_	_
+55	,	_	IK	IK	_	50	IK	_	_
+56	vi	_	PO	PO	_	57	SS	_	_
+57	bröt	_	VV	VV	_	49	VG	_	_
+58	bojorna	_	NN	NN	_	57	OO	_	_
+59	som	_	PO	PO	_	60	SS	_	_
+60	band	_	VV	VV	_	49	VG	_	_
+61	hennes	_	PO	PO	_	62	DT	_	_
+62	händer	_	NN	NN	_	60	OO	_	_
+63	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Grundbidrag	_	NN	NN	_	0		_	_
+2	med	_	PR	PR	_	1	ET	_	_
+3	högst	_	AB	AB	_	0		_	_
+4	575	_	RO	RO	_	5	DT	_	_
+5	kr	_	NN	NN	_	2	PA	_	_
+6	/	_	PR	PR	_	5	ET	_	_
+7	mån	_	NN	NN	_	6	PA	_	_
+8	till	_	PR	PR	_	7	ET	_	_
+9	den	_	PO	PO	_	11	SS	_	_
+10	som	_	PO	PO	_	11	SS	_	_
+11	är	_	AV	AV	_	0	ROOT	_	_
+12	gift	_	AJ	AJ	_	16	AT	_	_
+13	och	_	++	++	_	16	++	_	_
+14	högst	_	AB	AB	_	0		_	_
+15	525	_	RO	RO	_	16	DT	_	_
+16	kr	_	NN	NN	_	11	SP	_	_
+17	/	_	PR	PR	_	16	ET	_	_
+18	mån	_	NN	NN	_	17	PA	_	_
+19	till	_	PR	PR	_	18	ET	_	_
+20	den	_	PO	PO	_	22	SS	_	_
+21	som	_	PO	PO	_	22	SS	_	_
+22	är	_	AV	AV	_	11	MS	_	_
+23	ogift	_	AJ	AJ	_	22	SP	_	_
+24	.	_	IP	IP	_	22	IP	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	de	_	PO	PO	_	4	DT	_	_
+3	flesta	_	PO	PO	_	4	DT	_	_
+4	samhällen	_	NN	NN	_	1	PA	_	_
+5	har	_	HV	HV	_	0	ROOT	_	_
+6	kvinnan	_	NN	NN	_	5	OO	_	_
+7	uppfattats	_	VV	VV	_	5	VG	_	_
+8	som	_	UK	UK	_	9	UK	_	_
+9	mer	_	AB	AB	_	7	PL	_	_
+10	monogam	_	AJ	AJ	_	7	OO	_	_
+11	än	_	UK	UK	_	13	UK	_	_
+12	mannen	_	NN	NN	_	0		_	_
+13	.	_	IP	IP	_	0	ROOT	_	_
+
+1	En	_	EN	EN	_	5	DT	_	_
+2	vanlig	_	AJ	AJ	_	5	AT	_	_
+3	och	_	++	++	_	4	++	_	_
+4	allvarlig	_	AJ	AJ	_	5	AT	_	_
+5	invändning	_	VN	VN	_	0		_	_
+6	mot	_	PR	PR	_	5	ET	_	_
+7	denna	_	PO	PO	_	8	DT	_	_
+8	uppmaning	_	VN	VN	_	6	PA	_	_
+9	till	_	PR	PR	_	8	ET	_	_
+10	unga	_	AJ	AJ	_	11	AT	_	_
+11	människor	_	NN	NN	_	9	PA	_	_
+12	att	_	IM	IM	_	13	IM	_	_
+13	gifta	_	VV	VV	_	0	ROOT	_	_
+14	sig	_	PO	PO	_	15	SS	_	_
+15	är	_	AV	AV	_	0	ROOT	_	_
+16	,	_	IK	IK	_	15	IK	_	_
+17	att	_	UK	UK	_	19	UK	_	_
+18	den	_	PO	PO	_	19	SS	_	_
+19	bortser	_	VV	VV	_	15	MS	_	_
+20	från	_	PR	PR	_	19	OA	_	_
+21	det	_	PO	PO	_	0		_	_
+22	orimliga	_	AJ	AJ	_	0		_	_
+23	i	_	PR	PR	_	19	OA	_	_
+24	att	_	UK	UK	_	26	UK	_	_
+25	människor	_	NN	NN	_	0		_	_
+26	skall	_	SV	SV	_	15	MS	_	_
+27	lova	_	VV	VV	_	26	VG	_	_
+28	varann	_	PO	PO	_	27	OO	_	_
+29	trohet	_	AN	AN	_	27	OO	_	_
+30	för	_	PR	PR	_	27	OA	_	_
+31	hela	_	PO	PO	_	32	DT	_	_
+32	livet	_	NN	NN	_	30	PA	_	_
+33	,	_	IK	IK	_	27	IK	_	_
+34	när	_	AB	AB	_	0		_	_
+35	de	_	PO	PO	_	39	SS	_	_
+36	kanske	_	AB	AB	_	0		_	_
+37	inte	_	AB	AB	_	0		_	_
+38	alls	_	AB	AB	_	0		_	_
+39	är	_	AV	AV	_	26	VG	_	_
+40	beredda	_	AJ	AJ	_	39	SP	_	_
+41	till	_	PR	PR	_	39	OA	_	_
+42	det	_	PO	PO	_	0		_	_
+43	.	_	IP	IP	_	39	IP	_	_
+
+1	Det	_	PO	PO	_	2	SS	_	_
+2	uppstår	_	VV	VV	_	0	ROOT	_	_
+3	då	_	AB	AB	_	2	PL	_	_
+4	ett	_	EN	EN	_	5	DT	_	_
+5	överskott	_	NN	NN	_	2	OO	_	_
+6	av	_	PR	PR	_	5	ET	_	_
+7	kvinnor	_	NN	NN	_	6	PA	_	_
+8	och	_	++	++	_	12	++	_	_
+9	de	_	PO	PO	_	12	DT	_	_
+10	olika	_	AJ	AJ	_	12	AT	_	_
+11	dagliga	_	AJ	AJ	_	12	AT	_	_
+12	göromålen	_	NN	NN	_	7	CC	_	_
+13	fördelas	_	VV	VV	_	0	ROOT	_	_
+14	på	_	PR	PR	_	13	OA	_	_
+15	fruarna	_	NN	NN	_	14	PA	_	_
+16	.	_	IP	IP	_	0	ROOT	_	_
+
+1	industristaden	_	NN	NN	_	0		_	_
+2	;	_	IQ	IQ	_	0	ROOT	_	_
+
+1	Detta	_	PO	PO	_	3	DT	_	_
+2	andra	_	RO	RO	_	3	DT	_	_
+3	argument	_	NN	NN	_	0		_	_
+4	för	_	PR	PR	_	3	ET	_	_
+5	monogami	_	NN	NN	_	4	PA	_	_
+6	är	_	AV	AV	_	0	ROOT	_	_
+7	naturligtvis	_	AB	AB	_	6	MA	_	_
+8	inte	_	AB	AB	_	6	MA	_	_
+9	kristna	_	AJ	AJ	_	10	AT	_	_
+10	människor	_	NN	NN	_	6	SP	_	_
+11	ensamma	_	AJ	AJ	_	0		_	_
+12	om	_	PR	PR	_	10	ET	_	_
+13	.	_	IP	IP	_	6	IP	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	Svenska	_	AJ	AJ	_	3	AT	_	_
+3	kyrkans	_	NN	NN	_	1	PA	_	_
+4	vigselritual	_	NN	NN	_	3	CC	_	_
+5	formuleras	_	VV	VV	_	0	ROOT	_	_
+6	detta	_	PO	PO	_	5	OO	_	_
+7	i	_	PR	PR	_	5	OA	_	_
+8	två	_	RO	RO	_	9	DT	_	_
+9	ord	_	NN	NN	_	7	PA	_	_
+10	:	_	IQ	IQ	_	5	OO	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	små	_	AJ	AJ	_	3	AT	_	_
+3	doser	_	NN	NN	_	1	PA	_	_
+4	kan	_	QV	QV	_	0	ROOT	_	_
+5	det	_	PO	PO	_	7	SS	_	_
+6	också	_	AB	AB	_	0		_	_
+7	användas	_	VV	VV	_	4	VG	_	_
+8	mot	_	PR	PR	_	7	OA	_	_
+9	högt	_	AJ	AJ	_	10	AT	_	_
+10	blodtryck	_	NN	NN	_	8	PA	_	_
+11	.	_	IP	IP	_	4	IP	_	_
+
+1	Sedan	_	UK	UK	_	3	UK	_	_
+2	äggen	_	NN	NN	_	0		_	_
+3	lagts	_	VV	VV	_	0	ROOT	_	_
+4	,	_	IK	IK	_	3	IK	_	_
+5	ruvar	_	VV	VV	_	0	ROOT	_	_
+6	honan	_	NN	NN	_	5	OO	_	_
+7	och	_	++	++	_	8	++	_	_
+8	hanen	_	NN	NN	_	6	CC	_	_
+9	omväxlande	_	AB	AB	_	0		_	_
+10	,	_	IK	IK	_	5	IK	_	_
+11	och	_	++	++	_	13	++	_	_
+12	båda	_	PO	PO	_	13	DT	_	_
+13	föräldrarna	_	NN	NN	_	0		_	_
+14	deltar	_	VV	VV	_	0	ROOT	_	_
+15	senare	_	AB	AB	_	14	PL	_	_
+16	i	_	PR	PR	_	14	OA	_	_
+17	matningen	_	VN	VN	_	16	PA	_	_
+18	av	_	PR	PR	_	17	ET	_	_
+19	ungarna	_	NN	NN	_	18	PA	_	_
+20	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Den	_	PO	PO	_	2	DT	_	_
+2	invändning	_	VN	VN	_	0		_	_
+3	som	_	PO	PO	_	4	DT	_	_
+4	lärjungarna	_	NN	NN	_	0		_	_
+5	gjorde	_	GV	GV	_	0		_	_
+6	på	_	PR	PR	_	0		_	_
+7	Jesu	_	PN	PN	_	0		_	_
+8	uttalande	_	VN	VN	_	6	PA	_	_
+9	(	_	IR	IR	_	0		_	_
+10	Mt.	_	MN	MN	_	0		_	_
+11	19	_	ID	ID	_	10	HD	_	_
+12	:	_	ID	ID	_	10	HD	_	_
+13	10	_	ID	ID	_	10	HD	_	_
+14	ff.	_	ID	ID	_	10	HD	_	_
+15	)	_	IR	IR	_	0		_	_
+16	har	_	HV	HV	_	0	ROOT	_	_
+17	aldrig	_	AB	AB	_	0		_	_
+18	upphört	_	VV	VV	_	16	VG	_	_
+19	att	_	IM	IM	_	20	IM	_	_
+20	sysselsätta	_	VV	VV	_	16	VG	_	_
+21	det	_	PO	PO	_	23	DT	_	_
+22	kristna	_	AJ	AJ	_	23	AT	_	_
+23	tänkandet	_	VN	VN	_	20	OO	_	_
+24	.	_	IP	IP	_	0	ROOT	_	_
+
+1	En	_	EN	EN	_	2	DT	_	_
+2	minskning	_	VN	VN	_	0		_	_
+3	av	_	PR	PR	_	2	ET	_	_
+4	den	_	PO	PO	_	6	DT	_	_
+5	totala	_	AJ	AJ	_	6	AT	_	_
+6	sjukfrånvaron	_	NN	NN	_	3	PA	_	_
+7	med	_	PR	PR	_	6	ET	_	_
+8	en	_	EN	EN	_	9	DT	_	_
+9	procent	_	NN	NN	_	7	PA	_	_
+10	av	_	PR	PR	_	9	ET	_	_
+11	arbetstiden	_	NN	NN	_	10	PA	_	_
+12	motsvarar	_	VV	VV	_	0	ROOT	_	_
+13	ett	_	EN	EN	_	14	DT	_	_
+14	tillskott	_	NN	NN	_	12	OO	_	_
+15	av	_	PR	PR	_	14	ET	_	_
+16	35000	_	RO	RO	_	17	DT	_	_
+17	människor	_	NN	NN	_	15	PA	_	_
+18	i	_	PR	PR	_	17	ET	_	_
+19	produktionen	_	VN	VN	_	18	PA	_	_
+20	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Vilka	_	PO	PO	_	0		_	_
+2	resmöjligheter	_	AN	AN	_	0		_	_
+3	har	_	HV	HV	_	0	ROOT	_	_
+4	du	_	PO	PO	_	7	SS	_	_
+5	när	_	AB	AB	_	0		_	_
+6	du	_	PO	PO	_	7	SS	_	_
+7	skall	_	SV	SV	_	0	ROOT	_	_
+8	till	_	PR	PR	_	0		_	_
+9	och	_	++	++	_	10	++	_	_
+10	från	_	PR	PR	_	0		_	_
+11	jobbet	_	NN	NN	_	10	PA	_	_
+12	/	_	++	++	_	13	++	_	_
+13	skolan	_	NN	NN	_	11	CC	_	_
+14	?	_	I?	I?	_	0		_	_
+
+1	Det	_	PO	PO	_	2	SS	_	_
+2	kan	_	QV	QV	_	0	ROOT	_	_
+3	alltså	_	AB	AB	_	2	MA	_	_
+4	bero	_	VV	VV	_	2	VG	_	_
+5	på	_	PR	PR	_	4	OA	_	_
+6	om	_	UK	UK	_	8	UK	_	_
+7	man	_	PO	PO	_	8	SS	_	_
+8	bor	_	VV	VV	_	2	VG	_	_
+9	tjugo	_	RO	RO	_	10	DT	_	_
+10	meter	_	NN	NN	_	8	OO	_	_
+11	på	_	PR	PR	_	10	ET	_	_
+12	ena	_	PO	PO	_	15	DT	_	_
+13	eller	_	++	++	_	15	++	_	_
+14	andra	_	PO	PO	_	15	DT	_	_
+15	sidan	_	NN	NN	_	11	PA	_	_
+16	av	_	PR	PR	_	15	ET	_	_
+17	en	_	EN	EN	_	18	DT	_	_
+18	kommungräns	_	NN	NN	_	16	PA	_	_
+19	då	_	AB	AB	_	0		_	_
+20	man	_	PO	PO	_	21	SS	_	_
+21	behöver	_	VV	VV	_	2	VG	_	_
+22	socialhjälp	_	NN	NN	_	21	OO	_	_
+23	.	_	IP	IP	_	2	IP	_	_
+
+1	Konkreta	_	AJ	AJ	_	2	AT	_	_
+2	konsekvenser	_	NN	NN	_	0		_	_
+3	av	_	PR	PR	_	2	ET	_	_
+4	detta	_	PO	PO	_	0		_	_
+5	blir	_	BV	BV	_	0	ROOT	_	_
+6	alltså	_	AB	AB	_	0		_	_
+7	inte	_	AB	AB	_	0		_	_
+8	att	_	UK	UK	_	10	UK	_	_
+9	man	_	PO	PO	_	10	SS	_	_
+10	skall	_	SV	SV	_	0	ROOT	_	_
+11	frisera	_	VV	VV	_	10	VG	_	_
+12	den	_	PO	PO	_	14	DT	_	_
+13	kristna	_	AJ	AJ	_	14	AT	_	_
+14	ståndpunkten	_	NN	NN	_	11	OO	_	_
+15	så	_	UK	UK	_	18	UK	_	_
+16	att	_	ID	ID	_	15	HD	_	_
+17	den	_	PO	PO	_	0		_	_
+18	blir	_	BV	BV	_	10	VG	_	_
+19	allmänt	_	AJ	AJ	_	0		_	_
+20	acceptabel	_	AJ	AJ	_	0		_	_
+21	,	_	IK	IK	_	0		_	_
+22	utan	_	++	++	_	25	++	_	_
+23	att	_	UK	UK	_	25	UK	_	_
+24	det	_	PO	PO	_	25	SS	_	_
+25	är	_	AV	AV	_	0	ROOT	_	_
+26	ett	_	EN	EN	_	28	DT	_	_
+27	kristet	_	AJ	AJ	_	28	AT	_	_
+28	intresse	_	NN	NN	_	25	SP	_	_
+29	att	_	UK	UK	_	34	UK	_	_
+30	alla	_	PO	PO	_	34	SS	_	_
+31	de	_	PO	PO	_	34	SS	_	_
+32	som	_	PO	PO	_	34	SS	_	_
+33	inte	_	AB	AB	_	0		_	_
+34	accepterar	_	VV	VV	_	25	MS	_	_
+35	de	_	PO	PO	_	37	DT	_	_
+36	kristna	_	AJ	AJ	_	37	AT	_	_
+37	villkoren	_	NN	NN	_	34	OO	_	_
+38	istället	_	AB	AB	_	0		_	_
+39	skall	_	SV	SV	_	25	MS	_	_
+40	ingå	_	VV	VV	_	39	VG	_	_
+41	sitt	_	PO	PO	_	42	DT	_	_
+42	äktenskap	_	NN	NN	_	40	OO	_	_
+43	på	_	PR	PR	_	42	ET	_	_
+44	egna	_	PO	PO	_	45	DT	_	_
+45	premisser	_	NN	NN	_	43	PA	_	_
+46	.	_	IP	IP	_	25	IP	_	_
+
+1	På	_	PR	PR	_	0		_	_
+2	samma	_	PO	PO	_	3	DT	_	_
+3	tema	_	NN	NN	_	1	PA	_	_
+4	har	_	HV	HV	_	0	ROOT	_	_
+5	Martin	_	PN	PN	_	0		_	_
+6	Luther	_	ID	ID	_	5	HD	_	_
+7	ofta	_	AB	AB	_	0		_	_
+8	spunnit	_	VV	VV	_	0	ROOT	_	_
+9	.	_	IP	IP	_	0	ROOT	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	regionplaneförslaget	_	NN	NN	_	1	PA	_	_
+3	räknar	_	VV	VV	_	0	ROOT	_	_
+4	man	_	PO	PO	_	3	OO	_	_
+5	så	_	AB	AB	_	0		_	_
+6	här	_	ID	ID	_	5	HD	_	_
+7	:	_	IQ	IQ	_	3	OO	_	_
+
+1	Troligen	_	AB	AB	_	0		_	_
+2	finns	_	VV	VV	_	0	ROOT	_	_
+3	det	_	PO	PO	_	2	OO	_	_
+4	dock	_	AB	AB	_	0		_	_
+5	i	_	AB	AB	_	0		_	_
+6	stort	_	ID	ID	_	5	HD	_	_
+7	sett	_	ID	ID	_	5	HD	_	_
+8	en	_	EN	EN	_	0		_	_
+9	proportionalitet	_	AN	AN	_	0		_	_
+10	mellan	_	PR	PR	_	2	OA	_	_
+11	känd	_	AJ	AJ	_	0		_	_
+12	och	_	++	++	_	15	++	_	_
+13	dold	_	TP	TP	_	0		_	_
+14	brottslighet	_	AN	AN	_	0		_	_
+15	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Till	_	PR	PR	_	0		_	_
+2	skillnad	_	ID	ID	_	1	HD	_	_
+3	mot	_	ID	ID	_	1	HD	_	_
+4	t.	_	AB	AB	_	0		_	_
+5	ex.	_	ID	ID	_	4	HD	_	_
+6	aporna	_	NN	NN	_	1	PA	_	_
+7	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Särskilt	_	AB	AB	_	0		_	_
+2	är	_	AV	AV	_	0	ROOT	_	_
+3	bristen	_	NN	NN	_	2	SP	_	_
+4	på	_	PR	PR	_	3	ET	_	_
+5	högvärdigt	_	AJ	AJ	_	6	AT	_	_
+6	protein	_	NN	NN	_	4	PA	_	_
+7	stor	_	AJ	AJ	_	0		_	_
+8	i	_	PR	PR	_	6	ET	_	_
+9	u-länderna	_	NN	NN	_	8	PA	_	_
+10	.	_	IP	IP	_	2	IP	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	genomsnitt	_	NN	NN	_	1	PA	_	_
+3	för	_	PR	PR	_	2	ET	_	_
+4	åren	_	NN	NN	_	3	PA	_	_
+5	1956	_	RO	RO	_	0		_	_
+6	-	_	PR	PR	_	2	ET	_	_
+7	1965	_	RO	RO	_	0		_	_
+8	var	_	AV	AV	_	0	ROOT	_	_
+9	befolkningsökningen	_	VN	VN	_	8	SP	_	_
+10	drygt	_	AB	AB	_	0		_	_
+11	20000	_	RO	RO	_	12	DT	_	_
+12	invånare	_	NN	NN	_	8	SP	_	_
+13	per	_	PR	PR	_	12	ET	_	_
+14	år	_	NN	NN	_	13	PA	_	_
+15	.	_	IP	IP	_	8	IP	_	_
+
+1	Att	_	UK	UK	_	5	UK	_	_
+2	man	_	NN	NN	_	0		_	_
+3	och	_	++	++	_	4	++	_	_
+4	kvinna	_	NN	NN	_	2	CC	_	_
+5	ingår	_	VV	VV	_	0	ROOT	_	_
+6	äktenskap	_	NN	NN	_	5	OO	_	_
+7	och	_	++	++	_	8	++	_	_
+8	bildar	_	VV	VV	_	0	ROOT	_	_
+9	familj	_	NN	NN	_	8	OO	_	_
+10	har	_	HV	HV	_	8	OO	_	_
+11	alltid	_	AB	AB	_	0		_	_
+12	ansetts	_	VV	VV	_	10	VG	_	_
+13	och	_	++	++	_	14	++	_	_
+14	anses	_	VV	VV	_	10	VG	_	_
+15	av	_	PR	PR	_	14	OA	_	_
+16	de	_	PO	PO	_	0		_	_
+17	flesta	_	PO	PO	_	0		_	_
+18	alltjämt	_	AB	AB	_	0		_	_
+19	som	_	UK	UK	_	29	UK	_	_
+20	en	_	EN	EN	_	24	DT	_	_
+21	normal	_	AJ	AJ	_	24	AT	_	_
+22	och	_	++	++	_	23	++	_	_
+23	riktig	_	AJ	AJ	_	24	AT	_	_
+24	form	_	NN	NN	_	0		_	_
+25	för	_	PR	PR	_	24	ET	_	_
+26	samliv	_	NN	NN	_	25	PA	_	_
+27	mellan	_	PR	PR	_	26	ET	_	_
+28	könen	_	NN	NN	_	27	PA	_	_
+29	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Är	_	AV	AV	_	0	ROOT	_	_
+2	det	_	PO	PO	_	3	DT	_	_
+3	minusgrader	_	NN	NN	_	1	SP	_	_
+4	ute	_	AB	AB	_	0		_	_
+5	bör	_	VV	VV	_	1	MS	_	_
+6	du	_	PO	PO	_	7	SS	_	_
+7	se	_	VV	VV	_	1	MS	_	_
+8	till	_	PR	PR	_	7	OA	_	_
+9	att	_	UK	UK	_	11	UK	_	_
+10	bilen	_	NN	NN	_	0		_	_
+11	är	_	AV	AV	_	1	MS	_	_
+12	helt	_	AB	AB	_	11	MA	_	_
+13	torr	_	AJ	AJ	_	11	SP	_	_
+14	innan	_	UK	UK	_	16	UK	_	_
+15	du	_	PO	PO	_	16	SS	_	_
+16	kör	_	VV	VV	_	11	MS	_	_
+17	ut	_	AB	AB	_	16	PL	_	_
+18	:	_	IQ	IQ	_	16	OO	_	_
+
+1	Vidare	_	AB	AB	_	0		_	_
+2	är	_	AV	AV	_	0	ROOT	_	_
+3	det	_	PO	PO	_	6	DT	_	_
+4	inte	_	AB	AB	_	0		_	_
+5	yttre	_	PO	PO	_	6	DT	_	_
+6	band	_	NN	NN	_	2	SP	_	_
+7	som	_	PO	PO	_	8	SS	_	_
+8	håller	_	VV	VV	_	2	MS	_	_
+9	samman	_	AB	AB	_	8	PL	_	_
+10	familjen	_	NN	NN	_	8	OO	_	_
+11	utan	_	++	++	_	12	++	_	_
+12	medlemmarnas	_	NN	NN	_	10	CC	_	_
+13	känslor	_	NN	NN	_	12	CC	_	_
+14	för	_	PR	PR	_	13	ET	_	_
+15	varandra	_	PO	PO	_	0		_	_
+16	.	_	IP	IP	_	2	IP	_	_
+
+1	Andra	_	PO	PO	_	2	DT	_	_
+2	länder	_	NN	NN	_	0		_	_
+3	som	_	PO	PO	_	4	SS	_	_
+4	fattat	_	VV	VV	_	0	ROOT	_	_
+5	liknande	_	AJ	AJ	_	9	AT	_	_
+6	fast	_	++	++	_	8	++	_	_
+7	mindre	_	AB	AB	_	0		_	_
+8	drastiska	_	AJ	AJ	_	9	AT	_	_
+9	beslut	_	NN	NN	_	4	OO	_	_
+10	är	_	AV	AV	_	0	ROOT	_	_
+11	Marocko	_	PN	PN	_	0		_	_
+12	,	_	IK	IK	_	10	IK	_	_
+13	Algeriet	_	PN	PN	_	0		_	_
+14	och	_	++	++	_	16	++	_	_
+15	Nigeria	_	PN	PN	_	0		_	_
+16	.	_	IP	IP	_	10	IP	_	_
+
+1	Trots	_	PR	PR	_	0		_	_
+2	daghemmens	_	NN	NN	_	1	PA	_	_
+3	otillräckliga	_	AJ	AJ	_	4	AT	_	_
+4	resurser	_	NN	NN	_	2	CC	_	_
+5	,	_	IK	IK	_	0		_	_
+6	framför	_	AB	AB	_	0		_	_
+7	allt	_	ID	ID	_	6	HD	_	_
+8	personella	_	AJ	AJ	_	0		_	_
+9	,	_	IK	IK	_	0		_	_
+10	visar	_	VV	VV	_	0	ROOT	_	_
+11	en	_	EN	EN	_	13	DT	_	_
+12	färsk	_	AJ	AJ	_	13	AT	_	_
+13	undersökning	_	VN	VN	_	10	OO	_	_
+14	att	_	UK	UK	_	16	UK	_	_
+15	daghemsbarn	_	NN	NN	_	0		_	_
+16	är	_	AV	AV	_	0	ROOT	_	_
+17	självständigare	_	AJ	AJ	_	16	SP	_	_
+18	,	_	IK	IK	_	16	IK	_	_
+19	mindre	_	AB	AB	_	0		_	_
+20	ängsligt	_	AJ	AJ	_	0		_	_
+21	beroende	_	AJ	AJ	_	0		_	_
+22	och	_	++	++	_	28	++	_	_
+23	mer	_	AB	AB	_	0		_	_
+24	realitetsanpassade	_	TP	TP	_	0		_	_
+25	än	_	UK	UK	_	28	UK	_	_
+26	barn	_	NN	NN	_	0		_	_
+27	som	_	PO	PO	_	28	SS	_	_
+28	uppfostras	_	VV	VV	_	16	MS	_	_
+29	i	_	PR	PR	_	28	OA	_	_
+30	hemmet	_	NN	NN	_	29	PA	_	_
+31	.	_	IP	IP	_	16	IP	_	_
+
+1	Solitära	_	AJ	AJ	_	2	AT	_	_
+2	getingar	_	NN	NN	_	0		_	_
+3	gräver	_	VV	VV	_	0	ROOT	_	_
+4	ett	_	PO	PO	_	6	DT	_	_
+5	par	_	ID	ID	_	4	HD	_	_
+6	cm	_	NN	NN	_	3	OO	_	_
+7	djupa	_	AJ	AJ	_	8	AT	_	_
+8	bon	_	NN	NN	_	6	CC	_	_
+9	med	_	PR	PR	_	8	ET	_	_
+10	en	_	EN	EN	_	0		_	_
+11	enda	_	PO	PO	_	0		_	_
+12	'	_	IC	IC	_	3	JC	_	_
+13	cell	_	NN	NN	_	0		_	_
+14	'	_	IC	IC	_	3	JC	_	_
+15	i	_	PR	PR	_	3	OA	_	_
+16	botten	_	NN	NN	_	15	PA	_	_
+17	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Undersökningar	_	VN	VN	_	0		_	_
+2	har	_	HV	HV	_	0	ROOT	_	_
+3	givit	_	VV	VV	_	2	VG	_	_
+4	klara	_	AJ	AJ	_	5	AT	_	_
+5	belägg	_	NN	NN	_	3	OO	_	_
+6	för	_	PR	PR	_	5	ET	_	_
+7	att	_	UK	UK	_	11	UK	_	_
+8	en	_	EN	EN	_	10	DT	_	_
+9	sådan	_	PO	PO	_	10	DT	_	_
+10	arbetsrytm	_	NN	NN	_	0		_	_
+11	har	_	HV	HV	_	3	OO	_	_
+12	en	_	EN	EN	_	14	DT	_	_
+13	stressande	_	AJ	AJ	_	14	AT	_	_
+14	effekt	_	NN	NN	_	11	OO	_	_
+15	och	_	++	++	_	17	++	_	_
+16	det	_	PO	PO	_	17	SS	_	_
+17	är	_	AV	AV	_	0	ROOT	_	_
+18	ingen	_	PO	PO	_	19	DT	_	_
+19	livsföring	_	VN	VN	_	17	SP	_	_
+20	som	_	PO	PO	_	21	SS	_	_
+21	kan	_	QV	QV	_	0		_	_
+22	rekommenderas	_	VV	VV	_	21	VG	_	_
+23	.	_	IP	IP	_	21	IP	_	_
+
+1	Men	_	++	++	_	4	++	_	_
+2	den	_	PO	PO	_	4	DT	_	_
+3	odlade	_	TP	TP	_	4	AT	_	_
+4	arealen	_	NN	NN	_	0		_	_
+5	måste	_	MV	MV	_	0		_	_
+6	också	_	AB	AB	_	0		_	_
+7	ökas	_	VV	VV	_	5	VG	_	_
+8	och	_	++	++	_	9	++	_	_
+9	rationella	_	AJ	AJ	_	10	AT	_	_
+10	brukningsmetoder	_	NN	NN	_	7	OO	_	_
+11	tillämpas	_	VV	VV	_	5	VG	_	_
+12	inom	_	PR	PR	_	11	OA	_	_
+13	områden	_	NN	NN	_	12	PA	_	_
+14	,	_	IK	IK	_	11	IK	_	_
+15	som	_	PO	PO	_	17	SS	_	_
+16	nu	_	AB	AB	_	0		_	_
+17	ger	_	VV	VV	_	5	VG	_	_
+18	alldeles	_	AB	AB	_	17	PL	_	_
+19	för	_	AB	AB	_	17	PL	_	_
+20	låg	_	AJ	AJ	_	21	AT	_	_
+21	avkastning	_	VN	VN	_	17	OO	_	_
+22	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Näringshjälp	_	NN	NN	_	0		_	_
+2	kan	_	QV	QV	_	0	ROOT	_	_
+3	utgå	_	VV	VV	_	2	VG	_	_
+4	till	_	PR	PR	_	3	OA	_	_
+5	handikappad	_	AJ	AJ	_	0		_	_
+6	,	_	IK	IK	_	3	IK	_	_
+7	ensamstående	_	AJ	AJ	_	10	AT	_	_
+8	eller	_	++	++	_	9	++	_	_
+9	äldre	_	AJ	AJ	_	10	AT	_	_
+10	arbetstagare	_	NN	NN	_	0		_	_
+11	,	_	IK	IK	_	3	IK	_	_
+12	som	_	PO	PO	_	14	SS	_	_
+13	inte	_	AB	AB	_	14	AA	_	_
+14	kan	_	QV	QV	_	0	ROOT	_	_
+15	få	_	FV	FV	_	14	VG	_	_
+16	något	_	PO	PO	_	18	DT	_	_
+17	lämpligt	_	AJ	AJ	_	18	AT	_	_
+18	arbete	_	NN	NN	_	0		_	_
+19	på	_	PR	PR	_	18	ET	_	_
+20	den	_	PO	PO	_	22	DT	_	_
+21	öppna	_	AJ	AJ	_	22	AT	_	_
+22	marknaden	_	NN	NN	_	19	PA	_	_
+23	,	_	IK	IK	_	0		_	_
+24	men	_	++	++	_	26	++	_	_
+25	som	_	PO	PO	_	0		_	_
+26	vill	_	WV	WV	_	0		_	_
+27	starta	_	VV	VV	_	26	VG	_	_
+28	egen	_	PO	PO	_	29	DT	_	_
+29	rörelse	_	VN	VN	_	27	OO	_	_
+30	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Så	_	AB	AB	_	0		_	_
+2	skrev	_	VV	VV	_	0	ROOT	_	_
+3	kåsören	_	NN	NN	_	2	OO	_	_
+4	Red	_	PN	PN	_	2	OO	_	_
+5	Top	_	ID	ID	_	4	HD	_	_
+6	nyligen	_	AB	AB	_	0		_	_
+7	.	_	IP	IP	_	0	ROOT	_	_
+
+1	skall	_	SV	SV	_	0	ROOT	_	_
+2	en	_	EN	EN	_	0		_	_
+3	i	_	PR	PR	_	0		_	_
+4	Sverige	_	PN	PN	_	0		_	_
+5	bosatt	_	TP	TP	_	6	AT	_	_
+6	kvinna	_	NN	NN	_	3	PA	_	_
+7	inte	_	AB	AB	_	0		_	_
+8	längre	_	AB	AB	_	0		_	_
+9	själv	_	PO	PO	_	0		_	_
+10	få	_	FV	FV	_	0		_	_
+11	bestämma	_	VV	VV	_	10	VG	_	_
+12	sin	_	PO	PO	_	13	DT	_	_
+13	arbetsplats	_	NN	NN	_	11	OO	_	_
+14	?	_	I?	I?	_	0		_	_
+
+1	Men	_	++	++	_	2	++	_	_
+2	kvinnorna	_	NN	NN	_	0		_	_
+3	blir	_	BV	BV	_	0	ROOT	_	_
+4	alltför	_	AB	AB	_	0		_	_
+5	beroende	_	AJ	AJ	_	0		_	_
+6	av	_	PR	PR	_	0		_	_
+7	karlarna	_	NN	NN	_	6	PA	_	_
+8	då	_	AB	AB	_	0		_	_
+9	för	_	PR	PR	_	7	ET	_	_
+10	att	_	IM	IM	_	11	IM	_	_
+11	våga	_	VV	VV	_	0	ROOT	_	_
+12	säga	_	VV	VV	_	0	ROOT	_	_
+13	emot	_	PR	PR	_	12	OA	_	_
+14	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Gunnar	_	PN	PN	_	0		_	_
+2	Helen	_	ID	ID	_	1	HD	_	_
+3	gjorde	_	GV	GV	_	0		_	_
+4	ett	_	EN	EN	_	7	DT	_	_
+5	något	_	AB	AB	_	0		_	_
+6	bättre	_	AJ	AJ	_	7	AT	_	_
+7	val	_	NN	NN	_	0		_	_
+8	med	_	PR	PR	_	7	ET	_	_
+9	folkpartiet	_	NN	NN	_	8	PA	_	_
+10	än	_	UK	UK	_	11	UK	_	_
+11	Sven	_	PN	PN	_	0		_	_
+12	Weden	_	ID	ID	_	11	HD	_	_
+13	,	_	IK	IK	_	0		_	_
+14	men	_	++	++	_	15	++	_	_
+15	framgången	_	NN	NN	_	0		_	_
+16	var	_	AV	AV	_	0	ROOT	_	_
+17	blygsam	_	AJ	AJ	_	16	SP	_	_
+18	.	_	IP	IP	_	16	IP	_	_
+
+1	Kanske	_	AB	AB	_	0		_	_
+2	ännu	_	AB	AB	_	0		_	_
+3	mer	_	AB	AB	_	0		_	_
+4	sensationellt	_	AJ	AJ	_	0		_	_
+5	än	_	UK	UK	_	7	UK	_	_
+6	kvinnoskelettet	_	NN	NN	_	0		_	_
+7	är	_	AV	AV	_	0	ROOT	_	_
+8	det	_	PO	PO	_	9	DT	_	_
+9	fynd	_	NN	NN	_	7	SP	_	_
+10	av	_	PR	PR	_	9	ET	_	_
+11	en	_	EN	EN	_	12	DT	_	_
+12	buksöld	_	NN	NN	_	10	PA	_	_
+13	från	_	PR	PR	_	12	ET	_	_
+14	en	_	EN	EN	_	15	DT	_	_
+15	landsköldpadda	_	NN	NN	_	13	PA	_	_
+16	som	_	PO	PO	_	17	SS	_	_
+17	hittades	_	VV	VV	_	7	MS	_	_
+18	samtidigt	_	AB	AB	_	17	PL	_	_
+19	.	_	IP	IP	_	7	IP	_	_
+
+1	Bruk	_	NN	NN	_	0		_	_
+2	av	_	PR	PR	_	1	ET	_	_
+3	alkohol	_	NN	NN	_	2	PA	_	_
+4	och	_	++	++	_	5	++	_	_
+5	narkotika	_	NN	NN	_	3	CC	_	_
+6	i	_	PR	PR	_	5	ET	_	_
+7	små	_	AJ	AJ	_	8	AT	_	_
+8	doser	_	NN	NN	_	6	PA	_	_
+9	kan	_	QV	QV	_	0	ROOT	_	_
+10	innebära	_	VV	VV	_	9	VG	_	_
+11	en	_	EN	EN	_	13	DT	_	_
+12	omedelbar	_	AJ	AJ	_	13	AT	_	_
+13	fara	_	NN	NN	_	10	OO	_	_
+14	,	_	IK	IK	_	10	IK	_	_
+15	t	_	AB	AB	_	0		_	_
+16	ex	_	ID	ID	_	15	HD	_	_
+17	för	_	PR	PR	_	10	OA	_	_
+18	trafikolyckor	_	NN	NN	_	17	PA	_	_
+19	,	_	IK	IK	_	10	IK	_	_
+20	eftersom	_	UK	UK	_	22	UK	_	_
+21	omdömet	_	NN	NN	_	0		_	_
+22	trubbas	_	VV	VV	_	9	VG	_	_
+23	av	_	PR	PR	_	22	OA	_	_
+24	och	_	++	++	_	25	++	_	_
+25	reaktionstiden	_	NN	NN	_	23	PA	_	_
+26	förlängs	_	VV	VV	_	9	VG	_	_
+27	.	_	IP	IP	_	9	IP	_	_
+
+1	Ett	_	EN	EN	_	2	DT	_	_
+2	sätt	_	NN	NN	_	0		_	_
+3	att	_	IM	IM	_	4	IM	_	_
+4	överblicka	_	VV	VV	_	0	ROOT	_	_
+5	familjens	_	NN	NN	_	6	DT	_	_
+6	utveckling	_	VN	VN	_	4	OO	_	_
+7	är	_	AV	AV	_	0	ROOT	_	_
+8	att	_	IM	IM	_	9	IM	_	_
+9	se	_	VV	VV	_	7	MS	_	_
+10	vilka	_	PO	PO	_	11	DT	_	_
+11	funktioner	_	VN	VN	_	9	OO	_	_
+12	den	_	PO	PO	_	0		_	_
+13	tidigare	_	AB	AB	_	0		_	_
+14	har	_	HV	HV	_	9	OO	_	_
+15	haft	_	HV	HV	_	9	OO	_	_
+16	och	_	++	++	_	19	++	_	_
+17	vilka	_	PO	PO	_	0		_	_
+18	den	_	PO	PO	_	0		_	_
+19	har	_	HV	HV	_	9	OO	_	_
+20	i	_	AB	AB	_	0		_	_
+21	dag	_	ID	ID	_	20	HD	_	_
+22	.	_	IP	IP	_	7	IP	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	attitydundersökningen	_	VN	VN	_	1	PA	_	_
+3	rörande	_	PR	PR	_	2	ET	_	_
+4	uppfostringsfrågor	_	NN	NN	_	3	PA	_	_
+5	ingick	_	VV	VV	_	0	ROOT	_	_
+6	en	_	EN	EN	_	7	DT	_	_
+7	sats	_	NN	NN	_	5	OO	_	_
+8	som	_	PO	PO	_	9	SS	_	_
+9	lydde	_	VV	VV	_	0	ROOT	_	_
+10	:	_	IQ	IQ	_	9	OO	_	_
+
+1	Provbada	_	VV	VV	_	0	ROOT	_	_
+2	med	_	PR	PR	_	1	OA	_	_
+3	flytvästen	_	NN	NN	_	2	PA	_	_
+4	då	_	AB	AB	_	0		_	_
+5	och	_	ID	ID	_	4	HD	_	_
+6	då	_	ID	ID	_	4	HD	_	_
+7	och	_	++	++	_	8	++	_	_
+8	se	_	VV	VV	_	0	ROOT	_	_
+9	att	_	UK	UK	_	11	UK	_	_
+10	den	_	PO	PO	_	11	SS	_	_
+11	fungerar	_	VV	VV	_	0	ROOT	_	_
+12	som	_	UK	UK	_	14	UK	_	_
+13	den	_	PO	PO	_	14	SS	_	_
+14	ska	_	SV	SV	_	0	ROOT	_	_
+15	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Vad	_	PO	PO	_	2	SS	_	_
+2	är	_	AV	AV	_	0	ROOT	_	_
+3	viktigt	_	AJ	AJ	_	2	SP	_	_
+4	att	_	IM	IM	_	5	IM	_	_
+5	ta	_	VV	VV	_	2	MS	_	_
+6	reda	_	AB	AB	_	5	PL	_	_
+7	på	_	PR	PR	_	5	OA	_	_
+8	när	_	AB	AB	_	0		_	_
+9	man	_	PO	PO	_	10	SS	_	_
+10	söker	_	VV	VV	_	2	MS	_	_
+11	arbete	_	NN	NN	_	10	OO	_	_
+12	?	_	I?	I?	_	0		_	_
+
+1	Eftersom	_	UK	UK	_	2	UK	_	_
+2	samtidigt	_	AB	AB	_	0		_	_
+3	verkningsgraden	_	NN	NN	_	0		_	_
+4	höjts	_	VV	VV	_	0	ROOT	_	_
+5	,	_	IK	IK	_	4	IK	_	_
+6	kan	_	QV	QV	_	0	ROOT	_	_
+7	vi	_	PO	PO	_	8	SS	_	_
+8	räkna	_	VV	VV	_	6	VG	_	_
+9	med	_	PR	PR	_	8	OA	_	_
+10	att	_	UK	UK	_	11	UK	_	_
+11	konsumtionsstegringen	_	VN	VN	_	9	PA	_	_
+12	av	_	PR	PR	_	11	ET	_	_
+13	den	_	PO	PO	_	15	DT	_	_
+14	nyttiggjorda	_	TP	TP	_	15	AT	_	_
+15	energin	_	NN	NN	_	12	PA	_	_
+16	varit	_	AV	AV	_	6	VG	_	_
+17	betydligt	_	AJ	AJ	_	16	SP	_	_
+18	högre	_	AJ	AJ	_	0		_	_
+19	än	_	UK	UK	_	22	UK	_	_
+20	dessa	_	PO	PO	_	21	DT	_	_
+21	värden	_	NN	NN	_	0		_	_
+22	.	_	IP	IP	_	16	IP	_	_
+
+1	En	_	EN	EN	_	2	DT	_	_
+2	samling	_	VN	VN	_	0		_	_
+3	kalla	_	AJ	AJ	_	4	AT	_	_
+4	fakta	_	NN	NN	_	0		_	_
+
+1	Sjukfrånvaron	_	NN	NN	_	0		_	_
+2	är	_	AV	AV	_	0	ROOT	_	_
+3	trots	_	AB	AB	_	2	MA	_	_
+4	allt	_	ID	ID	_	3	HD	_	_
+5	inte	_	AB	AB	_	2	MA	_	_
+6	större	_	AJ	AJ	_	2	SP	_	_
+7	än	_	UK	UK	_	10	UK	_	_
+8	6,4	_	RO	RO	_	9	DT	_	_
+9	procent	_	NN	NN	_	0		_	_
+10	.	_	IP	IP	_	2	IP	_	_
+
+1	Hur	_	AB	AB	_	0		_	_
+2	auktoriteten	_	AN	AN	_	0		_	_
+3	upplevs	_	VV	VV	_	0	ROOT	_	_
+4	i	_	PR	PR	_	3	OA	_	_
+5	stockholmsfamiljer	_	NN	NN	_	4	PA	_	_
+6	kan	_	QV	QV	_	0	ROOT	_	_
+7	vi	_	PO	PO	_	8	SS	_	_
+8	läsa	_	VV	VV	_	6	VG	_	_
+9	om	_	PR	PR	_	8	OA	_	_
+10	i	_	PR	PR	_	8	OA	_	_
+11	Gustav	_	PN	PN	_	0		_	_
+12	Jonssons	_	ID	ID	_	11	HD	_	_
+13	och	_	++	++	_	16	++	_	_
+14	Anna-Lisa	_	PN	PN	_	0		_	_
+15	Kälvestens	_	ID	ID	_	14	HD	_	_
+16	undersökning	_	VN	VN	_	10	PA	_	_
+17	'	_	IC	IC	_	18	IC	_	_
+18	222	_	MN	MN	_	8	OO	_	_
+19	stockholmspojkar	_	ID	ID	_	18	HD	_	_
+20	'	_	IC	IC	_	19	JC	_	_
+21	(	_	IR	IR	_	8	OO	_	_
+22	Uppsala	_	PN	PN	_	0		_	_
+23	1964	_	RO	RO	_	0		_	_
+24	)	_	IR	IR	_	8	OO	_	_
+25	.	_	IP	IP	_	6	IP	_	_
+
+1	Där	_	AB	AB	_	2	AA	_	_
+2	kan	_	QV	QV	_	0	ROOT	_	_
+3	man	_	PO	PO	_	4	SS	_	_
+4	diskutera	_	VV	VV	_	2	VG	_	_
+5	struntsaker	_	NN	NN	_	4	OO	_	_
+6	i	_	PR	PR	_	5	ET	_	_
+7	månader	_	NN	NN	_	6	PA	_	_
+8	och	_	++	++	_	9	++	_	_
+9	stora	_	AJ	AJ	_	10	AT	_	_
+10	frågor	_	NN	NN	_	7	CC	_	_
+11	kan	_	QV	QV	_	0	ROOT	_	_
+12	avgöras	_	VV	VV	_	11	VG	_	_
+13	på	_	PR	PR	_	12	OA	_	_
+14	en	_	EN	EN	_	15	DT	_	_
+15	eftermiddag	_	NN	NN	_	13	PA	_	_
+16	-	_	IT	IT	_	12	OO	_	_
+17	precis	_	AB	AB	_	0		_	_
+18	som	_	UK	UK	_	19	UK	_	_
+19	i	_	PR	PR	_	12	OA	_	_
+20	en	_	EN	EN	_	21	DT	_	_
+21	kommunalfullmäktigeförsa	_	VN	VN	_	19	PA	_	_
+22	i	_	PR	PR	_	21	ET	_	_
+23	Sverige	_	PN	PN	_	0		_	_
+24	.	_	IP	IP	_	11	IP	_	_
+
+1	Nämndens	_	NN	NN	_	0		_	_
+2	verksamhet	_	AN	AN	_	0		_	_
+3	grundas	_	VV	VV	_	0	ROOT	_	_
+4	på	_	PR	PR	_	3	OA	_	_
+5	barnavårdslagen	_	NN	NN	_	4	PA	_	_
+6	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Till	_	PR	PR	_	0		_	_
+2	det	_	PO	PO	_	5	SS	_	_
+3	mest	_	AB	AB	_	0		_	_
+4	värdefulla	_	AJ	AJ	_	0		_	_
+5	måste	_	MV	MV	_	0		_	_
+6	räknas	_	VV	VV	_	5	VG	_	_
+7	människors	_	NN	NN	_	6	OO	_	_
+8	vilja	_	NN	NN	_	7	CC	_	_
+9	att	_	IM	IM	_	10	IM	_	_
+10	ta	_	VV	VV	_	5	VG	_	_
+11	ansvar	_	NN	NN	_	10	OO	_	_
+12	för	_	PR	PR	_	11	ET	_	_
+13	varandra	_	PO	PO	_	0		_	_
+14	,	_	IK	IK	_	10	IK	_	_
+15	att	_	IM	IM	_	16	IM	_	_
+16	försöka	_	VV	VV	_	5	VG	_	_
+17	att	_	IM	IM	_	18	IM	_	_
+18	leva	_	VV	VV	_	5	VG	_	_
+19	i	_	PR	PR	_	18	OA	_	_
+20	'	_	IC	IC	_	18	JC	_	_
+21	viform	_	NN	NN	_	0		_	_
+22	'	_	IC	IC	_	18	JC	_	_
+23	i	_	PR	PR	_	18	OA	_	_
+24	stället	_	ID	ID	_	23	HD	_	_
+25	för	_	ID	ID	_	23	HD	_	_
+26	i	_	PR	PR	_	18	OA	_	_
+27	'	_	IC	IC	_	18	JC	_	_
+28	jagform	_	NN	NN	_	0		_	_
+29	'	_	IC	IC	_	18	JC	_	_
+30	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Vi	_	PO	PO	_	2	SS	_	_
+2	satt	_	VV	VV	_	0	ROOT	_	_
+3	just	_	AB	AB	_	2	PL	_	_
+4	i	_	PR	PR	_	2	OA	_	_
+5	sammanträde	_	NN	NN	_	4	PA	_	_
+6	på	_	PR	PR	_	5	ET	_	_
+7	justitiedepartementet	_	NN	NN	_	6	PA	_	_
+8	med	_	PR	PR	_	7	ET	_	_
+9	två	_	RO	RO	_	10	DT	_	_
+10	ingenjörer	_	NN	NN	_	8	PA	_	_
+11	från	_	PR	PR	_	10	ET	_	_
+12	företaget	_	NN	NN	_	11	PA	_	_
+13	i	_	AB	AB	_	0		_	_
+14	fråga	_	ID	ID	_	13	HD	_	_
+15	,	_	IK	IK	_	2	IK	_	_
+16	för	_	PR	PR	_	2	OA	_	_
+17	justering	_	VN	VN	_	16	PA	_	_
+18	av	_	PR	PR	_	17	ET	_	_
+19	vissa	_	PO	PO	_	21	DT	_	_
+20	tekniska	_	AJ	AJ	_	21	AT	_	_
+21	detaljer	_	NN	NN	_	18	PA	_	_
+22	,	_	IK	IK	_	2	IK	_	_
+23	när	_	AB	AB	_	0		_	_
+24	beskedet	_	NN	NN	_	0		_	_
+25	kom	_	VV	VV	_	0	ROOT	_	_
+26	från	_	PR	PR	_	25	OA	_	_
+27	företagsledningen	_	VN	VN	_	26	PA	_	_
+28	att	_	UK	UK	_	32	UK	_	_
+29	man	_	PO	PO	_	32	SS	_	_
+30	där	_	AB	AB	_	0		_	_
+31	inte	_	AB	AB	_	32	AA	_	_
+32	kunde	_	QV	QV	_	0	ROOT	_	_
+33	garantera	_	VV	VV	_	32	VG	_	_
+34	leverans	_	NN	NN	_	33	OO	_	_
+35	av	_	PR	PR	_	34	ET	_	_
+36	valboxar	_	NN	NN	_	35	PA	_	_
+37	i	_	PR	PR	_	36	ET	_	_
+38	tillräckligt	_	AJ	AJ	_	40	AT	_	_
+39	god	_	AJ	AJ	_	40	AT	_	_
+40	tid	_	NN	NN	_	37	PA	_	_
+41	före	_	PR	PR	_	40	ET	_	_
+42	valdagen	_	NN	NN	_	41	PA	_	_
+43	.	_	IP	IP	_	32	IP	_	_
+
+1	541	_	RO	RO	_	2	DT	_	_
+2	bilförare	_	NN	NN	_	0		_	_
+3	och	_	++	++	_	4	++	_	_
+4	passagerare	_	NN	NN	_	2	CC	_	_
+5	dödades	_	VV	VV	_	0	ROOT	_	_
+6	förra	_	AJ	AJ	_	7	AT	_	_
+7	året	_	NN	NN	_	5	OO	_	_
+8	i	_	PR	PR	_	7	ET	_	_
+9	trafiken	_	NN	NN	_	8	PA	_	_
+10	(	_	IR	IR	_	5	OO	_	_
+11	preliminär	_	AJ	AJ	_	12	AT	_	_
+12	statistik	_	NN	NN	_	0		_	_
+13	)	_	IR	IR	_	5	OO	_	_
+14	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Man	_	PO	PO	_	2	SS	_	_
+2	kan	_	QV	QV	_	0	ROOT	_	_
+3	dock	_	AB	AB	_	2	MA	_	_
+4	avtala	_	VV	VV	_	2	VG	_	_
+5	om	_	PR	PR	_	4	OA	_	_
+6	att	_	UK	UK	_	11	UK	_	_
+7	sådan	_	PO	PO	_	8	DT	_	_
+8	egendom	_	NN	NN	_	0		_	_
+9	som	_	UK	UK	_	10	UK	_	_
+10	annars	_	AB	AB	_	0		_	_
+11	skulle	_	SV	SV	_	0	ROOT	_	_
+12	ha	_	HV	HV	_	11	VG	_	_
+13	ingått	_	VV	VV	_	12	VG	_	_
+14	i	_	PR	PR	_	13	OA	_	_
+15	giftorätten	_	NN	NN	_	14	PA	_	_
+16	ska	_	SV	SV	_	0	ROOT	_	_
+17	vara	_	AV	AV	_	16	VG	_	_
+18	enskild	_	AJ	AJ	_	19	AT	_	_
+19	egendom	_	NN	NN	_	17	SP	_	_
+20	.	_	IP	IP	_	17	IP	_	_
+
+1	Vid	_	PR	PR	_	0		_	_
+2	arbetsmarknadsutbildning	_	VN	VN	_	1	PA	_	_
+3	kurscentra	_	NN	NN	_	1	PA	_	_
+4	kan	_	QV	QV	_	0	ROOT	_	_
+5	man	_	PO	PO	_	4	SS	_	_
+6	bl.	_	AB	AB	_	0		_	_
+7	a.	_	ID	ID	_	6	HD	_	_
+8	få	_	FV	FV	_	4	VG	_	_
+9	grundläggande	_	AJ	AJ	_	10	AT	_	_
+10	yrkesutbildning	_	VN	VN	_	0		_	_
+11	eller	_	++	++	_	12	++	_	_
+12	gå	_	VV	VV	_	4	VG	_	_
+13	omskolnings-	_	NN	NN	_	12	OO	_	_
+14	och	_	++	++	_	15	++	_	_
+15	fortbildningskurser	_	NN	NN	_	13	CC	_	_
+16	.	_	IP	IP	_	4	IP	_	_
+
+1	Teknologi	_	NN	NN	_	0		_	_
+
+1	Antalet	_	NN	NN	_	0		_	_
+2	lärare	_	NN	NN	_	1	CC	_	_
+3	i	_	PR	PR	_	2	ET	_	_
+4	världen	_	NN	NN	_	3	PA	_	_
+5	ökar	_	VV	VV	_	0	ROOT	_	_
+6	långsammare	_	AJ	AJ	_	5	OO	_	_
+7	än	_	UK	UK	_	10	UK	_	_
+8	antalet	_	NN	NN	_	0		_	_
+9	elever	_	NN	NN	_	8	CC	_	_
+10	,	_	IK	IK	_	5	IK	_	_
+11	3,9	_	RO	RO	_	12	DT	_	_
+12	procent	_	NN	NN	_	5	OO	_	_
+13	mot	_	PR	PR	_	12	ET	_	_
+14	4,8	_	RO	RO	_	15	DT	_	_
+15	procent	_	NN	NN	_	13	PA	_	_
+16	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Ofta	_	AB	AB	_	0		_	_
+2	hör	_	VV	VV	_	0	ROOT	_	_
+3	man	_	PO	PO	_	2	OO	_	_
+4	från	_	PR	PR	_	2	OA	_	_
+5	moderat	_	AJ	AJ	_	6	AT	_	_
+6	håll	_	NN	NN	_	4	PA	_	_
+7	att	_	UK	UK	_	8	UK	_	_
+8	'	_	IC	IC	_	2	JC	_	_
+9	det	_	PO	PO	_	10	SS	_	_
+10	skall	_	SV	SV	_	0	ROOT	_	_
+11	vara	_	AV	AV	_	10	VG	_	_
+12	svårt	_	AJ	AJ	_	11	SP	_	_
+13	att	_	IM	IM	_	14	IM	_	_
+14	gifta	_	VV	VV	_	11	MS	_	_
+15	sig	_	PO	PO	_	14	OO	_	_
+16	'	_	IC	IC	_	14	JC	_	_
+17	.	_	IP	IP	_	11	IP	_	_
+
+1	Den	_	PO	PO	_	3	DT	_	_
+2	ansvarskännande	_	AJ	AJ	_	3	AT	_	_
+3	hemmamamman	_	NN	NN	_	0		_	_
+4	gör	_	GV	GV	_	0		_	_
+5	stor	_	AJ	AJ	_	6	AT	_	_
+6	samhällsnytta	_	NN	NN	_	0		_	_
+7	genom	_	PR	PR	_	6	ET	_	_
+8	att	_	UK	UK	_	10	UK	_	_
+9	hon	_	PO	PO	_	10	SS	_	_
+10	fostrar	_	VV	VV	_	0	ROOT	_	_
+11	funktionsdugliga	_	AJ	AJ	_	10	OO	_	_
+12	,	_	IK	IK	_	10	IK	_	_
+13	självständigt	_	AJ	AJ	_	0		_	_
+14	tänkande	_	SP	SP	_	10	OO	_	_
+15	individer	_	NN	NN	_	0		_	_
+16	med	_	PR	PR	_	15	ET	_	_
+17	känsla	_	NN	NN	_	16	PA	_	_
+18	för	_	PR	PR	_	17	ET	_	_
+19	jämlikhet	_	AN	AN	_	10	OO	_	_
+20	och	_	++	++	_	21	++	_	_
+21	för	_	PR	PR	_	10	OA	_	_
+22	vad	_	PO	PO	_	0		_	_
+23	som	_	XX	XX	_	0		_	_
+24	är	_	AV	AV	_	0	ROOT	_	_
+25	rätt	_	AJ	AJ	_	24	SP	_	_
+26	och	_	++	++	_	27	++	_	_
+27	orätt	_	AJ	AJ	_	0		_	_
+28	.	_	IP	IP	_	24	IP	_	_
+
+1	Kända	_	AJ	AJ	_	2	AT	_	_
+2	exempel	_	NN	NN	_	0		_	_
+3	är	_	AV	AV	_	0	ROOT	_	_
+4	fiskarnas	_	NN	NN	_	3	SP	_	_
+5	stim	_	NN	NN	_	4	CC	_	_
+6	,	_	IK	IK	_	3	IK	_	_
+7	vargarnas	_	NN	NN	_	0		_	_
+8	flockar	_	NN	NN	_	7	CC	_	_
+9	och	_	++	++	_	10	++	_	_
+10	hovdjurens	_	NN	NN	_	8	CC	_	_
+11	hjordar	_	NN	NN	_	10	CC	_	_
+12	.	_	IP	IP	_	3	IP	_	_
+
+1	Att	_	UK	UK	_	3	UK	_	_
+2	kvinnor	_	NN	NN	_	0		_	_
+3	kan	_	QV	QV	_	0	ROOT	_	_
+4	göra	_	GV	GV	_	0		_	_
+5	samma	_	PO	PO	_	6	DT	_	_
+6	saker	_	NN	NN	_	0		_	_
+7	som	_	UK	UK	_	9	UK	_	_
+8	män	_	NN	NN	_	0		_	_
+9	,	_	IK	IK	_	0		_	_
+10	är	_	AV	AV	_	0	ROOT	_	_
+11	det	_	PO	PO	_	15	SS	_	_
+12	väl	_	AB	AB	_	0		_	_
+13	ingen	_	PO	PO	_	15	SS	_	_
+14	som	_	PO	PO	_	15	SS	_	_
+15	betvivlar	_	VV	VV	_	10	MS	_	_
+16	.	_	IP	IP	_	10	IP	_	_
+
+1	Skatt	_	NN	NN	_	0		_	_
+2	på	_	PR	PR	_	1	ET	_	_
+3	garantibelopp	_	NN	NN	_	2	PA	_	_
+4	för	_	PR	PR	_	3	ET	_	_
+5	fastigheter	_	NN	NN	_	4	PA	_	_
+
+1	Man	_	PO	PO	_	0		_	_
+2	vill	_	WV	WV	_	0		_	_
+3	från	_	PR	PR	_	0		_	_
+4	socialdemokraternas	_	NN	NN	_	3	PA	_	_
+5	sida	_	NN	NN	_	4	CC	_	_
+6	förändra	_	VV	VV	_	0	ROOT	_	_
+7	samhället	_	NN	NN	_	6	OO	_	_
+8	i	_	PR	PR	_	7	ET	_	_
+9	riktning	_	ID	ID	_	8	HD	_	_
+10	mot	_	ID	ID	_	8	HD	_	_
+11	kollektivitet	_	AN	AN	_	6	OO	_	_
+12	och	_	++	++	_	14	++	_	_
+13	jämlikhet	_	AN	AN	_	0		_	_
+14	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Nu	_	AB	AB	_	0		_	_
+2	*	_	PU	PU	_	0		_	_
+3	hur	_	AB	AB	_	0		_	_
+4	förena	_	VV	VV	_	0	ROOT	_	_
+5	de	_	PO	PO	_	7	DT	_	_
+6	tre	_	RO	RO	_	7	DT	_	_
+7	rollerna	_	NN	NN	_	4	OO	_	_
+8	make	_	NN	NN	_	7	CC	_	_
+9	,	_	IK	IK	_	4	IK	_	_
+10	far	_	NN	NN	_	0		_	_
+11	och	_	++	++	_	12	++	_	_
+12	yrkesman	_	NN	NN	_	10	CC	_	_
+13	?	_	I?	I?	_	0		_	_
+14	*	_	PU	PU	_	0		_	_
+15	vilken	_	PO	PO	_	16	DT	_	_
+16	fördelning	_	VN	VN	_	0		_	_
+17	av	_	PR	PR	_	16	ET	_	_
+18	dessa	_	PO	PO	_	19	DT	_	_
+19	roller	_	NN	NN	_	17	PA	_	_
+20	är	_	AV	AV	_	0	ROOT	_	_
+21	bäst	_	AJ	AJ	_	20	SP	_	_
+22	för	_	PR	PR	_	20	OA	_	_
+23	honom	_	PO	PO	_	0		_	_
+24	själv	_	PO	PO	_	0		_	_
+25	,	_	IK	IK	_	20	IK	_	_
+26	hustrun	_	NN	NN	_	0		_	_
+27	och	_	++	++	_	28	++	_	_
+28	barnen	_	NN	NN	_	26	CC	_	_
+29	?	_	I?	I?	_	0		_	_
+
+1	Hemmafrun	_	NN	NN	_	0		_	_
+2	som	_	PO	PO	_	3	SS	_	_
+3	förstår	_	VV	VV	_	0	ROOT	_	_
+4	sitt	_	PO	PO	_	5	DT	_	_
+5	värde	_	NN	NN	_	3	OO	_	_
+6	kan	_	QV	QV	_	0	ROOT	_	_
+7	inte	_	AB	AB	_	6	MA	_	_
+8	skrämmas	_	VV	VV	_	6	VG	_	_
+9	bort	_	AB	AB	_	8	PL	_	_
+10	av	_	PR	PR	_	8	OA	_	_
+11	någon	_	PO	PO	_	13	DT	_	_
+12	socialistisk	_	AJ	AJ	_	13	AT	_	_
+13	skatteskruv	_	NN	NN	_	10	PA	_	_
+14	.	_	IP	IP	_	6	IP	_	_
+
+1	Ännu	_	AB	AB	_	0		_	_
+2	har	_	HV	HV	_	0	ROOT	_	_
+3	vi	_	PO	PO	_	4	DT	_	_
+4	chansen	_	NN	NN	_	2	OO	_	_
+5	att	_	IM	IM	_	0		_	_
+6	bli	_	BV	BV	_	0	ROOT	_	_
+7	ett	_	EN	EN	_	8	DT	_	_
+8	föregångsland	_	NN	NN	_	0		_	_
+9	på	_	PR	PR	_	8	ET	_	_
+10	det	_	PO	PO	_	12	DT	_	_
+11	här	_	ID	ID	_	10	HD	_	_
+12	området	_	NN	NN	_	9	PA	_	_
+13	.	_	IP	IP	_	0	ROOT	_	_
+
+1	(	_	IR	IR	_	0		_	_
+2	222	_	MN	MN	_	0		_	_
+3	stockholmspojkar	_	ID	ID	_	2	HD	_	_
+4	,	_	IK	IK	_	0		_	_
+5	s.	_	NN	NN	_	0		_	_
+6	305	_	RO	RO	_	0		_	_
+7	.	_	IP	IP	_	0	ROOT	_	_
+8	)	_	IR	IR	_	0		_	_
+
+1	Jag	_	PO	PO	_	2	SS	_	_
+2	sökte	_	VV	VV	_	0	ROOT	_	_
+3	jobb	_	NN	NN	_	2	OO	_	_
+4	efter	_	PR	PR	_	3	ET	_	_
+5	jobb	_	NN	NN	_	4	PA	_	_
+6	men	_	++	++	_	8	++	_	_
+7	inte	_	AB	AB	_	0		_	_
+8	fick	_	FV	FV	_	2	OO	_	_
+9	jag	_	PO	PO	_	11	DT	_	_
+10	någon	_	PO	PO	_	11	DT	_	_
+11	plats	_	NN	NN	_	0		_	_
+12	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Även	_	UK	UK	_	6	UK	_	_
+2	om	_	ID	ID	_	1	HD	_	_
+3	de	_	PO	PO	_	5	DT	_	_
+4	tekniska	_	AJ	AJ	_	5	AT	_	_
+5	framstegen	_	NN	NN	_	0		_	_
+6	bör	_	VV	VV	_	0	ROOT	_	_
+7	leda	_	VV	VV	_	0	ROOT	_	_
+8	till	_	PR	PR	_	7	OA	_	_
+9	en	_	EN	EN	_	11	DT	_	_
+10	ytterligare	_	PO	PO	_	11	DT	_	_
+11	höjning	_	VN	VN	_	8	PA	_	_
+12	av	_	PR	PR	_	11	ET	_	_
+13	verkningsgraden	_	NN	NN	_	12	PA	_	_
+14	,	_	IK	IK	_	7	IK	_	_
+15	kommer	_	KV	KV	_	7	OO	_	_
+16	konsumtionen	_	VN	VN	_	7	OO	_	_
+17	av	_	PR	PR	_	16	ET	_	_
+18	primärenergi	_	NN	NN	_	17	PA	_	_
+19	att	_	IM	IM	_	21	IM	_	_
+20	årligen	_	AB	AB	_	0		_	_
+21	öka	_	VV	VV	_	0	ROOT	_	_
+22	med	_	PR	PR	_	21	OA	_	_
+23	5	_	RO	RO	_	0		_	_
+24	-	_	PR	PR	_	21	OA	_	_
+25	6	_	RO	RO	_	26	DT	_	_
+26	%	_	NN	NN	_	24	PA	_	_
+27	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Vid	_	PR	PR	_	0		_	_
+2	varje	_	PO	PO	_	3	DT	_	_
+3	kärnklyvning	_	VN	VN	_	1	PA	_	_
+4	får	_	FV	FV	_	0		_	_
+5	ej	_	AB	AB	_	4	MA	_	_
+6	frigöras	_	VV	VV	_	4	VG	_	_
+7	fler	_	AB	AB	_	6	PL	_	_
+8	än	_	ID	ID	_	7	HD	_	_
+9	en	_	EN	EN	_	10	DT	_	_
+10	neutron	_	NN	NN	_	6	OO	_	_
+11	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Procentuellt	_	AJ	AJ	_	0		_	_
+2	är	_	AV	AV	_	0	ROOT	_	_
+3	ju	_	AB	AB	_	2	MA	_	_
+4	kvinnorna	_	NN	NN	_	2	SP	_	_
+5	färre	_	PO	PO	_	0		_	_
+6	i	_	PR	PR	_	4	ET	_	_
+7	de	_	PO	PO	_	9	DT	_	_
+8	tekniska	_	AJ	AJ	_	9	AT	_	_
+9	yrkena	_	NN	NN	_	6	PA	_	_
+10	.	_	IP	IP	_	2	IP	_	_
+
+1	Ibland	_	AB	AB	_	0		_	_
+2	räcker	_	VV	VV	_	0	ROOT	_	_
+3	det	_	PO	PO	_	2	OO	_	_
+4	inte	_	AB	AB	_	0		_	_
+5	med	_	PR	PR	_	2	OA	_	_
+6	platslistor	_	NN	NN	_	5	PA	_	_
+
+1	I	_	PR	PR	_	0		_	_
+2	Usa	_	PN	PN	_	0		_	_
+3	med	_	PR	PR	_	0		_	_
+4	sitt	_	PO	PO	_	6	DT	_	_
+5	stora	_	AJ	AJ	_	6	AT	_	_
+6	antal	_	NN	NN	_	3	PA	_	_
+7	nöjesbåtar	_	NN	NN	_	6	CC	_	_
+8	har	_	HV	HV	_	0	ROOT	_	_
+9	man	_	PO	PO	_	10	SS	_	_
+10	hunnit	_	VV	VV	_	8	VG	_	_
+11	mycket	_	AB	AB	_	10	PL	_	_
+12	långt	_	AJ	AJ	_	10	OO	_	_
+13	med	_	PR	PR	_	10	OA	_	_
+14	vattenföroreningsfrågorn	_	NN	NN	_	13	PA	_	_
+15	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Vi	_	PO	PO	_	0		_	_
+2	vill	_	WV	WV	_	0		_	_
+3	ha	_	HV	HV	_	0	ROOT	_	_
+4	dubbar	_	NN	NN	_	3	OO	_	_
+5	på	_	PR	PR	_	4	ET	_	_
+6	varje	_	PO	PO	_	7	DT	_	_
+7	gummiklack	_	NN	NN	_	5	PA	_	_
+8	tillräckligt	_	AB	AB	_	0		_	_
+9	stor	_	AJ	AJ	_	0		_	_
+10	för	_	PR	PR	_	7	ET	_	_
+11	att	_	IM	IM	_	12	IM	_	_
+12	rymma	_	VV	VV	_	3	VG	_	_
+13	en	_	EN	EN	_	14	DT	_	_
+14	dubb	_	NN	NN	_	12	OO	_	_
+15	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Lite	_	AB	AB	_	0		_	_
+2	senare	_	AB	AB	_	0		_	_
+3	i	_	PR	PR	_	0		_	_
+4	livet	_	NN	NN	_	3	PA	_	_
+5	använder	_	VV	VV	_	0	ROOT	_	_
+6	man	_	PO	PO	_	8	DT	_	_
+7	39000	_	RO	RO	_	8	DT	_	_
+8	kronor	_	NN	NN	_	5	OO	_	_
+9	för	_	PR	PR	_	8	ET	_	_
+10	att	_	IM	IM	_	11	IM	_	_
+11	lära	_	VV	VV	_	0	ROOT	_	_
+12	den	_	PO	PO	_	14	SS	_	_
+13	värnpliktige	_	AJ	AJ	_	0		_	_
+14	skjuta	_	VV	VV	_	0	ROOT	_	_
+15	.	_	IP	IP	_	0	ROOT	_	_
+
+1	Om	_	UK	UK	_	4	UK	_	_
+2	ett	_	EN	EN	_	3	DT	_	_
+3	hål	_	NN	NN	_	0		_	_
+4	visat	_	VV	VV	_	0	ROOT	_	_
+5	sig	_	PO	PO	_	6	SS	_	_
+6	vara	_	AV	AV	_	0	ROOT	_	_
+7	torrt	_	AJ	AJ	_	6	SP	_	_
+8	så	_	AB	AB	_	0		_	_
+9	flyttas	_	VV	VV	_	6	MS	_	_
+10	riggen	_	NN	NN	_	9	OO	_	_
+11	i	_	AB	AB	_	0		_	_
+12	regel	_	ID	ID	_	11	HD	_	_
+13	5	_	RO	RO	_	9	OO	_	_
+14	-	_	PR	PR	_	9	OA	_	_
+15	6	_	RO	RO	_	16	DT	_	_
+16	km	_	NN	NN	_	14	PA	_	_
+17	.	_	IP	IP	_	6	IP	_	_
+
+1	Vad	_	PO	PO	_	3	SS	_	_
+2	som	_	PO	PO	_	3	SS	_	_
+3	krävs	_	VV	VV	_	0	ROOT	_	_
+4	av	_	PR	PR	_	3	OA	_	_
+5	politikerna	_	NN	NN	_	4	PA	_	_
+6	liksom	_	UK	UK	_	7	UK	_	_
+7	av	_	PR	PR	_	5	ET	_	_
+8	alla	_	PO	PO	_	11	SS	_	_
+9	andra	_	PO	PO	_	11	SS	_	_
+10	som	_	PO	PO	_	11	SS	_	_
+11	önskar	_	VV	VV	_	0	ROOT	_	_
+12	främja	_	VV	VV	_	0	ROOT	_	_
+13	en	_	EN	EN	_	14	DT	_	_
+14	ändring	_	VN	VN	_	12	OO	_	_
+15	på	_	PR	PR	_	14	ET	_	_
+16	könsrollsområdet	_	NN	NN	_	15	PA	_	_
+17	är	_	AV	AV	_	0	ROOT	_	_
+18	en	_	EN	EN	_	20	DT	_	_
+19	ny	_	AJ	AJ	_	20	AT	_	_
+20	syn	_	NN	NN	_	17	SP	_	_
+21	på	_	PR	PR	_	20	ET	_	_
+22	det	_	PO	PO	_	24	DT	_	_
+23	biologiska	_	AJ	AJ	_	24	AT	_	_
+24	förloppet	_	NN	NN	_	21	PA	_	_
+25	hos	_	PR	PR	_	24	ET	_	_
+26	kvinnan	_	NN	NN	_	25	PA	_	_
+27	.	_	IP	IP	_	17	IP	_	_
+
+1	Myndigheter	_	AN	AN	_	0		_	_
+2	kan	_	QV	QV	_	0	ROOT	_	_
+3	bearbetas	_	VV	VV	_	2	VG	_	_
+4	utan	_	PR	PR	_	3	OA	_	_
+5	att	_	UK	UK	_	7	UK	_	_
+6	man	_	PO	PO	_	7	SS	_	_
+7	skärrar	_	VV	VV	_	2	VG	_	_
+8	upp	_	AB	AB	_	7	PL	_	_
+9	allmänheten	_	AN	AN	_	7	OO	_	_
+10	med	_	PR	PR	_	7	OA	_	_
+11	olyckliga	_	AJ	AJ	_	12	AT	_	_
+12	bieffekter	_	NN	NN	_	10	PA	_	_
+13	.	_	IP	IP	_	2	IP	_	_
+
+1	Med	_	PR	PR	_	0		_	_
+2	industrialiseringen	_	VN	VN	_	1	PA	_	_
+3	och	_	++	++	_	4	++	_	_
+4	befolkningsomflyttningar	_	VN	VN	_	1	PA	_	_
+5	följde	_	VV	VV	_	0	ROOT	_	_
+6	ett	_	EN	EN	_	9	DT	_	_
+7	allt	_	AB	AB	_	0		_	_
+8	starkare	_	AJ	AJ	_	9	AT	_	_
+9	behov	_	NN	NN	_	5	OO	_	_
+10	av	_	PR	PR	_	9	ET	_	_
+11	socialpolitiska	_	AJ	AJ	_	12	AT	_	_
+12	insatser	_	NN	NN	_	10	PA	_	_
+13	.	_	IP	IP	_	0	ROOT	_	_
+

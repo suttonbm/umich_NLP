@@ -104,4 +104,42 @@ class FeatureExtractor(object):
             if FeatureExtractor._check_informative(dep_right_most):
                 result.append('BUF_0_RDEP_' + dep_right_most)
 
+
+@python_2_unicode_compatible
+class MyFeatureExtractor(FeatureExtractor):
+    @staticmethod
+    def extract_features(tokens, buffer, stack, arcs):
+        """
+        This function returns a list of string features for the classifier
+
+        :param tokens: nodes in the dependency graph
+        :param stack: partially processed words
+        :param buffer: remaining input words
+        :param arcs: partially built dependency tree
+
+        :return: list(str)
+        """
+
+        result = []
+
+        global printed
+        if not printed:
+            print "suttonbm's feature extractor"
+            printed = True
+        # END if
+
+        # Features generated from top item of the stack
+        if stack:
+            s = stack[-1]
+            tok = tokens[s]
+            # Create a feature for the coarse POS tag
+            result.append("STK_0_CTAG_{0}".format(tok['ctag']))
+
+        # Features generated from the top item of the buffer
+        if buffer:
+            b = buffer[0]
+            tok = tokens[b]
+            # Create a feature for the coarse POS tag
+            result.append("BUF_0_CTAG_{0}".format(tok['ctag']))
+
         return result

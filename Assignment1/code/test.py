@@ -2,22 +2,29 @@ import random
 from providedcode import dataset
 from providedcode.transitionparser import TransitionParser
 from providedcode.evaluate import DependencyEvaluator
-from featureextractor import FeatureExtractor
+from featureextractor import MyFeatureExtractor
 from transition import Transition
 
 if __name__ == '__main__':
     data = dataset.get_swedish_train_corpus().parsed_sents()
+    data_1h = data[0:(len(data)/2)]
+    data_2h = data[(len(data)/2):-1]
+
     random.seed(1234)
-    subdata = random.sample(data, 200)
+    traindata = random.sample(data_1h, 200)
+    testdata = random.sample(data_2h, 200)
 
     try:
-        # tp = TransitionParser(Transition, FeatureExtractor)
-        # tp.train(subdata)
-        # tp.save('swedish.model')
+        print "Training tempfeatures model"
+        tp = TransitionParser(Transition, MyFeatureExtractor)
+        tp.train(traindata)
+        tp.save('tempfeatures.model')
+        print "Done"
 
-        testdata = dataset.get_swedish_test_corpus().parsed_sents()
-        tp = TransitionParser.load('badfeatures.model')
+        print "Loading tempfeatures.model"
+        tp = TransitionParser.load('tempfeatures.model')
 
+        print "Parsing Test Data..."
         parsed = tp.parse(testdata)
 
         with open('test.conll', 'w') as f:
