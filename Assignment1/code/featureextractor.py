@@ -127,6 +127,29 @@ class MyFeatureExtractor(FeatureExtractor):
         # END for
 
         return result
+    # END _getNDeps
+
+    @staticmethod
+    def _getDepTypes(n, arcs):
+        """
+        This function returns a list of strings which are the dependency labels
+        of all current dependencies of item n
+
+        :param n: item for which the dependencies are found
+        :param arcs: partially built dependency tree
+
+        :return: list(str)
+        """
+
+        result = []
+
+        for arc in arcs:
+            if arc[2] == n:
+                result.append(arc[1])
+            # END if
+        # END for
+
+        return result
 
     @staticmethod
     def extract_features(tokens, buffer, stack, arcs):
@@ -153,16 +176,44 @@ class MyFeatureExtractor(FeatureExtractor):
         if stack:
             s = stack[-1]
             tok = tokens[s]
-            # Create a feature for the coarse POS tag
+            # Create a feature for the fine POS tag
             result.append("STK_0_TAG_{0}".format(tok['tag']))
-            result.append("STK_0_NDEP_{0}".format(MyFeatureExtractor._getNDeps(s, arcs)))
+
+            # Create feature for the current number of dependencies
+            nDeps = MyFeatureExtractor._getNDeps(s, arcs)
+            result.append("STK_0_NDEP_{0}".format(nDeps))
+
+            # Create feature(s) for the dependency relations already assigned
+            # to the current item
+            if nDeps > 0:
+                relations = MyFeatureExtractor._getDepTypes(s, arcs)
+                n = 1
+                for relation in relations:
+                    result.append("STK_0_DEP_{0}_{1}".format(n, relation))
+                    n += 1
+                # END for
+            # END if
 
         # Features generated from the top item of the buffer
         if buffer:
             b = buffer[0]
             tok = tokens[b]
-            # Create a feature for the coarse POS tag
+            # Create a feature for the fine POS tag
             result.append("BUF_0_TAG_{0}".format(tok['tag']))
-            result.append("BUF_0_NDEP_{0}".format(MyFeatureExtractor._getNDeps(b, arcs)))
+
+            # Create feature for the current number of dependencies
+            nDeps = MyFeatureExtractor._getNDeps(b, arcs)
+            result.append("BUF_0_NDEP_{0}".format(nDeps))
+
+            # Create feature(s) for the dependency relations already assigned
+            # to the current item
+            if nDeps > 0:
+                relations = MyFeatureExtractor._getDepTypes(s, arcs)
+                n = 1
+                for relation in relations:
+                    result.append("BUF_0_DEP_{0}_{1}".format(n, relation))
+                    n += 1
+                # END for
+            # END if
 
         return result
