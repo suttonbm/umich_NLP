@@ -241,9 +241,9 @@ class TransitionParser(object):
         if not self._model:
             raise ValueError('No model trained!')
 
-        k = 1
+#        k = 1
         for depgraph in depgraphs:
-            print "Loading configuration {0}".format(k)
+#            print "Loading configuration {0}".format(k)
             conf = Configuration(depgraph, self._user_feature_extractor.extract_features)
             while conf.buffer:
                 features = conf.extract_features()
@@ -276,7 +276,7 @@ class TransitionParser(object):
                         except ValueError:
                             baseTransition = strTransition
 
-                        print "Transition: {0}".format(baseTransition)
+#                        print "Transition: {0}".format(baseTransition)
 
                         if baseTransition == self.transitions.LEFT_ARC:
                             if self.transitions.left_arc(conf, relation) != -1:
@@ -295,8 +295,8 @@ class TransitionParser(object):
 
             # Finish with operations build the dependency graph from Conf.arcs
 
-            print "Creating Dependency Graph {0}".format(k)
-            k += 1
+#            print "Creating Dependency Graph {0}".format(k)
+#            k += 1
             new_depgraph = copy.deepcopy(depgraph)
             for key in new_depgraph.nodes:
                 node = new_depgraph.nodes[key]

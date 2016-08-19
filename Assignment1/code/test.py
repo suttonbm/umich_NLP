@@ -10,7 +10,7 @@ if __name__ == '__main__':
     data_1h = data[0:(len(data)/2)]
     data_2h = data[(len(data)/2):-1]
 
-    random.seed(1234)
+    random.seed(4)
     traindata = random.sample(data_1h, 200)
     testdata = random.sample(data_2h, 200)
 

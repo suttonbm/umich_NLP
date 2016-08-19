@@ -1,4 +1,5 @@
 from nltk.compat import python_2_unicode_compatible
+import hashlib
 
 printed = False
 
@@ -59,7 +60,6 @@ class FeatureExtractor(object):
         """
 
         result = []
-
 
         global printed
         if not printed:
@@ -194,6 +194,12 @@ class MyFeatureExtractor(FeatureExtractor):
                 # END for
             # END if
 
+            # Create feature for the current word
+            if tok['word'] is not None:
+                wordHash = hashlib.md5(tok['word'].encode('utf-8')).hexdigest()
+                result.append("STK_0_WORD_{0}".format(wordHash))
+            # END if
+
         # Features generated from the top item of the buffer
         if buffer:
             b = buffer[0]
@@ -214,6 +220,12 @@ class MyFeatureExtractor(FeatureExtractor):
                     result.append("BUF_0_DEP_{0}_{1}".format(n, relation))
                     n += 1
                 # END for
+            # END if
+
+            # Create feature for the current word
+            if tok['word'] is not None:
+                wordHash = hashlib.md5(tok['word'].encode('utf-8')).hexdigest()
+                result.append("BUF_0_WORD_{0}".format(wordHash))
             # END if
 
         return result
