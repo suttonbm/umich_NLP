@@ -46,7 +46,7 @@ class Transition(object):
         s = conf.stack.pop(-1)
         # Add the arc (b, L, s)
         conf.arcs.append((b, relation, s))
-        print "{0} <- {1}".format(b, s)
+#        print "{0} <- {1}".format(b, s)
 
     @staticmethod
     def right_arc(conf, relation):
@@ -64,7 +64,7 @@ class Transition(object):
 
         conf.stack.append(idx_wj)
         conf.arcs.append((idx_wi, relation, idx_wj))
-        print "{0} -> {1}".format(idx_wi, idx_wj)
+#        print "{0} -> {1}".format(idx_wi, idx_wj)
 
     @staticmethod
     def reduce(conf):
@@ -84,8 +84,8 @@ class Transition(object):
         for arc in conf.arcs:
             if conf.stack[-1] == arc[Transition.ARC_CHILD]:
                 s = conf.stack.pop(-1)
-                print "pop {0}".format(s)
-                print "Stack Length: {0}".format(len(conf.stack))
+#                print "pop {0}".format(s)
+#                print "Stack Length: {0}".format(len(conf.stack))
                 return
             # END if
         # END for
@@ -105,5 +105,5 @@ class Transition(object):
         b = conf.buffer.pop(0)
         # Push onto stack
         conf.stack.append(b)
-        print "shift {0}".format(b)
-        print "Buffer Length: {0}".format(len(conf.buffer))
+#        print "shift {0}".format(b)
+#        print "Buffer Length: {0}".format(len(conf.buffer))

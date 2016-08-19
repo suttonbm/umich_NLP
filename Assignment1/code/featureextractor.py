@@ -137,7 +137,7 @@ class MyFeatureExtractor(FeatureExtractor):
     # END _getNDeps
 
     @staticmethod
-    def _getDepTypes(n, arcs):
+    def _getDepTypes(n, arcs, tokens):
         """
         This function returns a list of strings which are the dependency labels
         of all current dependants of item n
@@ -148,12 +148,13 @@ class MyFeatureExtractor(FeatureExtractor):
         :return: list(arcs)
         """
 
-        result = []
+        result = set()
 
         for arc in arcs:
-            if arc[0] == n or arc[2] == n:
-                result.append(arc)
-            # END if
+            if arc[ARC_CHILD] == n:
+                result.add("CHILD_POS_{0}".format(tokens[arc[ARC_PARENT]]['tag']))
+            if arc[ARC_PARENT] == n:
+                result.add("PARENT_POS_{0}".format(tokens[arc[ARC_CHILD]]['tag']))
         # END for
 
         return result
@@ -191,37 +192,29 @@ class MyFeatureExtractor(FeatureExtractor):
             (parents, children) = MyFeatureExtractor._getNDeps(s, arcs)
             result.append("STK_0_PARENTS_{0}".format(parents))
             result.append("STK_0_CHILDREN_{0}".format(children))
-#
-#            # Create feature(s) for the dependency relations already assigned
-#            # to the current item
-#            relations = MyFeatureExtractor._getDepTypes(s, arcs)
-#            if relations:
-#                for relation in relations:
-#                    if relation[0] == s:
-#                        result.append("STK_{0}_{1}_{2}".format(tok['tag'],
-#                                                               relation[1],
-#                                                               tokens[relation[2]]['tag']))
-#                    if relation[2] == s:
-#                        result.append("STK_{0}_{1}_{2}".format(tokens[relation[0]]['tag'],
-#                                                               relation[1],
-#                                                               tok['tag']))
-#                    # END if
-#                # END for
-#            # END if
-#
-#            # Create feature for the current word
-#            if FeatureExtractor._check_informative(tok['word'], True):
-#                wordHash = hashlib.md5(tok['word'].encode('utf-8')).hexdigest()
-#                result.append("STK_0_WORD_{0}".format(wordHash))
-#            # END if
-#
-#            # Create features from "special" features in the training set
-#            if 'feats' in tok and FeatureExtractor._check_informative(tok['feats']):
-#                feats = tok['feats'].split("|")
-#                for feat in feats:
-#                    result.append('STK_0_FEATS_' + feat)
-#                # END for
-#            # END if
+
+            # Create feature(s) for the dependency relations already assigned
+            # to the current item
+            relations = MyFeatureExtractor._getDepTypes(s, arcs, tokens)
+            if relations:
+                for relation in relations:
+                    result.append("STK_0_" + relation)
+                # END for
+            # END if
+
+            # Create feature for the current word
+            if FeatureExtractor._check_informative(tok['word'], True):
+                wordHash = hashlib.md5(tok['word'].encode('utf-8')).hexdigest()
+                result.append("STK_0_WORD_{0}".format(wordHash))
+            # END if
+
+            # Create features from "special" features in the training set
+            if 'feats' in tok and FeatureExtractor._check_informative(tok['feats']):
+                feats = tok['feats'].split("|")
+                for feat in feats:
+                    result.append('STK_0_FEATS_' + feat)
+                # END for
+            # END if
 
         # Features generated from the top item of the buffer
         if buffer:
@@ -235,36 +228,28 @@ class MyFeatureExtractor(FeatureExtractor):
             parents, children = MyFeatureExtractor._getNDeps(b, arcs)
             result.append("BUF_0_PARENTS_{0}".format(parents))
             result.append("BUF_0_CHILDREN_{0}".format(children))
-#
-#            # Create feature(s) for the dependency relations already assigned
-#            # to the current item
-#            relations = MyFeatureExtractor._getDepTypes(b, arcs)
-#            if relations:
-#                for relation in relations:
-#                    if relation[0] == b:
-#                        result.append("BUF_{0}_{1}_{2}".format(tok['tag'],
-#                                                               relation[1],
-#                                                               tokens[relation[2]]['tag']))
-#                    if relation[2] == b:
-#                        result.append("BUF_{0}_{1}_{2}".format(tokens[relation[0]]['tag'],
-#                                                               relation[1],
-#                                                               tok['tag']))
-#                    # END if
-#                # END for
-#            # END if
-#
-#            # Create feature for the current word
-#            if FeatureExtractor._check_informative(tok['word'], True):
-#                wordHash = hashlib.md5(tok['word'].encode('utf-8')).hexdigest()
-#                result.append("BUF_0_WORD_{0}".format(wordHash))
-#            # END if
-#
-#            # Create features from "special" features in the training set
-#            if 'feats' in tok and FeatureExtractor._check_informative(tok['feats']):
-#                feats = tok['feats'].split("|")
-#                for feat in feats:
-#                    result.append('BUF_0_FEATS_' + feat)
-#                # END for
-#            # END if
+
+            # Create feature(s) for the dependency relations already assigned
+            # to the current item
+            relations = MyFeatureExtractor._getDepTypes(b, arcs, tokens)
+            if relations:
+                for relation in relations:
+                    result.append("BUF_0_" + relation)
+                # END for
+            # END if
+
+            # Create feature for the current word
+            if FeatureExtractor._check_informative(tok['word'], True):
+                wordHash = hashlib.md5(tok['word'].encode('utf-8')).hexdigest()
+                result.append("BUF_0_WORD_{0}".format(wordHash))
+            # END if
+
+            # Create features from "special" features in the training set
+            if 'feats' in tok and FeatureExtractor._check_informative(tok['feats']):
+                feats = tok['feats'].split("|")
+                for feat in feats:
+                    result.append('BUF_0_FEATS_' + feat)
+                # END for
+            # END if
 
         return result
