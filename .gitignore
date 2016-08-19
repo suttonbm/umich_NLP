@@ -1,3 +1,5 @@
 */data/
 UMICH_NLP_Slides/
 *.pyc
+*.model
+*.conll

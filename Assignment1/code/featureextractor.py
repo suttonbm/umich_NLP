@@ -133,13 +133,13 @@ class MyFeatureExtractor(FeatureExtractor):
             s = stack[-1]
             tok = tokens[s]
             # Create a feature for the coarse POS tag
-            result.append("STK_0_CTAG_{0}".format(tok['ctag']))
+            result.append("STK_0_TAG_{0}".format(tok['tag']))
 
         # Features generated from the top item of the buffer
         if buffer:
             b = buffer[0]
             tok = tokens[b]
             # Create a feature for the coarse POS tag
-            result.append("BUF_0_CTAG_{0}".format(tok['ctag']))
+            result.append("BUF_0_TAG_{0}".format(tok['tag']))
 
         return result
