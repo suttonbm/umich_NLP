@@ -108,6 +108,27 @@ class FeatureExtractor(object):
 @python_2_unicode_compatible
 class MyFeatureExtractor(FeatureExtractor):
     @staticmethod
+    def _getNDeps(n, arcs):
+        """
+        This function returns the total number of dependents for a given item
+        and a list of dependency arcs.
+
+        :param n: item for which the dependencies are found
+        :param arcs: partially built dependency tree
+
+        :return: int
+        """
+        result = 0
+
+        for arc in arcs:
+            if arc[2] == n:
+                result += 1
+            # END if
+        # END for
+
+        return result
+
+    @staticmethod
     def extract_features(tokens, buffer, stack, arcs):
         """
         This function returns a list of string features for the classifier
@@ -134,6 +155,7 @@ class MyFeatureExtractor(FeatureExtractor):
             tok = tokens[s]
             # Create a feature for the coarse POS tag
             result.append("STK_0_TAG_{0}".format(tok['tag']))
+            result.append("STK_0_NDEP_{0}".format(MyFeatureExtractor._getNDeps(s, arcs)))
 
         # Features generated from the top item of the buffer
         if buffer:
@@ -141,5 +163,6 @@ class MyFeatureExtractor(FeatureExtractor):
             tok = tokens[b]
             # Create a feature for the coarse POS tag
             result.append("BUF_0_TAG_{0}".format(tok['tag']))
+            result.append("BUF_0_NDEP_{0}".format(MyFeatureExtractor._getNDeps(b, arcs)))
 
         return result
