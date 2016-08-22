@@ -13,6 +13,13 @@ class Transition(object):
     ARC_REL = 1
     ARC_CHILD = 2
 
+    @staticmethod
+    def printArc(arc, direction):
+        if direction=='right':
+            print "{0} --- {1} ---> {2}".format(arc[0], arc[1], arc[2])
+        else:
+            print "{0} <--- {1} --- {2}".format(arc[0], arc[1], arc[2])
+
     def __init__(self):
         raise ValueError('Do not construct this object!')
 
@@ -46,6 +53,7 @@ class Transition(object):
         s = conf.stack.pop(-1)
         # Add the arc (b, L, s)
         conf.arcs.append((b, relation, s))
+#        Transition.printArc((b, relation, s), 'left')
 #        print "{0} <- {1}".format(b, s)
 
     @staticmethod
@@ -64,6 +72,7 @@ class Transition(object):
 
         conf.stack.append(idx_wj)
         conf.arcs.append((idx_wi, relation, idx_wj))
+#        Transition.printArc((idx_wi, relation, idx_wj), 'right')
 #        print "{0} -> {1}".format(idx_wi, idx_wj)
 
     @staticmethod

@@ -11,6 +11,9 @@ import numpy as np
 from sklearn.datasets import load_svmlight_file
 from sklearn import svm
 
+# ADDED STUFF
+from sklearn.ensemble import ExtraTreesClassifier
+
 class Configuration(object):
     """
     Class for holding configuration which is the partial analysis of the input sentence.
@@ -196,6 +199,26 @@ class TransitionParser(object):
         print(" Number of valid (projective) examples : {}".format(countProj))
         return training_seq
 
+    def _getModelStats(self, X, y):
+        print "Total number of outcomes: {0}".format(y.shape)
+        print "Total number of features: {0}".format(X.shape)
+
+        selector = ExtraTreesClassifier()
+        selector.fit(X, y)
+
+        Xlabs = np.arange(0, X.shape[1])
+        indices = np.argsort(selector.feature_importances_)[::-1]
+        Xlabs = Xlabs[indices]
+        featImp = selector.feature_importances_[indices]
+
+        newMap = {v: k for k, v in self._dictionary.items()}
+        print "Top 50 Features:"
+        for i in np.arange(0,50):
+            print "{0} -> {1}".format(newMap[Xlabs[i]], featImp[i])
+        print "Bottom 50 Features:"
+        for i in np.arange(1,51):
+            print "{0} -> {1}".format(newMap[Xlabs[-i]], featImp[-i])
+
     def train(self, depgraphs):
         """
         :param depgraphs : list of DependencyGraph as the training data
@@ -213,6 +236,7 @@ class TransitionParser(object):
         input_file.close()
         # Using the temporary file to train the libsvm classifier
         x_train, y_train = load_svmlight_file(input_file.name)
+
         # The parameter is set according to the paper:
         # Algorithms for Deterministic Incremental Dependency Parsing by Joakim Nivre
         # this is very slow.
@@ -228,6 +252,8 @@ class TransitionParser(object):
         print('Training support vector machine...')
         self._model.fit(x_train, y_train)
         print('done!')
+
+#            self._getModelStats(x_train, y_train)
 #        finally:
 #            os.remove(input_file.name)
 
@@ -241,9 +267,7 @@ class TransitionParser(object):
         if not self._model:
             raise ValueError('No model trained!')
 
-        k = 1
         for depgraph in depgraphs:
-#            print "Loading configuration {0}".format(k)
             conf = Configuration(depgraph, self._user_feature_extractor.extract_features)
             while conf.buffer:
                 features = conf.extract_features()
@@ -276,8 +300,6 @@ class TransitionParser(object):
                         except ValueError:
                             baseTransition = strTransition
 
-#                        print "Transition: {0}".format(baseTransition)
-
                         if baseTransition == self.transitions.LEFT_ARC:
                             if self.transitions.left_arc(conf, relation) != -1:
                                 break
@@ -294,9 +316,6 @@ class TransitionParser(object):
                         raise ValueError("The predicted transition is not recognized, expected errors")
 
             # Finish with operations build the dependency graph from Conf.arcs
-
-            print "Creating Dependency Graph {0}".format(k)
-            k += 1
             new_depgraph = copy.deepcopy(depgraph)
             for key in new_depgraph.nodes:
                 node = new_depgraph.nodes[key]

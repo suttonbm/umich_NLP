@@ -1,5 +1,4 @@
 from nltk.compat import python_2_unicode_compatible
-import hashlib
 
 printed = False
 
@@ -108,6 +107,7 @@ class FeatureExtractor(object):
             if FeatureExtractor._check_informative(dep_right_most):
                 result.append('BUF_0_RDEP_' + dep_right_most)
 
+        return result
 
 @python_2_unicode_compatible
 class MyFeatureExtractor(FeatureExtractor):
@@ -152,9 +152,43 @@ class MyFeatureExtractor(FeatureExtractor):
 
         for arc in arcs:
             if arc[ARC_CHILD] == n:
-                result.add("CHILD_POS_{0}".format(tokens[arc[ARC_PARENT]]['tag']))
+                parentToken = tokens[arc[ARC_PARENT]] # Get token of the parent
+
+                # Save parent word's tag if it is informative (not null)
+                if FeatureExtractor._check_informative(parentToken):
+                    result.add("PARENT_TAG_{0}".format(parentToken['tag']))
+                # END if
+
+                # Relationship to the parent
+                result.add("PARENT_REL_{0}".format(arc[ARC_REL]))
+
+                # Parent's direction
+                if arc[ARC_PARENT] > n:
+                    result.add("PARENT_RIGHT")
+                else:
+                    result.add("PARENT_LEFT")
+                # END if
+
+                # Is this word's parent the root node?
+                if arc[ARC_PARENT] == 0:
+                    result.add("PARENT_IS_ROOT")
+                # END if
             if arc[ARC_PARENT] == n:
-                result.add("PARENT_POS_{0}".format(tokens[arc[ARC_CHILD]]['tag']))
+                childToken = tokens[arc[ARC_CHILD]] # Get token of the child
+
+                # Save the child's word tag if it is informative
+                if FeatureExtractor._check_informative(childToken):
+                    result.add("CHILD_TAG_{0}".format(childToken['tag']))
+
+                # Relationship to the child
+                result.add("CHILD_REL_{0}".format(arc[ARC_REL]))
+
+                # Child's direction
+                if arc[ARC_CHILD] > n:
+                    result.add("CHILD_RIGHT")
+                else:
+                    result.add("CHILD_LEFT")
+                # END if
         # END for
 
         return result
@@ -186,35 +220,65 @@ class MyFeatureExtractor(FeatureExtractor):
             tok = tokens[s]
             # Create a feature for the fine POS tag
             if FeatureExtractor._check_informative(tok['tag']):
-                result.append("STK_0_TAG_{0}".format(tok['tag']))
+                result.append("STK_0_TAG_{0}".format(tok['tag'].upper()))
 
             # Create feature for the current number of dependencies
             (parents, children) = MyFeatureExtractor._getNDeps(s, arcs)
-            result.append("STK_0_PARENTS_{0}".format(parents))
-            result.append("STK_0_CHILDREN_{0}".format(children))
+            result.append("STK_0_PARENTS_{0}".format(parents>0))
+            result.append("STK_0_CHILDREN_{0}".format(children>0))
 
             # Create feature(s) for the dependency relations already assigned
             # to the current item
             relations = MyFeatureExtractor._getDepTypes(s, arcs, tokens)
             if relations:
                 for relation in relations:
-                    result.append("STK_0_" + relation)
+                    result.append("STK_0_" + relation.upper())
                 # END for
             # END if
 
             # Create feature for the current word
             if FeatureExtractor._check_informative(tok['word'], True):
-                wordHash = hashlib.md5(tok['word'].encode('utf-8')).hexdigest()
-                result.append("STK_0_WORD_{0}".format(wordHash))
+                result.append("STK_0_WORD_{0}".format(tok['word'].encode('utf-8').upper()))
             # END if
 
             # Create features from "special" features in the training set
             if 'feats' in tok and FeatureExtractor._check_informative(tok['feats']):
                 feats = tok['feats'].split("|")
                 for feat in feats:
-                    result.append('STK_0_FEATS_' + feat)
+                    result.append('STK_0_FEATS_' + feat.upper())
                 # END for
             # END if
+
+            # Get POS tags for the next two items in the buffer (if they exist)
+            if len(buffer) >= 2:
+                next_b = buffer[1]
+                next_Tok = tokens[next_b]
+                if FeatureExtractor._check_informative(next_Tok['tag']):
+                    result.append("STK_1_TAG_{0}".format(next_Tok['tag'].upper()))
+                elif next_b == 0:
+                    result.append("STK_1_ROOT")
+                # END if
+            else:
+                result.append("STK_1_NULL")
+            # END if
+            if len(buffer) >= 3:
+                later_b = buffer[2]
+                later_Tok = tokens[later_b]
+                if FeatureExtractor._check_informative(later_Tok['tag']):
+                    result.append("STK_2_TAG_{0}".format(later_Tok['tag'].upper()))
+                elif later_b == 0:
+                    result.append("STK_2_ROOT")
+                # END if
+            else:
+                result.append("STK_2_NULL")
+            # END if
+
+            dep_left_most, dep_right_most = FeatureExtractor.find_left_right_dependencies(s, arcs)
+
+            if FeatureExtractor._check_informative(dep_left_most):
+                result.append('STK_0_LDEP_' + dep_left_most.upper())
+            if FeatureExtractor._check_informative(dep_right_most):
+                result.append('STK_0_RDEP_' + dep_right_most.upper())
 
         # Features generated from the top item of the buffer
         if buffer:
@@ -222,34 +286,60 @@ class MyFeatureExtractor(FeatureExtractor):
             tok = tokens[b]
             # Create a feature for the fine POS tag
             if FeatureExtractor._check_informative(tok['tag']):
-                result.append("BUF_0_TAG_{0}".format(tok['tag']))
+                result.append("BUF_0_TAG_{0}".format(tok['tag'].upper()))
 
             # Create feature for the current number of dependencies
             parents, children = MyFeatureExtractor._getNDeps(b, arcs)
-            result.append("BUF_0_PARENTS_{0}".format(parents))
-            result.append("BUF_0_CHILDREN_{0}".format(children))
+            result.append("BUF_0_PARENTS_{0}".format(parents>0))
+            result.append("BUF_0_CHILDREN_{0}".format(children>0))
 
             # Create feature(s) for the dependency relations already assigned
             # to the current item
             relations = MyFeatureExtractor._getDepTypes(b, arcs, tokens)
             if relations:
                 for relation in relations:
-                    result.append("BUF_0_" + relation)
+                    result.append("BUF_0_" + relation.upper())
                 # END for
             # END if
 
             # Create feature for the current word
             if FeatureExtractor._check_informative(tok['word'], True):
-                wordHash = hashlib.md5(tok['word'].encode('utf-8')).hexdigest()
-                result.append("BUF_0_WORD_{0}".format(wordHash))
+                result.append("BUF_0_WORD_{0}".format(tok['word'].encode('utf-8').upper()))
             # END if
 
             # Create features from "special" features in the training set
             if 'feats' in tok and FeatureExtractor._check_informative(tok['feats']):
                 feats = tok['feats'].split("|")
                 for feat in feats:
-                    result.append('BUF_0_FEATS_' + feat)
+                    result.append('BUF_0_FEATS_' + feat.upper())
                 # END for
             # END if
+
+            # Get POS tags for the next two items in the buffer (if they exist)
+            if len(buffer) >= 2:
+                next_b = buffer[1]
+                next_Tok = tokens[next_b]
+                if FeatureExtractor._check_informative(next_Tok['tag']):
+                    result.append("BUF_1_TAG_{0}".format(next_Tok['tag'].upper()))
+                # END if
+            else:
+                result.append("BUF_1_NULL")
+            # END if
+            if len(buffer) >= 3:
+                later_b = buffer[2]
+                later_Tok = tokens[later_b]
+                if FeatureExtractor._check_informative(later_Tok['tag']):
+                    result.append("BUF_2_TAG_{0}".format(later_Tok['tag'].upper()))
+                # END if
+            else:
+                result.append("BUF_2_NULL")
+            # END if
+
+            dep_left_most, dep_right_most = FeatureExtractor.find_left_right_dependencies(b, arcs)
+
+            if FeatureExtractor._check_informative(dep_left_most):
+                result.append('BUF_0_LDEP_' + dep_left_most.upper())
+            if FeatureExtractor._check_informative(dep_right_most):
+                result.append('BUF_0_RDEP_' + dep_right_most.upper())
 
         return result
