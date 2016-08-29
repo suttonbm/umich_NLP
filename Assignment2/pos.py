@@ -16,11 +16,14 @@ def main():
     num_correct = 0
     total = 0
 
+    print "{0} user sentences".format(len(user_sentences))
+    print "{0} golden sentences".format(len(correct_sentences))
     for user_sent, correct_sent in zip(user_sentences, correct_sentences):
         user_tok = user_sent.split()
         correct_tok = correct_sent.split()
 
         if len(user_tok) != len(correct_tok):
+            print "Sentence length mismatch"
             continue
 
         for u, c in zip(user_tok, correct_tok):

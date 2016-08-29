@@ -3,3 +3,5 @@ UMICH_NLP_Slides/
 *.pyc
 *.model
 *.conll
+Assignment2/output/*
+Assignment2/.ipynb_checkpoints/*
