@@ -1,9 +1,85 @@
-from main import replace_accented
+#from main import replace_accented
 from sklearn import svm
 from sklearn import neighbors
+from collections import defaultdict
+import numpy as np
+import unicodedata
 
 # don't change the window size
 window_size = 10
+
+# Constants for an instance tuple
+INST_ID = 0
+L_CON = 1
+HEAD = 2
+R_CON = 3
+SENSE_ID = 4
+
+def replace_accented(input_str):
+    nkfd_form = unicodedata.normalize('NFKD', input_str)
+    return u"".join([c for c in nkfd_form if not unicodedata.combining(c)])
+
+def getContext(inst):
+    '''
+    :param inst: tuple with the following structure:
+        (instance_id, left_context, head, right_context, sense_id)
+    :return: list of words within window_size distance of the head
+    '''
+    lCon = inst[L_CON].split()[-window_size:]
+    if len(lCon) < window_size:
+        lCon = ['<B>'] * (window_size - len(lCon)) + lCon
+
+    rCon = inst[R_CON].split()[:window_size]
+    if len(rCon) < window_size:
+        rCon = rCon + ['<E>'] * (window_size - len(rCon))
+
+    return lCon + rCon
+
+def getWordCounts(S):
+    '''
+    :param S: a list of words which have appeared in context with a lexical elt
+    :return: dict where the key is a word and the key is its count
+    '''
+    result = defaultdict(int)
+    for word in S:
+        result[word] += 1
+    # END for
+    return result
+
+def getFeatureVectors(X, y=None):
+    '''
+    :param X: A dictionary with the following structure
+            { instance_id: [w_1 count, w_2 count, ...],
+            ...
+            }
+    :return: an array of size (m, n) where:
+        m = number of samples
+        n = number of features
+    '''
+    keys = X.keys()
+    n = len(X[keys[0]]) # all items should have same number of features
+    m = len(keys)
+
+    result_X = np.zeros((m, n))
+    result_y = np.zeros(m, dtype=(np.unicode_, 16))
+
+    for k in range(len(keys)):
+        result_X[k,:] = X[keys[k]]
+        if y is not None:
+            result_y[k] = y[keys[k]]
+    # END for
+
+    if y is not None:
+        return (result_X, keys, result_y)
+    else:
+        return (result_X, keys)
+
+def sortByInstance(data):
+    '''
+    :param data: a list of tuples of form [(instance, result), ...]
+    :return: a list of tuples, sorted by instance
+    '''
+    return sorted(data, key=lambda item: item[0])
 
 # A.1
 def build_s(data):
@@ -21,9 +97,14 @@ def build_s(data):
         }
 
     '''
-    s = {}
 
-    # implement your code here
+    s = {}
+    for lexelt, senses in data.iteritems():
+        s[lexelt] = []
+        for sense in senses:
+            s[lexelt] += getContext(sense)
+        # END for
+    # END for
 
     return s
 
@@ -46,8 +127,12 @@ def vectorize(data, s):
     '''
     vectors = {}
     labels = {}
-
-    # implement your code here
+    countDict = getWordCounts(s)
+    for instance in data:
+        context = getContext(instance)
+        vectors[instance[INST_ID]] = [countDict[word] for word in context]
+        labels[instance[INST_ID]] = instance[SENSE_ID]
+    # END for
 
     return vectors, labels
 
@@ -74,41 +159,50 @@ def classify(X_train, X_test, y_train):
              knn_results: a list of tuples (instance_id, label) where labels are predicted by KNeighborsClassifier
     '''
 
-    svm_results = []
-    knn_results = []
+    # Translate training data into feature vectors
+    trainVectors, _, trainOutcomes = getFeatureVectors(X_train, y_train)
+    testVectors, testKeys = getFeatureVectors(X_test)
 
     svm_clf = svm.LinearSVC()
-    knn_clf = neighbors.KNeighborsClassifier()
+    svm_clf.fit(trainVectors, trainOutcomes)
+    svm_predict = svm_clf.predict(testVectors)
+    svm_results = [(testKeys[k], svm_predict[k]) for k in range(len(testKeys))]
 
-    # implement your code here
+    knn_clf = neighbors.KNeighborsClassifier()
+    knn_clf.fit(trainVectors, trainOutcomes)
+    knn_predict = knn_clf.predict(testVectors)
+    knn_results = [(testKeys[k], knn_predict[k]) for k in range(len(testKeys))]
 
     return svm_results, knn_results
 
 # A.3, A.4 output
-def print_results(results ,output_file):
+def print_results(results, output_file):
     '''
-
     :param results: A dictionary with key = lexelt and value = a list of tuples (instance_id, label)
     :param output_file: file to write output
 
     '''
-
-    # implement your code here
-    # don't forget to remove the accent of characters using main.replace_accented(input_str)
-    # you should sort results on instance_id before printing
+    with open(output_file, 'w') as ofile:
+        sorted_Lexelts = sorted(results.keys())
+        for lexelt in sorted_Lexelts:
+            sortedValues = sortByInstance(results[lexelt])
+            for tup in sortedValues:
+                ofile.write("{0} {1} {2}\n".format(replace_accented(lexelt), \
+                                                    replace_accented(tup[0]), \
+                                                    replace_accented(tup[1])))
+            # END for
+        # END for
+    pass
 
 # run part A
 def run(train, test, language, knn_file, svm_file):
     s = build_s(train)
     svm_results = {}
     knn_results = {}
-    for lexelt in s:
+    for lexelt in s.keys():
         X_train, y_train = vectorize(train[lexelt], s[lexelt])
         X_test, _ = vectorize(test[lexelt], s[lexelt])
         svm_results[lexelt], knn_results[lexelt] = classify(X_train, X_test, y_train)
 
     print_results(svm_results, svm_file)
     print_results(knn_results, knn_file)
-
-
-
