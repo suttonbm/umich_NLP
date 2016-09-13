@@ -15,13 +15,13 @@ print "Running English"
 runPart("data/English-train.xml", "data/English-dev.xml", "KNN-English.answer",
         "SVM-English.answer", "English")
 
-#print "Running Catalan"
-#runPart("data/Catalan-train.xml", "data/Catalan-dev.xml", "KNN-Catalan.answer",
-#        "SVM-Catalan.answer", "Catalan")
+print "Running Catalan"
+runPart("data/Catalan-train.xml", "data/Catalan-dev.xml", "KNN-Catalan.answer",
+        "SVM-Catalan.answer", "Catalan")
 
-#print "Running Spanish"
-#runPart("data/Spanish-train.xml", "data/Spanish-dev.xml", "KNN-Spanish.answer",
-#        "SVM-Spanish.answer", "Spanish")
+print "Running Spanish"
+runPart("data/Spanish-train.xml", "data/Spanish-dev.xml", "KNN-Spanish.answer",
+        "SVM-Spanish.answer", "Spanish")
 
 def evaluate_part(partIdx):
 

@@ -33,7 +33,7 @@ def getContext(inst):
     if len(rCon) < window_size:
         rCon = rCon + ['<E>'] * (window_size - len(rCon))
 
-    return lCon + rCon
+    return [s.lower() for s in lCon + rCon]
 
 def getWordCounts(S):
     '''
@@ -98,16 +98,17 @@ def build_s(data):
 
     '''
 
-    s = {}
+    s = defaultdict(list)
     for lexelt, senses in data.iteritems():
-        s[lexelt] = []
+        result = set()
         for sense in senses:
-            s[lexelt] += getContext(sense)
+            context = getContext(sense)
+            result.update(set(context))
         # END for
+        s[lexelt] = sorted(list(result))
     # END for
 
     return s
-
 
 # A.1
 def vectorize(data, s):
@@ -127,10 +128,10 @@ def vectorize(data, s):
     '''
     vectors = {}
     labels = {}
-    countDict = getWordCounts(s)
     for instance in data:
         context = getContext(instance)
-        vectors[instance[INST_ID]] = [countDict[word] for word in context]
+        contextCounts = getWordCounts(context)
+        vectors[instance[INST_ID]] = [contextCounts[word] for word in s]
         labels[instance[INST_ID]] = instance[SENSE_ID]
     # END for
 
