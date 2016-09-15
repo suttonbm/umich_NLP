@@ -61,12 +61,14 @@ def getFeatureVectors(X, y=None):
     m = len(keys)
 
     result_X = np.zeros((m, n))
-    result_y = np.zeros(m, dtype=(np.unicode_, 16))
+    result_y = np.zeros(m, dtype=(np.unicode_, 32))
 
     for k in range(len(keys)):
         result_X[k,:] = X[keys[k]]
         if y is not None:
             result_y[k] = y[keys[k]]
+            #if 'argument' in result_y[k]:
+            #    print "{0} -> {1}".format(y[keys[k]], result_y[k])
     # END for
 
     if y is not None:
@@ -130,8 +132,7 @@ def vectorize(data, s):
     labels = {}
     for instance in data:
         context = getContext(instance)
-        contextCounts = getWordCounts(context)
-        vectors[instance[INST_ID]] = [contextCounts[word] for word in s]
+        vectors[instance[INST_ID]] = [1 if word in context else 0 for word in s]
         labels[instance[INST_ID]] = instance[SENSE_ID]
     # END for
 
