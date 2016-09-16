@@ -4,22 +4,22 @@ import os
 import subprocess
 import sys
 
-EXPERIMENTS = [[False, False, True, False, False], \
-               [False, False, True, True, False], \
-               [False, False, True, False, True], \
-               [False, False, True, True, True], \
-               [True, False, True, False, False], \
-               [True, False, True, True, False], \
-               [True, False, True, False, True], \
-               [True, False, True, True, True], \
-               [False, True, True, False, False], \
-               [False, True, True, True, False], \
-               [False, True, True, False, True], \
-               [False, True, True, True, True], \
-               [True, True, True, False, False], \
-               [True, True, True, True, False], \
-               [True, True, True, False, True], \
-               [True, True, True, True, True]]
+#EXPERIMENTS = [[False, False, True, False, False], \
+#               [False, False, True, True, False], \
+#               [False, False, True, False, True], \
+#               [False, False, True, True, True], \
+#               [True, False, True, False, False], \
+#               [True, False, True, True, False], \
+#               [True, False, True, False, True], \
+#               [True, False, True, True, True], \
+#               [False, True, True, False, False], \
+#               [False, True, True, True, False], \
+#               [False, True, True, False, True], \
+#               [False, True, True, True, True], \
+#               [True, True, True, False, False], \
+#               [True, True, True, True, False], \
+#               [True, True, True, False, True], \
+#               [True, True, True, True, True]]
 
 def evaluate_part(partIdx):
 
@@ -33,10 +33,10 @@ def evaluate_part(partIdx):
     raw_score = evaluate(files,test_files,baselines,references,scores)
     return raw_score / 60.0
   elif partIdx == 2:
-    #files = ['Best-English.answer','Best-Spanish.answer','Best-Catalan.answer']
-    #test_files = ['data/English-dev.key','data/Spanish-dev.key','data/Catalan-dev.key']
-    files=['Best-English.answer']
-    test_files=['data/English-dev.key']
+    files = ['Best-English.answer','Best-Spanish.answer','Best-Catalan.answer']
+    test_files = ['data/English-dev.key','data/Spanish-dev.key','data/Catalan-dev.key']
+    #files=['Best-English.answer']
+    #test_files=['data/English-dev.key']
     baselines = [0.605,0.785,0.805]
     references = [0.650,0.810,0.820]
     scores = [20,10,10]
@@ -94,24 +94,26 @@ def runPart(train_file, test_file, best_answer, language):
     train_set = parse_data(train_file)
     test_set = parse_data(test_file)
 
-    for k in range(len(EXPERIMENTS)):
-        print "Experiment {0}".format(k)
-        ops = {"STOPWORDS":    EXPERIMENTS[k][0], \
-               "PUNCTUATION":  EXPERIMENTS[k][1], \
-               "BAGOFWORDS":   EXPERIMENTS[k][2], \
-               "COLLOCATION":  EXPERIMENTS[k][3], \
-               "PARTOFSPEECH": EXPERIMENTS[k][4]}
-
-        B.run(train_set, test_set, language, best_answer, ops)
-        evaluate_part(2)
+#    for k in range(len(EXPERIMENTS)):
+#        print "Experiment {0}".format(k)
+#        ops = {"STOPWORDS":    EXPERIMENTS[k][0], \
+#               "PUNCTUATION":  EXPERIMENTS[k][1], \
+#               "BAGOFWORDS":   EXPERIMENTS[k][2], \
+#               "COLLOCATION":  EXPERIMENTS[k][3], \
+#               "PARTOFSPEECH": EXPERIMENTS[k][4]}
+#
+#        B.run(train_set, test_set, language, best_answer, ops)
+#        evaluate_part(2)
+    B.run(train_set, test_set, language, best_answer)
+    evaluate_part(2)
     # END for
 # END runPart
 
 print "Running English"
-runPart("data/English-train.xml", "data/English-dev.xml", "Best-English.answer", "English")
+runPart("data/English-train.xml", "data/English-dev.xml", "Best-English.answer", "english")
 
-#print "Running Catalan"
-#runPart("data/Catalan-train.xml", "data/Catalan-dev.xml", "Best-Catalan.answer", "Catalan")
+print "Running Catalan"
+runPart("data/Catalan-train.xml", "data/Catalan-dev.xml", "Best-Catalan.answer", "catalan")
 
-#print "Running Spanish"
-#runPart("data/Spanish-train.xml", "data/Spanish-dev.xml", "Best-Spanish.answer", "Spanish")
+print "Running Spanish"
+runPart("data/Spanish-train.xml", "data/Spanish-dev.xml", "Best-Spanish.answer", "spanish")

@@ -3,10 +3,9 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn import svm
 from collections import defaultdict
 import nltk
-from nltk.corpus import stopwords
+from many_stop_words import get_stop_words
 import string
 from sklearn.feature_selection import RFE
-from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 
 # You might change the window size
@@ -20,11 +19,11 @@ R_CON = 3
 SENSE_ID = 4
 
 # Default options for feature generator
-DEFAULT_OPS = {"STOPWORDS":    False, \
-               "PUNCTUATION":  False, \
+DEFAULT_OPS = {"STOPWORDS":    True, \
+               "PUNCTUATION":  True, \
                "BAGOFWORDS":   True, \
                "COLLOCATION":  False, \
-               "PARTOFSPEECH": False \
+               "PARTOFSPEECH": True \
                }
 
 def countElts(l):
@@ -97,8 +96,13 @@ def collocationFeatures(lContext, rContext, window, fn=lambda x: x):
     return result
 # END collocationFeatures
 
-def rmStopWords(l):
-    stops = set(stopwords.words('english'))
+def rmStopWords(l, lang):
+    if lang == 'english':
+        stops = set(get_stop_words('en'))
+    if lang == 'catalan':
+        stops = set(get_stop_words('ca'))
+    if lang == 'spanish':
+        stops = set(get_stop_words('es'))
     return [w for w in l if w not in stops]
 # END rmStopWords
 
@@ -145,7 +149,7 @@ def posCollocationFeatures(target, lContext, rContext, window):
     return result
 # END posCollocationFeatures
 
-def getFeatures(inst, ops):
+def getFeatures(inst, ops, lang):
     result = {}
 
     lContext = inst[L_CON].lower()
@@ -159,8 +163,11 @@ def getFeatures(inst, ops):
     rContext = rContext.split()
 
     if ops['STOPWORDS']:
-        lContext = rmStopWords(lContext)
-        rContext = rmStopWords(rContext)
+        try:
+            lContext = rmStopWords(lContext, lang)
+            rContext = rmStopWords(rContext, lang)
+        except Exception:
+            pass
     if ops['BAGOFWORDS']:
         result.update(bagOfWordsFeatures(lContext, rContext, window_size))
     if ops['COLLOCATION']:
@@ -173,7 +180,7 @@ def getFeatures(inst, ops):
     return result
 
 # B.1.a,b,c,d
-def extract_features(data, ops=DEFAULT_OPS):
+def extract_features(data, ops=DEFAULT_OPS, lang='english'):
     '''
     :param data: list of instances for a given lexelt with the following structure:
         {
@@ -196,7 +203,7 @@ def extract_features(data, ops=DEFAULT_OPS):
         labels[instance[INST_ID]] = instance[SENSE_ID]
 
         # Get features dict
-        features[instance[INST_ID]] = getFeatures(instance, ops)
+        features[instance[INST_ID]] = getFeatures(instance, ops, lang)
 
     return features, labels
 
@@ -309,8 +316,8 @@ def run(train, test, language, answer, ops=DEFAULT_OPS):
 
     for lexelt in train:
 
-        train_features, y_train = extract_features(train[lexelt])
-        test_features, _ = extract_features(test[lexelt], ops)
+        train_features, y_train = extract_features(train[lexelt], ops, language)
+        test_features, _ = extract_features(test[lexelt], ops, language)
 
         X_train, X_test = vectorize(train_features,test_features)
         X_train_new, X_test_new = feature_selection(X_train, X_test,y_train)

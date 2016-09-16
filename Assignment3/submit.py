@@ -31,10 +31,10 @@ def evaluate(files,test_files,baselines,references,scores):
     if not os.path.exists(f):
       print 'Please save your output file', f, 'under Assignment3 directory.'
       continue
-      
-    command = "./scorer2 " + f + " " + test_file
+
+    command = "scorer.exe " + f + " " + test_file
     print command
-    
+
     #res = subprocess.check_output(command,shell = True)
     try:
       res = subprocess.check_output(command,shell = True)
@@ -100,64 +100,64 @@ if '2' in partIdx:
 cmd = 'curl -X POST -H "Cache-Control: no-cache" -H "Content-Type: application/json" -d '
 
 url = 'https://www.coursera.org/api/onDemandProgrammingScriptSubmissions.v1'
-data = {  
-      "assignmentKey": assignmentKey,  
-      "submitterEmail": learnerEmail,  
-      "secret": learnerSecret,  
-      "parts": {  
-        partId1: {  
+data = {
+      "assignmentKey": assignmentKey,
+      "submitterEmail": learnerEmail,
+      "secret": learnerSecret,
+      "parts": {
+        partId1: {
           "output": output1
-        },  
+        },
         partId2: {
           "output": output2
         }
-      }  
+      }
     }
 '''
 if partIdx == 1:
-    data = {  
-      "assignmentKey": assignmentKey,  
-      "submitterEmail": learnerEmail,  
-      "secret": learnerSecret,  
-      "parts": {  
-        partId1: {  
+    data = {
+      "assignmentKey": assignmentKey,
+      "submitterEmail": learnerEmail,
+      "secret": learnerSecret,
+      "parts": {
+        partId1: {
           "output": output
-        },  
+        },
         partId2: {
         },
         partId3: {
         }
-      }  
+      }
     }
 elif partIdx == 2:
-    data = {  
-      "assignmentKey": assignmentKey,  
-      "submitterEmail": learnerEmail,  
-      "secret": learnerSecret,  
-      "parts": {  
-        partId1: {  
-        },  
+    data = {
+      "assignmentKey": assignmentKey,
+      "submitterEmail": learnerEmail,
+      "secret": learnerSecret,
+      "parts": {
+        partId1: {
+        },
         partId2: {
           "output": output
         },
         partId3: {
         }
-      }  
+      }
     }
 elif partIdx == 3:
-    data = {  
-      "assignmentKey": assignmentKey,  
-      "submitterEmail": learnerEmail,  
-      "secret": learnerSecret,  
-      "parts": {  
-        partId1: {  
-        },  
+    data = {
+      "assignmentKey": assignmentKey,
+      "submitterEmail": learnerEmail,
+      "secret": learnerSecret,
+      "parts": {
+        partId1: {
+        },
         partId2: {
         },
         partId3: {
           "output": output
         }
-      }  
+      }
     }
 else:
     print 'Invalid partID'
