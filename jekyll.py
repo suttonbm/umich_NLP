@@ -35,4 +35,4 @@ c.MarkdownExporter.filters = {'path2support': path2support}
 
 if f:
     c.NbConvertApp.output_base = '{0}-{1}-{2}-{3}'.format(today.year,today.month,today.day,fileTarget.lower().replace(' ', '-'))
-    c.FilesWriter.build_directory = '../suttonbm.github.io/_posts/umich-nlp/' # point this to your build directory
+    c.FilesWriter.build_directory = '../suttonbm.github.io/_posts/projects/umich_nlp_coursera/' # point this to your build directory

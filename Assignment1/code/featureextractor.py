@@ -250,23 +250,23 @@ class MyFeatureExtractor(FeatureExtractor):
             # END if
 
             # Get POS tags for the next two items in the buffer (if they exist)
-            if len(buffer) >= 2:
-                next_b = buffer[1]
-                next_Tok = tokens[next_b]
+            if len(stack) >= 2:
+                next_s = stack[1]
+                next_Tok = tokens[next_s]
                 if FeatureExtractor._check_informative(next_Tok['tag']):
                     result.append("STK_1_TAG_{0}".format(next_Tok['tag'].upper()))
-                elif next_b == 0:
+                elif next_s == 0:
                     result.append("STK_1_ROOT")
                 # END if
             else:
                 result.append("STK_1_NULL")
             # END if
-            if len(buffer) >= 3:
-                later_b = buffer[2]
-                later_Tok = tokens[later_b]
+            if len(stack) >= 3:
+                later_s = stack[2]
+                later_Tok = tokens[later_s]
                 if FeatureExtractor._check_informative(later_Tok['tag']):
                     result.append("STK_2_TAG_{0}".format(later_Tok['tag'].upper()))
-                elif later_b == 0:
+                elif later_s == 0:
                     result.append("STK_2_ROOT")
                 # END if
             else:
